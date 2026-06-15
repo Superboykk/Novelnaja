@@ -173,11 +173,11 @@ async function handleRoute() {
   } else if (hash.startsWith('#/book/')) {
     // Expected hash: #/book/:bookSlug/chapter/:chapterSlug
     const parts = hash.split('/');
-    const bookSlug = parts[2];
-    const chapterSlug = parts[4];
+    const bookSlug = decodeURIComponent(parts[2]);
+    const chapterSlug = decodeURIComponent(parts[4]);
 
     if (bookSlug && chapterSlug) {
-      await showReaderView(bookSlug, decodeURIComponent(chapterSlug));
+      await showReaderView(bookSlug, chapterSlug);
     } else {
       window.location.hash = '#/';
     }
@@ -190,6 +190,7 @@ async function handleRoute() {
 // LIBRARY VIEW (BOOKSHELF RENDER & ACTIONS)
 // ==========================================================================
 function showLibraryView() {
+  viewReader.classList.remove('active');
   viewReader.classList.add('hidden');
   viewLibrary.classList.add('active');
   btnBackLibrary.classList.add('hidden');
@@ -310,6 +311,7 @@ function openBook(bookSlug) {
 // ==========================================================================
 async function showReaderView(bookSlug, chapterSlug) {
   viewLibrary.classList.remove('active');
+  viewReader.classList.remove('hidden');
   viewReader.classList.add('active');
   btnBackLibrary.classList.remove('hidden');
   appTitle.classList.add('hidden');
