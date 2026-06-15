@@ -273,6 +273,75 @@
     ]
   },
   {
+    "slug": "SS KGB Novel",
+    "title": "SS KGB Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/SS KGB Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "00_prologue.md",
+        "title": "🌸 บทนำ (Prologue): ร้านน้ำชาเตาถ่านและน้ำหมึก (Sumibi-An)",
+        "path": "novels/SS KGB Novel/00_prologue.md"
+      },
+      {
+        "slug": "01_ashes_on_sanctuary.md",
+        "title": "🔥 บทที่ 1: เถ้าถ่านทับถมสรวงสวรรค์ (Ashes on Sanctuary)",
+        "path": "novels/SS KGB Novel/01_ashes_on_sanctuary.md"
+      },
+      {
+        "slug": "02_first_step_on_the_blood_road.md",
+        "title": "❄️ บทที่ 2: ก้าวแรกบนถนนสายโลหิต (First Step on the Blood Road)",
+        "path": "novels/SS KGB Novel/02_first_step_on_the_blood_road.md"
+      },
+      {
+        "slug": "03_the_obsidian_duel.md",
+        "title": "⚔️ บทที่ 3: เปลวไฟแห่งอดีตกลางหิมะคลั่ง (The Obsidian Duel)",
+        "path": "novels/SS KGB Novel/03_the_obsidian_duel.md"
+      },
+      {
+        "slug": "04_healing_the_broken_bonds.md",
+        "title": "🤕 บทที่ 4: รักษาแผลใจใต้ร่มเงา (Healing the Broken Bonds)",
+        "path": "novels/SS KGB Novel/04_healing_the_broken_bonds.md"
+      },
+      {
+        "slug": "05_the_dark_port_of_osaka.md",
+        "title": "🪙 บทที่ 5: ท่าเรือมืดแห่งโอซาก้า (The Dark Port of Osaka)",
+        "path": "novels/SS KGB Novel/05_the_dark_port_of_osaka.md"
+      },
+      {
+        "slug": "06_the_risk_arbitrage.md",
+        "title": "🐺 บทที่ 6: ตราสารเลือดและลูกคิดหินอุกกาบาต (The Risk Arbitrage)",
+        "path": "novels/SS KGB Novel/06_the_risk_arbitrage.md"
+      },
+      {
+        "slug": "07_demon_storm_across_the_sea.md",
+        "title": "🌊 บทที่ 7: มรสุมปีศาจข้ามคาบสมุทร (Demon Storm across the Sea)",
+        "path": "novels/SS KGB Novel/07_demon_storm_across_the_sea.md"
+      },
+      {
+        "slug": "08_the_crimson_plains_of_shimabara.md",
+        "title": "🌸 บทที่ 8: ทุ่งสีชาดชิมาบาระ (The Crimson Plains of Shimabara)",
+        "path": "novels/SS KGB Novel/08_the_crimson_plains_of_shimabara.md"
+      },
+      {
+        "slug": "09_the_illusion_gate.md",
+        "title": "🔮 บทที่ 9: ปราสาทชิมาบาระสึโบะ: แดนมายาสูงสุด (The Illusion Gate)",
+        "path": "novels/SS KGB Novel/09_the_illusion_gate.md"
+      },
+      {
+        "slug": "10_fatal_flash_tentaku_mondo.md",
+        "title": "⚡ บทที่ 10: ดาบสุดท้ายล้างวิปลาส (Fatal Flash - Tentaku Mondo)",
+        "path": "novels/SS KGB Novel/10_fatal_flash_tentaku_mondo.md"
+      },
+      {
+        "slug": "11_epilogue_sumibi_an_reborn.md",
+        "title": "🏡 บทส่งท้าย (Epilogue): รังนอนแสนหวานที่ปลายขอบฟ้า (Sumibi-An Reborn)",
+        "path": "novels/SS KGB Novel/11_epilogue_sumibi_an_reborn.md"
+      }
+    ]
+  },
+  {
     "slug": "the-shadow-chronicles",
     "title": "The Shadow Chronicles",
     "author": "A. S. Writer",
