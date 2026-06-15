@@ -432,10 +432,7 @@ function loadUserSettings() {
   }
 }
 
-// Clear any left-over Google Drive mode so it falls back to local immediately
 function saveUserSettings() {
-  if (userSettings.dataSource) delete userSettings.dataSource;
-  if (userSettings.gdriveUrl) delete userSettings.gdriveUrl;
   localStorage.setItem('reader_settings', JSON.stringify(userSettings));
 }
 
@@ -579,12 +576,3 @@ document.addEventListener('keydown', (e) => {
     window.location.hash = `#/book/${currentBook.slug}/chapter/${nextCh.slug}`;
   }
 });
-
-// Register Service Worker for PWA Offline capability
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('Service Worker registered successfully with scope:', reg.scope))
-      .catch(err => console.error('Service Worker registration failed:', err));
-  });
-}
