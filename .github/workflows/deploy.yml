@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master # Triggers on either main or master branch push
+  workflow_dispatch: # Allows manual trigger from Actions tab
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
