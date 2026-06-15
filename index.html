@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- PWA Manifest & Icons -->
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <meta name="theme-color" content="#2b6cb0">
+  <title>Novel Reader - คลังนิยายส่วนตัว</title>
+  <!-- Google Fonts for Reading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Styling -->
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="theme-light">
+
+  <!-- ================= APP HEADER ================= -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="header-left">
+        <button id="btn-back-library" class="btn-icon hidden" title="กลับไปคลังหนังสือ">
+          <i data-lucide="book-open"></i>
+          <span>คลังหนังสือ</span>
+        </button>
+        <span id="app-title" class="brand-title">Novel Reader</span>
+      </div>
+      
+      <div class="header-right">
+        <!-- Reader Controls (Hidden in library) -->
+        <div id="reader-controls" class="reader-controls-group hidden">
+          <button id="btn-toc" class="btn-icon" title="สารบัญ">
+            <i data-lucide="menu"></i>
+          </button>
+          <button id="btn-settings" class="btn-icon" title="ปรับแต่งการอ่าน">
+            <i data-lucide="settings-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Top Reading Progress Indicator (Only visible in reader) -->
+    <div id="reading-progress-container" class="reading-progress-wrapper hidden">
+      <div id="reading-progress-bar" class="reading-progress-bar"></div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTAINER ================= -->
+  <main class="app-main">
+    
+    <!-- 1. LIBRARY VIEW -->
+    <section id="library-view" class="view-section active">
+      <div class="container">
+        <div class="library-header">
+          <h1>คลังนิยายของคุณ</h1>
+          <p class="subtitle">เลือกอ่านนิยายที่ก๊อปปี้ลงเครื่องหรือบนคลาวด์ของคุณ</p>
+        </div>
+        
+        <div id="bookshelf-grid" class="bookshelf-grid">
+          <!-- Dynamically populated novel cards -->
+          <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>กำลังโหลดคลังนิยาย...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. READER VIEW -->
+    <section id="reader-view" class="view-section hidden">
+      <!-- Table of Contents Sidebar -->
+      <aside id="reader-toc" class="reader-toc">
+        <div class="toc-header">
+          <h3>สารบัญ</h3>
+          <button id="btn-close-toc" class="btn-icon-close">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <ul id="toc-list" class="toc-list">
+          <!-- Dynamically populated chapter list -->
+        </ul>
+      </aside>
+
+      <!-- Main Text Reading Area -->
+      <div id="reading-viewport" class="reading-viewport">
+        <article id="reader-content" class="reader-content font-serif size-medium width-medium">
+          <!-- Chapter Markdown Content Rendered Here -->
+        </article>
+
+        <!-- Bottom Navigation -->
+        <nav class="reader-navigation">
+          <button id="btn-prev-chapter" class="btn-nav">
+            <i data-lucide="arrow-left"></i>
+            <div>
+              <span class="nav-label">ตอนก่อนหน้า</span>
+              <span id="prev-chapter-title" class="nav-title">ไม่มีตอนก่อนหน้า</span>
+            </div>
+          </button>
+          
+          <button id="btn-next-chapter" class="btn-nav">
+            <div>
+              <span class="nav-label">ตอนถัดไป</span>
+              <span id="next-chapter-title" class="nav-title">สิ้นสุดบทเรียน</span>
+            </div>
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </nav>
+      </div>
+
+      <!-- Quick Floating Table of Contents & Back to Top Buttons for Mobile -->
+      <div class="floating-actions">
+        <button id="btn-float-toc" class="btn-float" title="สารบัญ">
+          <i data-lucide="list"></i>
+        </button>
+        <button id="btn-float-top" class="btn-float" title="กลับไปด้านบน">
+          <i data-lucide="chevron-up"></i>
+        </button>
+      </div>
+
+      <!-- Settings Panel Popover -->
+      <div id="settings-popover" class="settings-popover hidden">
+        <div class="settings-popover-header">
+          <h4>ตั้งค่าการอ่าน</h4>
+          <button id="btn-close-settings" class="btn-icon-close">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        
+        <!-- Themes -->
+        <div class="settings-section">
+          <h5>ธีมสีอ่านหนังสือ</h5>
+          <div class="theme-selectors">
+            <button class="theme-opt theme-opt-light active" data-theme="light" title="Light Paper">
+              <span class="dot"></span> สว่าง
+            </button>
+            <button class="theme-opt theme-opt-sepia" data-theme="sepia" title="Sepia Book">
+              <span class="dot"></span> ซีเปีย
+            </button>
+            <button class="theme-opt theme-opt-dark" data-theme="dark" title="Kindle OLED">
+              <span class="dot"></span> มืด
+            </button>
+            <button class="theme-opt theme-opt-mint" data-theme="mint" title="Mint Green">
+              <span class="dot"></span> มิ้นท์
+            </button>
+          </div>
+        </div>
+
+        <!-- Fonts -->
+        <div class="settings-section">
+          <h5>รูปแบบฟอนต์ (Font Family)</h5>
+          <div class="toggle-group">
+            <button id="btn-font-serif" class="toggle-btn active" data-font="serif">Serif (นิยายคลาสสิก)</button>
+            <button id="btn-font-sans" class="toggle-btn" data-font="sans">Sans-serif (อ่านง่ายสบายตา)</button>
+          </div>
+        </div>
+
+        <!-- Font Sizes -->
+        <div class="settings-section">
+          <h5>ขนาดตัวอักษร</h5>
+          <div class="size-controls">
+            <button id="btn-size-dec" class="btn-circle" title="ลดขนาด"><i data-lucide="minus"></i></button>
+            <span id="current-size-label">ปกติ (100%)</span>
+            <button id="btn-size-inc" class="btn-circle" title="เพิ่มขนาด"><i data-lucide="plus"></i></button>
+          </div>
+        </div>
+
+        <!-- Layout Width -->
+        <div class="settings-section">
+          <h5>ความกว้างหน้ากระดาษ</h5>
+          <div class="toggle-group width-selectors">
+            <button class="width-opt toggle-btn" data-width="narrow">แคบ</button>
+            <button class="width-opt toggle-btn active" data-width="medium">กลาง</button>
+            <button class="width-opt toggle-btn" data-width="wide">กว้าง</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Script entry point -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

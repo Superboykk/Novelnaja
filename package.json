@@ -1,0 +1,19 @@
+{
+  "name": "novel-reader-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/generate-index.js",
+    "dev": "vite",
+    "prebuild": "node scripts/generate-index.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}

@@ -1,0 +1,294 @@
+[
+  {
+    "slug": "Bof2 Novel",
+    "title": "Bof2 Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Bof2 Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "Chapter_1.md",
+        "title": "ตอนที่ 1: วิหารมังกรกลืนตะวัน",
+        "path": "novels/Bof2 Novel/Chapter_1.md"
+      },
+      {
+        "slug": "Chapter_2.md",
+        "title": "ตอนที่ 2: คืนที่โลกหลงลืม",
+        "path": "novels/Bof2 Novel/Chapter_2.md"
+      },
+      {
+        "slug": "Chapter_3.md",
+        "title": "ตอนที่ 3: นักล่าใต้เงาม่านหมอก",
+        "path": "novels/Bof2 Novel/Chapter_3.md"
+      },
+      {
+        "slug": "Chapter_4.md",
+        "title": "ตอนที่ 4: คดีโจรกรรมผ้าคลุมมนตรา",
+        "path": "novels/Bof2 Novel/Chapter_4.md"
+      },
+      {
+        "slug": "Chapter_5.md",
+        "title": "บทที่ 5: ลานประลองแห่งโคลอสเซียม",
+        "path": "novels/Bof2 Novel/Chapter_5.md"
+      },
+      {
+        "slug": "Chapter_6.md",
+        "title": "บทที่ 6: กรงเล็บและพิษร้าย",
+        "path": "novels/Bof2 Novel/Chapter_6.md"
+      },
+      {
+        "slug": "Chapter_7.md",
+        "title": "บทที่ 7: คำสาปปีกสีเขม่า",
+        "path": "novels/Bof2 Novel/Chapter_7.md"
+      },
+      {
+        "slug": "Chapter_8.md",
+        "title": "บทที่ 8: รังแมงมุมแห่งความเจ็บปวด",
+        "path": "novels/Bof2 Novel/Chapter_8.md"
+      },
+      {
+        "slug": "Chapter_9.md",
+        "title": "บทที่ 9: เมืองแห่งบ่อน้ำกลืนชีวิต",
+        "path": "novels/Bof2 Novel/Chapter_9.md"
+      },
+      {
+        "slug": "Chapter_10.md",
+        "title": "บทที่ 10: ทะเลเพลิงสะกดมังกร",
+        "path": "novels/Bof2 Novel/Chapter_10.md"
+      },
+      {
+        "slug": "Chapter_11.md",
+        "title": "ตอนที่ 11: หอคอยหินแห่งความใคร่",
+        "path": "novels/Bof2 Novel/Chapter_11.md"
+      },
+      {
+        "slug": "Chapter_12.md",
+        "title": "ตอนที่ 12: เจ้าชายกบแห่งซิม่าฟอร์ต",
+        "path": "novels/Bof2 Novel/Chapter_12.md"
+      },
+      {
+        "slug": "Chapter_13.md",
+        "title": "ตอนที่ 13: ท่อโสโครกและแหวนตรามังกร",
+        "path": "novels/Bof2 Novel/Chapter_13.md"
+      },
+      {
+        "slug": "Chapter_14.md",
+        "title": "ตอนที่ 14: ครัวนรกและแผนปีศาจแมลง",
+        "path": "novels/Bof2 Novel/Chapter_14.md"
+      },
+      {
+        "slug": "Chapter_15.md",
+        "title": "ตอนที่ 15: คุกใต้ดินและบาปของทรวด์",
+        "path": "novels/Bof2 Novel/Chapter_15.md"
+      },
+      {
+        "slug": "Chapter_16.md",
+        "title": "ตอนที่ 16: ท่วงทำนองแห่งวาฬโบราณ",
+        "path": "novels/Bof2 Novel/Chapter_16.md"
+      },
+      {
+        "slug": "Chapter_17.md",
+        "title": "ตอนที่ 17: คณะละครสัตว์ทลายวิญญาณ",
+        "path": "novels/Bof2 Novel/Chapter_17.md"
+      },
+      {
+        "slug": "Chapter_18.md",
+        "title": "ตอนที่ 18: กลิ่นอายสงครามแห่งไฮฟอร์ต",
+        "path": "novels/Bof2 Novel/Chapter_18.md"
+      },
+      {
+        "slug": "Chapter_19.md",
+        "title": "ตอนที่ 19: หัวใจของปืนใหญ่ล้างวิญญาณ",
+        "path": "novels/Bof2 Novel/Chapter_19.md"
+      },
+      {
+        "slug": "Chapter_20.md",
+        "title": "ตอนที่ 20: พยาธิมนตราในกายราชินี",
+        "path": "novels/Bof2 Novel/Chapter_20.md"
+      },
+      {
+        "slug": "Chapter_21.md",
+        "title": "ตอนที่ 21: สามหมู่บ้านจำลองแห่งความฝัน",
+        "path": "novels/Bof2 Novel/Chapter_21.md"
+      },
+      {
+        "slug": "Chapter_22.md",
+        "title": "ตอนที่ 22: สังเวยปีกขาวสู่ฟากฟ้า",
+        "path": "novels/Bof2 Novel/Chapter_22.md"
+      },
+      {
+        "slug": "Chapter_23.md",
+        "title": "ตอนที่ 23: ทัณฑสถานแห่งความศรัทธา",
+        "path": "novels/Bof2 Novel/Chapter_23.md"
+      },
+      {
+        "slug": "Chapter_24.md",
+        "title": "ตอนที่ 24: ดาบชำแหละพระเจ้า",
+        "path": "novels/Bof2 Novel/Chapter_24.md"
+      },
+      {
+        "slug": "Chapter_25.md",
+        "title": "ตอนที่ 25: บันทึกเลือดมังกรวารี",
+        "path": "novels/Bof2 Novel/Chapter_25.md"
+      },
+      {
+        "slug": "Chapter_26.md",
+        "title": "ตอนที่ 26: ดินแดนห้วงความตายและอันฟินี่",
+        "path": "novels/Bof2 Novel/Chapter_26.md"
+      },
+      {
+        "slug": "Chapter_27.md",
+        "title": "ตอนที่ 27: คริสตัลแห่งนิคาโนรู",
+        "path": "novels/Bof2 Novel/Chapter_27.md"
+      },
+      {
+        "slug": "Chapter_28.md",
+        "title": "ตอนที่ 28: ท้องฟ้าที่ไม่มีวันแห้งแล้ง",
+        "path": "novels/Bof2 Novel/Chapter_28.md"
+      }
+    ]
+  },
+  {
+    "slug": "KGB Naruto novel",
+    "title": "KGB Naruto Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/KGB Naruto novel/Cover.png",
+    "chapters": [
+      {
+        "slug": "Sub-chapter 1.1.md",
+        "title": "ตอนที่ 1: เสียงเพรียกจากชายแดนและเตาอบที่อบอวล (The Call from the Borderland)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 1.1.md"
+      },
+      {
+        "slug": "Sub-chapter 1.2.md",
+        "title": "ตอนที่ 1: เสียงเพรียกจากชายแดนและเตาอบที่อบอวล (The Call from the Borderland)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 1.2.md"
+      },
+      {
+        "slug": "Sub-chapter 1.3.md",
+        "title": "ตอนที่ 1: เสียงเพรียกจากชายแดนและเตาอบที่อบอวล (The Call from the Borderland)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 1.3.md"
+      },
+      {
+        "slug": "Sub-chapter 1.4.md",
+        "title": "ตอนที่ 1: เสียงเพรียกจากชายแดนและเตาอบที่อบอวล (The Call from the Borderland)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 1.4.md"
+      },
+      {
+        "slug": "Sub-chapter 2.1.md",
+        "title": "ตอนที่ 2: ฝ่าม่านบาเรียสะกดวิญญาณ (Penetrating the Iron Rune Barrier)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 2.1.md"
+      },
+      {
+        "slug": "Sub-chapter 2.2.md",
+        "title": "ตอนที่ 2: ฝ่าม่านบาเรียสะกดวิญญาณ (Penetrating the Iron Rune Barrier)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 2.2.md"
+      },
+      {
+        "slug": "Sub-chapter 2.3.md",
+        "title": "ตอนที่ 2: ฝ่าม่านบาเรียสะกดวิญญาณ (Penetrating the Iron Rune Barrier)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 2.3.md"
+      },
+      {
+        "slug": "Sub-chapter 2.4.md",
+        "title": "ตอนที่ 2: ฝ่าม่านบาเรียสะกดวิญญาณ (Penetrating the Iron Rune Barrier)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 2.4.md"
+      },
+      {
+        "slug": "Sub-chapter 3.1.md",
+        "title": "ตอนที่ 3: กองทัพจักรกลและตัวเลขแห่งโชคชะตา (The Army of Cold Steel and Numbers of Fate)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 3.1.md"
+      },
+      {
+        "slug": "Sub-chapter 3.2.md",
+        "title": "ตอนที่ 3: กองทัพจักรกลและตัวเลขแห่งโชคชะตา (The Army of Cold Steel and Numbers of Fate)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 3.2.md"
+      },
+      {
+        "slug": "Sub-chapter 3.3.md",
+        "title": "ตอนที่ 3: กองทัพจักรกลและตัวเลขแห่งโชคชะตา (The Army of Cold Steel and Numbers of Fate)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 3.3.md"
+      },
+      {
+        "slug": "Sub-chapter 3.4.md",
+        "title": "ตอนที่ 3: กองทัพจักรกลและตัวเลขแห่งโชคชะตา (The Army of Cold Steel and Numbers of Fate)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 3.4.md"
+      },
+      {
+        "slug": "Sub-chapter 4.1.md",
+        "title": "ตอนที่ 4: การเผชิญหน้ากับเดอุส เอ็กซ์ มาคิน่า (Clash with Deus Ex Machina)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 4.1.md"
+      },
+      {
+        "slug": "Sub-chapter 4.2.md",
+        "title": "ตอนที่ 4: การเผชิญหน้ากับเดอุส เอ็กซ์ มาคิน่า (Clash with Deus Ex Machina)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 4.2.md"
+      },
+      {
+        "slug": "Sub-chapter 4.3.md",
+        "title": "ตอนที่ 4: การเผชิญหน้ากับเดอุส เอ็กซ์ มาคิน่า (Clash with Deus Ex Machina)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 4.3.md"
+      },
+      {
+        "slug": "Sub-chapter 4.4.md",
+        "title": "ตอนที่ 4: การเผชิญหน้ากับเดอุส เอ็กซ์ มาคิน่า (Clash with Deus Ex Machina)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 4.4.md"
+      },
+      {
+        "slug": "Sub-chapter 5.1.md",
+        "title": "ตอนที่ 5: คาถาสามประสานเหนือกฎคำนวณ (The Miracle of Triple Resonance)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 5.1.md"
+      },
+      {
+        "slug": "Sub-chapter 5.2.md",
+        "title": "ตอนที่ 4: การเผชิญหน้ากับเดอุส เอ็กซ์ มาคิน่า (Clash with Deus Ex Machina)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 5.2.md"
+      },
+      {
+        "slug": "Sub-chapter 5.3.md",
+        "title": "ตอนที่ 5: คาถาสามประสานเหนือกฎคำนวณ (The Miracle of Triple Resonance)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 5.3.md"
+      },
+      {
+        "slug": "Sub-chapter 5.4.md",
+        "title": "ตอนที่ 5: คาถาสามประสานเหนือกฎคำนวณ (The Miracle of Triple Resonance)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 5.4.md"
+      },
+      {
+        "slug": "Sub-chapter 6.1.md",
+        "title": "ตอนที่ 6: รอยยิ้มใต้แสงตะวันตกดิน (Smile Under the Setting Sun)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 6.1.md"
+      },
+      {
+        "slug": "Sub-chapter 6.2.md",
+        "title": "ตอนที่ 6: รอยยิ้มใต้แสงตะวันตกดิน (Smile Under the Setting Sun)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 6.2.md"
+      },
+      {
+        "slug": "Sub-chapter 6.3.md",
+        "title": "ตอนที่ 6: รอยยิ้มใต้แสงตะวันตกดิน (Smile Under the Setting Sun)",
+        "path": "novels/KGB Naruto novel/Sub-chapter 6.3.md"
+      }
+    ]
+  },
+  {
+    "slug": "the-shadow-chronicles",
+    "title": "The Shadow Chronicles",
+    "author": "A. S. Writer",
+    "description": "An epic fantasy story of light and dark forces battling for control of the ancient kingdom of Eldoria.",
+    "cover": "novels/the-shadow-chronicles/cover.png",
+    "chapters": [
+      {
+        "slug": "01-introduction.md",
+        "title": "Introduction: The Awakening",
+        "path": "novels/the-shadow-chronicles/01-introduction.md"
+      },
+      {
+        "slug": "02-chapter-1.md",
+        "title": "Chapter 1: The Quest Begins",
+        "path": "novels/the-shadow-chronicles/02-chapter-1.md"
+      }
+    ]
+  }
+]
