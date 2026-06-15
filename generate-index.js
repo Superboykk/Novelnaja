@@ -1,9 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const PUBLIC_DIR = path.resolve('public');
-const NOVELS_DIR = path.join(PUBLIC_DIR, 'novels');
-const OUTPUT_FILE = path.join(PUBLIC_DIR, 'novels.json');
+const NOVELS_DIR = path.resolve('novels');
+const OUTPUT_FILE = path.resolve('novels.json');
 
 // Helper to format names nicely
 function formatTitle(str) {
@@ -16,7 +15,7 @@ function formatTitle(str) {
     .join(' ');
 }
 
-// Natural sort for strings containing numbers
+// Natural sort for strings containing numbers (e.g. Chapter_2 before Chapter_10, Sub-chapter 1.1 before 1.2)
 function naturalSort(a, b) {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
 }
@@ -24,10 +23,10 @@ function naturalSort(a, b) {
 async function run() {
   console.log('Generating novels index...');
 
-  // Ensure public/novels exists
+  // Ensure novels directory exists
   if (!fs.existsSync(NOVELS_DIR)) {
-    fs.mkdirSync(NOVELS_DIR, { recursive: true });
-    console.log(`Created directory: ${NOVELS_DIR}`);
+    console.error(`Error: novels directory not found at ${NOVELS_DIR}`);
+    process.exit(1);
   }
 
   const books = [];
@@ -55,7 +54,7 @@ async function run() {
       }
 
       // Detect cover image
-      // Prefer files named "cover" or "thumbnail", otherwise take the first image
+      // Prefer files named "cover", "thumbnail", or "folder" (case insensitive)
       let coverFile = null;
       if (imgFiles.length > 0) {
         const preferred = imgFiles.find(f => {
@@ -98,7 +97,6 @@ async function run() {
             chapterTitle = trimmed.substring(2).trim();
             break;
           } else if (trimmed.startsWith('## ')) {
-            // fallback if double hash is used
             chapterTitle = trimmed.substring(3).trim();
             break;
           }
@@ -107,7 +105,8 @@ async function run() {
         if (!chapterTitle) {
           // Fallback to formatted filename (without extension)
           const nameWithoutExt = path.basename(file, '.md');
-          chapterTitle = formatTitle(nameWithoutExt);
+          // e.g. "Chapter_1" -> "Chapter 1"
+          chapterTitle = nameWithoutExt.replace(/_/g, ' ');
         }
 
         chapters.push({

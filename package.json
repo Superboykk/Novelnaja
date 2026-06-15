@@ -1,19 +1,20 @@
 {
-  "name": "novel-reader-app",
-  "private": true,
+  "name": "novel-reader-pwa",
   "version": "1.0.0",
   "type": "module",
+  "description": "A Kindle-like offline PWA novel reader hosted on GitHub Pages",
+  "main": "server.js",
   "scripts": {
-    "predev": "node scripts/generate-index.js",
-    "dev": "vite",
-    "prebuild": "node scripts/generate-index.js",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node server.js",
+    "generate": "node generate-index.js"
   },
-  "devDependencies": {
-    "vite": "^6.0.0"
-  },
-  "dependencies": {
-    "marked": "^15.0.0"
-  }
+  "keywords": [
+    "pwa",
+    "kindle",
+    "reader",
+    "novel",
+    "markdown"
+  ],
+  "author": "",
+  "license": "ISC"
 }

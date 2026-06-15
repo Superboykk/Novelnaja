@@ -1,86 +1,104 @@
-# 📖 Kindle-style Novel Reader Web App (PWA)
+# Kindle Novel Reader PWA
 
-เว็บแอปพลิเคชันสำหรับอ่านนิยายส่วนตัวสไตล์ Kindle พัฒนาด้วยเทคโนโลยีที่เบาและรวดเร็วที่สุดอย่าง **Vite + Vanilla JS/CSS** มาพร้อมความสามารถในการติดตั้งเป็นแอปพลิเคชันลงบนโทรศัพท์มือถือ/คอมพิวเตอร์ (**PWA**) และสามารถทำงานแบบ **Offline** ได้อย่างสมบูรณ์แบบ รองรับการโฮสต์ฟรีบน **GitHub Pages**
-
----
-
-## ✨ คุณสมบัติเด่น (Key Features)
-
-* **📖 Kindle-like Reader Interface**: ปรับแต่งการอ่านได้ตามใจชอบ
-  - **4 ธีมสีถนอมสายตา**: สว่าง (Light Paper), ซีเปีย (Sepia Book), มืด (Kindle OLED), และ มิ้นท์ (Mint Green)
-  - **ฟอนต์ปรับแต่งได้**: สลับระหว่าง Serif (ฟอนต์มีหัวเหมาะสำหรับนิยายยาวๆ) และ Sans-serif (อ่านง่ายสบายตา)
-  - **ปรับขนาดตัวอักษร**: ย่อ-ขยายตัวหนังสือได้หลายระดับ
-  - **ระยะขอบกระดาษ**: เลือกความกว้างหน้ากระดาษได้ตามชอบ (แคบ, ปานกลาง, กว้าง)
-* **📍 Auto-Bookmark & Progress Tracking**: ระบบบันทึกบทที่อ่านล่าสุด และตำแหน่งความคืบหน้าการเลื่อนอ่าน (Scroll position) แยกแต่ละเล่มอัตโนมัติ ไม่ต้องกลัวลืมว่าอ่านค้างถึงไหน
-* **📱 PWA & Offline Support**: สามารถดาวน์โหลดและปักหมุดเป็นแอปพลิเคชันบนมือถือและคอมพิวเตอร์ได้ และระบบ Service Worker จะช่วยแคชไฟล์และตอนนิยายต่างๆ เก็บไว้ให้อ่านได้แม้ไม่มีอินเทอร์เน็ต
-* **自动化 Deployment**: รองรับระบบ GitHub Actions เมื่อคุณดันนิยายบทใหม่ขึ้น GitHub ระบบจะแปลงหน้าเว็บและสารบัญให้ออนไลน์อัตโนมัติทันที
+A premium, Kindle-like Progressive Web Application (PWA) designed to read offline novels. It is hosted on GitHub Pages and reads novels from the `./novels` directory. It features warm reading themes, typographic customization, offline support, search capabilities, and automatic index updates via GitHub Actions.
 
 ---
 
-## 📁 โครงสร้างโฟลเดอร์นิยาย (Folder Structure)
+## Features
 
-ในการเพิ่มนิยายใหม่ ให้ก๊อปปี้โฟลเดอร์นิยายเรื่องนั้นๆ ไปวางไว้ใน `public/novels/` โดยมีโครงสร้างดังนี้:
+- **📚 Beautiful Bookshelf Grid**: Lists all indexed novels with cover images, descriptions, authors, and real-time reading progress.
+- **🔍 Book Search**: Filter books instantly by title, author, or description.
+- **📖 Kindle-Like Reading Interface**:
+  - **Reading Themes**: Light Paper, Warm Sepia, Sage Mint Green, Muted Newsprint Grey, and OLED Black.
+  - **Custom Typography**: Serif (Lora/Merriweather) or Sans-serif (Sarabun/Inter), with 6 font sizes, 3 text-width layouts, and 3 line-height adjustments.
+  - **Typographical Indentation**: Classical novel typesetting (automatic indenting on inner paragraphs, no-indent on leading paragraphs).
+- **💾 Automatic Progress Recovery**: Tracks your exact reading chapter and scroll percentage for every novel. Open any book to resume reading exactly where you left off.
+- **📑 Sidebar Table of Contents**: View chapter lists, complete with checkmarks indicating which chapters have been read.
+- **📱 PWA Offline Support**: Installs on mobile or desktop and caches books and chapters for offline reading (e.g., in subways or airplanes).
+- **🤖 GitHub Pages Auto-Update**: Adding a new folder to the `novels/` directory and pushing it to GitHub automatically triggers a build action to update the bookshelf index.
 
-```text
-public/
-  novels/
-    ชื่อโฟลเดอร์นิยาย/            <- ชื่อที่จะถูกแปลงเป็น URL (เช่น my-awesome-novel)
-      ├── cover.png           <- รูปภาพปกสำหรับแสดงบนชั้นหนังสือ (png/jpg/webp)
-      ├── 01-introduction.md  <- บทนำ (ไฟล์ Markdown .md)
-      ├── 02-chapter-1.md     <- ตอนที่ 1
-      └── metadata.json       <- (ทางเลือก) ไฟล์ตั้งชื่อหนังสือและข้อมูลนักเขียน
+---
+
+## Project Structure
+
+```
+Novel App/
+├── .github/workflows/
+│   └── deploy.yml       # GitHub Actions automated deployment workflow
+├── novels/                  # Novel folders (Add your novels here!)
+│   ├── Bof2 Novel/
+│   ├── KGB Naruto novel/
+│   └── the-shadow-chronicles/
+├── generate-index.js        # Node script that scans novels/ and creates novels.json
+├── server.js                # Built-in zero-dependency local web server
+├── index.html               # Main app page (shelf and reading views)
+├── style.css                # Visual themes and responsive layouts
+├── app.js                   # Application state, router, and Markdown parser
+├── manifest.json            # PWA manifest
+├── sw.js                    # Service worker for offline caching
+├── icon-192.png             # PWA app icons
+├── icon-512.png
+├── novels.json              # Compiled database of books (auto-generated)
+└── package.json             # NPM package script helper
 ```
 
-### 📝 ตัวอย่างไฟล์ `metadata.json` (ใส่หรือไม่ใส่ก็ได้):
-หากไม่ใส่ระบบจะดึงชื่อโฟลเดอร์มาแสดงเป็นชื่อหนังสือให้อัตโนมัติ
-```json
-{
-  "title": "ชื่อเรื่องนิยาย",
-  "author": "นามปากกาผู้เขียน",
-  "description": "เรื่องย่อสั้นๆ สำหรับแสดงผลบนชั้นหนังสือ"
-}
-```
-
-### ⚠️ กฎการจัดเตรียมเนื้อหา:
-1. **รูปปก**: ใส่รูปภาพ 1 รูปในโฟลเดอร์นิยาย ตั้งชื่อว่า `cover.png` หรือ `cover.jpg` (ถ้าไม่ตั้ง ระบบจะใช้รูปแรกที่พบในโฟลเดอร์)
-2. **การเรียงตอน**: ชื่อไฟล์ Markdown จะถูกจัดเรียงตามลำดับตัวอักษร (Alphabetical) แนะนำให้ใช้ตัวเลขนำหน้า เช่น `01-xxx.md`, `02-xxx.md` เพื่อให้แสดงลำดับก่อนหลังได้ถูกต้อง
-3. **ชื่อตอนย่อย**: ระบบจะดึงข้อความบรรทัดแรกสุดของไฟล์ Markdown ที่เขียนด้วยรูปแบบหัวข้อ `# ชื่อตอนย่อย` มาเป็นชื่อสารบัญ หากไม่พบระบบจะใช้ชื่อไฟล์มาแปลงแสดงแทน
-
 ---
 
-## 🛠️ วิธีการติดตั้งและรันในเครื่อง (Local Development)
+## How to Add New Novels
 
-ตรวจสอบว่าคุณมี [Node.js](https://nodejs.org/) ติดตั้งอยู่ในเครื่องแล้ว:
+To add a new novel, create a folder inside the `novels/` directory:
 
-1. **ติดตั้ง Dependency**:
-   ```bash
-   npm install
-   ```
-2. **รันบนเซิร์ฟเวอร์จำลอง (Dev Server)**:
-   ```bash
-   npm run dev
-   ```
-   *หน้าเว็บจะรันขึ้นที่ `http://localhost:3000/`*
-3. **การสั่งบิลด์ไฟล์สุดท้าย**:
-   ```bash
-   npm run build
+1. **Folder Name**: The name of the folder is used to generate the book's slug and default title (e.g. `novels/My-New-Novel`).
+2. **Chapters**: Add chapters as Markdown (`.md`) files. They will be sorted in natural numeric order (e.g., `Chapter_1.md`, `Chapter_2.md`... `Chapter_10.md`).
+3. **Cover Image**: Add a cover image (`.png`, `.jpg`, `.jpeg`, `.webp`, or `.gif`). The script looks for a file named `cover` or `thumbnail` (e.g., `cover.png`), falling back to the first image in the folder if not found.
+4. **Metadata (Optional)**: Add a `metadata.json` file inside the novel folder to customize details:
+   ```json
+   {
+     "title": "My Custom Book Title",
+     "author": "Author Name",
+     "description": "An epic description of your story."
+   }
    ```
 
 ---
 
-## 🚀 การอัปเดตนิยายใหม่ขึ้นหน้าเว็บออนไลน์ (GitHub Pages)
+## Local Development
 
-เมื่อเพิ่มนิยายเรื่องใหม่หรือแก้ไขตอนเดิมในโฟลเดอร์ `public/novels/` ของเครื่องคุณเสร็จเรียบร้อยแล้ว ให้ทำการดันโค้ดขึ้น GitHub ตามปกติ:
+You can run and test the application locally without installing any external dependencies.
 
-```bash
-git add .
-git commit -m "Add new novel: [ชื่อนิยาย]"
-git push origin main
-```
-ระบบ GitHub Actions จะทำการจัดเรียงตอน ดึงชื่อเรื่อง ทำดัชนี และบิลด์เว็บใหม่ให้คุณเป็นออนไลน์ภายใน 1-2 นาทีโดยอัตโนมัติ!
+1. **Compile the novels database**:
+   Run this command in the project root to scan the `novels/` directory and compile the database `novels.json`:
+   ```bash
+   npm run generate
+   # or
+   node generate-index.js
+   ```
+
+2. **Start the local web server**:
+   Start the zero-dependency web server:
+   ```bash
+   npm start
+   # or
+   node server.js
+   ```
+
+3. **Open the App**:
+   Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
 ---
 
-## 📄 ลิขสิทธิ์และการใช้งาน
+## Automatic Deployment to GitHub Pages
 
-โค้ดนี้ได้รับการเผยแพร่ภายใต้การใช้งานส่วนบุคคลและไม่แสวงหาผลกำไร คุณสามารถคัดลอก ดัดแปลง หรือเปิดเว็บของตัวเองได้อย่างอิสระครับ! ❤️
+The project contains a GitHub Action that automates index generation and deployment:
+
+1. **Push Changes**: When you add a new novel folder to `novels/` locally, commit it and push it to your GitHub repository:
+   ```bash
+   git add novels/
+   git commit -m "Add new novel: My Novel"
+   git push origin main
+   ```
+2. **Automatic Deployment**: The workflow `.github/workflows/deploy.yml` will automatically trigger in GitHub Actions. It will run `node generate-index.js` to update the index and deploy the website to GitHub Pages.
+3. **Update Complete**: In a few minutes, your GitHub Pages site will automatically refresh with the newly added book!

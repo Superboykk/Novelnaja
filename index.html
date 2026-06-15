@@ -3,15 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Novel Reader - คลังนิยายส่วนตัว</title>
-  <!-- Google Fonts for Reading -->
+  <title>Kindle Novel Reader</title>
+  
+  <!-- PWA Manifest & Icons -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#121212">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  
+  <!-- Google Fonts for Premium Reading Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <!-- Styling -->
-  <link rel="stylesheet" href="./src/style.css">
+  
+  <!-- App Styling -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Protocol Check to assist when double-clicking index.html directly -->
+  <script>
+    if (window.location.protocol === 'file:') {
+      window.addEventListener('DOMContentLoaded', () => {
+        const grid = document.getElementById('bookshelf-grid');
+        if (grid) {
+          grid.innerHTML = `
+            <div class="loading-spinner" style="color: #d9534f; grid-column: 1 / -1; text-align: center; padding: 40px 16px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 16px; color: #d9534f;"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <h3 style="margin-bottom: 12px; font-family: 'Merriweather', Georgia, serif; font-weight: 700; font-size: 1.35rem; color: var(--text-primary);">ไม่สามารถโหลดผ่านการดับเบิ้ลคลิกไฟล์โดยตรงได้</h3>
+              <p style="font-size: 0.95rem; max-width: 520px; line-height: 1.6; margin: 0 auto 16px auto; color: var(--text-secondary);">
+                เนื่องจากเบราว์เซอร์จำกัดสิทธิ์ความปลอดภัย ป้องกันการโหลดไฟล์ JavaScript (ES Modules) ผ่านโปรโตคอล <code>file://</code>
+              </p>
+              <p style="font-size: 0.95rem; font-weight: bold; margin-bottom: 8px; color: var(--text-primary);">
+                กรุณาเข้าใช้งานผ่านช่องทางใดช่องทางหนึ่งดังนี้:
+              </p>
+              <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px; max-width: 480px; margin: 0 auto; text-align: left; font-size: 0.9rem; line-height: 1.6; color: var(--text-primary);">
+                <div style="margin-bottom: 10px;">
+                  <strong>1. รันเซิร์ฟเวอร์จำลองในเครื่อง (Local Server)</strong><br>
+                  เปิดโปรแกรม Terminal (เช่น PowerShell) ในโฟลเดอร์นี้ แล้วพิมพ์คำสั่ง:<br>
+                  <code style="background-color: var(--bg-primary); padding: 2px 6px; border-radius: 4px; border: 1px solid var(--border-color); display: inline-block; margin-top: 4px; font-weight: bold;">node server.js</code><br>
+                  จากนั้นเปิดเบราว์เซอร์ไปที่: <a href="http://localhost:3000" target="_blank" style="color: var(--accent-color); font-weight: bold; text-decoration: underline;">http://localhost:3000</a>
+                </div>
+                <hr style="border:0; border-top: 1px solid var(--border-color); margin: 12px 0;">
+                <div>
+                  <strong>2. อัพโหลดขึ้น GitHub Pages</strong><br>
+                  อัพโหลดโปรเจกต์นี้ขึ้น GitHub และเปิดสิทธิ์ Pages เพื่อใช้งานผ่านลิงก์ <code>https://&lt;username&gt;.github.io/&lt;repo-name&gt;/</code> ซึ่งสามารถเปิดใช้งานออฟไลน์ (PWA) ได้สมบูรณ์แบบ
+                </div>
+              </div>
+            </div>
+          `;
+        }
+      });
+    }
+  </script>
 </head>
 <body class="theme-light">
 
@@ -20,20 +61,23 @@
     <div class="header-container">
       <div class="header-left">
         <button id="btn-back-library" class="btn-icon hidden" title="กลับไปคลังหนังสือ">
-          <i data-lucide="book-open"></i>
-          <span>คลังหนังสือ</span>
+          <!-- Inline SVG for Book Open -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span>คลังนิยาย</span>
         </button>
-        <span id="app-title" class="brand-title">Novel Reader</span>
+        <span id="app-title" class="brand-title">Kindle Novel Reader</span>
       </div>
       
       <div class="header-right">
         <!-- Reader Controls (Hidden in library) -->
         <div id="reader-controls" class="reader-controls-group hidden">
           <button id="btn-toc" class="btn-icon" title="สารบัญ">
-            <i data-lucide="menu"></i>
+            <!-- Inline SVG for Menu -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
           </button>
           <button id="btn-settings" class="btn-icon" title="ปรับแต่งการอ่าน">
-            <i data-lucide="settings-2"></i>
+            <!-- Inline SVG for Settings -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
           </button>
         </div>
       </div>
@@ -52,8 +96,17 @@
     <section id="library-view" class="view-section active">
       <div class="container">
         <div class="library-header">
-          <h1>คลังนิยายของคุณ</h1>
-          <p class="subtitle">เลือกอ่านนิยายที่ก๊อปปี้ลงเครื่องหรือบนคลาวด์ของคุณ</p>
+          <h1>คลังนิยายส่วนตัว</h1>
+          <p class="subtitle">เลือกนิยายเพื่อเริ่มเข้าสู่โหมดการอ่านแบบ Kindle ถนอมสายตา</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <div class="search-box">
+            <!-- Inline SVG for Search -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" placeholder="ค้นหาชื่อเรื่อง ผู้แต่ง..." autocomplete="off">
+          </div>
         </div>
         
         <div id="bookshelf-grid" class="bookshelf-grid">
@@ -72,8 +125,9 @@
       <aside id="reader-toc" class="reader-toc">
         <div class="toc-header">
           <h3>สารบัญ</h3>
-          <button id="btn-close-toc" class="btn-icon-close">
-            <i data-lucide="x"></i>
+          <button id="btn-close-toc" class="btn-icon-close" title="ปิดสารบัญ">
+            <!-- Inline SVG for Close -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>
         </div>
         <ul id="toc-list" class="toc-list">
@@ -83,46 +137,49 @@
 
       <!-- Main Text Reading Area -->
       <div id="reading-viewport" class="reading-viewport">
-        <article id="reader-content" class="reader-content font-serif size-medium width-medium">
-          <!-- Chapter Markdown Content Rendered Here -->
+        <article id="reader-content" class="reader-content font-serif size-medium width-medium lh-normal">
+          <!-- Chapter Content Rendered Here -->
         </article>
 
         <!-- Bottom Navigation -->
         <nav class="reader-navigation">
-          <button id="btn-prev-chapter" class="btn-nav">
-            <i data-lucide="arrow-left"></i>
+          <button id="btn-prev-chapter" class="btn-nav" disabled>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
             <div>
               <span class="nav-label">ตอนก่อนหน้า</span>
               <span id="prev-chapter-title" class="nav-title">ไม่มีตอนก่อนหน้า</span>
             </div>
           </button>
           
-          <button id="btn-next-chapter" class="btn-nav">
+          <button id="btn-next-chapter" class="btn-nav" disabled>
             <div>
               <span class="nav-label">ตอนถัดไป</span>
-              <span id="next-chapter-title" class="nav-title">สิ้นสุดบทเรียน</span>
+              <span id="next-chapter-title" class="nav-title">จบเล่มแล้ว</span>
             </div>
-            <i data-lucide="arrow-right"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </button>
         </nav>
       </div>
 
-      <!-- Quick Floating Table of Contents & Back to Top Buttons for Mobile -->
+      <!-- Quick Floating Buttons -->
       <div class="floating-actions">
-        <button id="btn-float-toc" class="btn-float" title="สารบัญ">
-          <i data-lucide="list"></i>
+        <button id="btn-float-toc" class="btn-float" title="เปิดสารบัญ">
+          <!-- Inline SVG for Table of Contents -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
         </button>
         <button id="btn-float-top" class="btn-float" title="กลับไปด้านบน">
-          <i data-lucide="chevron-up"></i>
+          <!-- Inline SVG for Chevron Up -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
         </button>
       </div>
 
       <!-- Settings Panel Popover -->
       <div id="settings-popover" class="settings-popover hidden">
         <div class="settings-popover-header">
-          <h4>ตั้งค่าการอ่าน</h4>
-          <button id="btn-close-settings" class="btn-icon-close">
-            <i data-lucide="x"></i>
+          <h4>ปรับแต่งหน้ากระดาษ</h4>
+          <button id="btn-close-settings" class="btn-icon-close" title="ปิดตั้งค่า">
+            <!-- Inline SVG for Close -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
           </button>
         </div>
         
@@ -136,21 +193,24 @@
             <button class="theme-opt theme-opt-sepia" data-theme="sepia" title="Sepia Book">
               <span class="dot"></span> ซีเปีย
             </button>
-            <button class="theme-opt theme-opt-dark" data-theme="dark" title="Kindle OLED">
-              <span class="dot"></span> มืด
-            </button>
             <button class="theme-opt theme-opt-mint" data-theme="mint" title="Mint Green">
               <span class="dot"></span> มิ้นท์
+            </button>
+            <button class="theme-opt theme-opt-grey" data-theme="grey" title="Muted Grey">
+              <span class="dot"></span> เทา
+            </button>
+            <button class="theme-opt theme-opt-dark" data-theme="dark" title="Kindle OLED">
+              <span class="dot"></span> OLED มืด
             </button>
           </div>
         </div>
 
         <!-- Fonts -->
         <div class="settings-section">
-          <h5>รูปแบบฟอนต์ (Font Family)</h5>
+          <h5>รูปแบบฟอนต์</h5>
           <div class="toggle-group">
-            <button id="btn-font-serif" class="toggle-btn active" data-font="serif">Serif (นิยายคลาสสิก)</button>
-            <button id="btn-font-sans" class="toggle-btn" data-font="sans">Sans-serif (อ่านง่ายสบายตา)</button>
+            <button id="btn-font-serif" class="toggle-btn active" data-font="serif">Serif (Lora / นิยาย)</button>
+            <button id="btn-font-sans" class="toggle-btn" data-font="sans">Sans-serif (Sarabun / อ่านง่าย)</button>
           </div>
         </div>
 
@@ -158,9 +218,13 @@
         <div class="settings-section">
           <h5>ขนาดตัวอักษร</h5>
           <div class="size-controls">
-            <button id="btn-size-dec" class="btn-circle" title="ลดขนาด"><i data-lucide="minus"></i></button>
+            <button id="btn-size-dec" class="btn-circle" title="ลดขนาด">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
             <span id="current-size-label">ปกติ (100%)</span>
-            <button id="btn-size-inc" class="btn-circle" title="เพิ่มขนาด"><i data-lucide="plus"></i></button>
+            <button id="btn-size-inc" class="btn-circle" title="เพิ่มขนาด">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
           </div>
         </div>
 
@@ -173,12 +237,22 @@
             <button class="width-opt toggle-btn" data-width="wide">กว้าง</button>
           </div>
         </div>
+
+        <!-- Line Spacing -->
+        <div class="settings-section">
+          <h5>ระยะห่างบรรทัด</h5>
+          <div class="toggle-group lh-selectors">
+            <button class="lh-opt toggle-btn" data-lh="tight">เบียด</button>
+            <button class="lh-opt toggle-btn active" data-lh="normal">ปกติ</button>
+            <button class="lh-opt toggle-btn" data-lh="loose">ห่าง</button>
+          </div>
+        </div>
       </div>
 
     </section>
   </main>
 
   <!-- Script entry point -->
-  <script type="module" src="./src/main.js"></script>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>
