@@ -149,6 +149,75 @@
     ]
   },
   {
+    "slug": "FF3 KBG Novel",
+    "title": "FF3 KBG Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/FF3 KBG Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "Chapter_1.md",
+        "title": "Chapter 1: สุริยคราสกับรหัสเวทต้นฉบับ",
+        "path": "novels/FF3 KBG Novel/Chapter_1.md"
+      },
+      {
+        "slug": "Chapter_2.md",
+        "title": "Chapter 2: อู่แต่งซิ่งริมแม่น้ำเจ้าพระยา (The Turbo Ferry)",
+        "path": "novels/FF3 KBG Novel/Chapter_2.md"
+      },
+      {
+        "slug": "Chapter_3.md",
+        "title": "Chapter 3: คำสาปไวรัสเสาสัญญาณ",
+        "path": "novels/FF3 KBG Novel/Chapter_3.md"
+      },
+      {
+        "slug": "Chapter_4.md",
+        "title": "Chapter 4: แกนสมอถล่มน่านฟ้า (The Sky Stabilizer)",
+        "path": "novels/FF3 KBG Novel/Chapter_4.md"
+      },
+      {
+        "slug": "Chapter_5.md",
+        "title": "Chapter 5: รถไฟฟ้าดิ่งพสุธา (Diving into the Abyss)",
+        "path": "novels/FF3 KBG Novel/Chapter_5.md"
+      },
+      {
+        "slug": "Chapter_6.md",
+        "title": "Chapter 6: ทัพฟ้านครซาโรเนีย (The Floating Airbase)",
+        "path": "novels/FF3 KBG Novel/Chapter_6.md"
+      },
+      {
+        "slug": "Chapter_7.md",
+        "title": "Chapter 7: ป้อมลวงตากลางพนม (Hein's Changing Firewall)",
+        "path": "novels/FF3 KBG Novel/Chapter_7.md"
+      },
+      {
+        "slug": "Chapter_8.md",
+        "title": "Chapter 8: รหัสวิญญาณที่ถูกลบ (The Deletion of the Sages)",
+        "path": "novels/FF3 KBG Novel/Chapter_8.md"
+      },
+      {
+        "slug": "Chapter_9.md",
+        "title": "Chapter 9: ฝ่ากำแพงภูเขาไฟระเบิด (The Unstoppable Fortress)",
+        "path": "novels/FF3 KBG Novel/Chapter_9.md"
+      },
+      {
+        "slug": "Chapter_10.md",
+        "title": "Chapter 10: สัจธรรมสังขารของเจ้าสัว (Siridech's Last Trade)",
+        "path": "novels/FF3 KBG Novel/Chapter_10.md"
+      },
+      {
+        "slug": "Chapter_11.md",
+        "title": "Chapter 11: เมฆหมอกอวิชชาตื่นรู้ (The Cloud of Ignorance)",
+        "path": "novels/FF3 KBG Novel/Chapter_11.md"
+      },
+      {
+        "slug": "Chapter_12.md",
+        "title": "Chapter 12: ดุลยภาพสองขั้วกู้เวลาโลก (The Dual Equilibrium)",
+        "path": "novels/FF3 KBG Novel/Chapter_12.md"
+      }
+    ]
+  },
+  {
     "slug": "KGB Naruto novel",
     "title": "KGB Naruto Novel",
     "author": "Unknown Author",
