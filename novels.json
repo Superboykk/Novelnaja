@@ -1,5 +1,164 @@
 [
   {
+    "slug": "BOF1 Novel",
+    "title": "BOF1 Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/BOF1 Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "chapter1.md",
+        "title": "Chapter 1: เถ้าถ่านแห่งดรอกา (The Ashes of Drogen)",
+        "path": "novels/BOF1 Novel/chapter1.md"
+      },
+      {
+        "slug": "chapter2.md",
+        "title": "Chapter 2: ดาบเหล็กกล้าและเศษซากคามลอน (The Broken Sword of Camlon)",
+        "path": "novels/BOF1 Novel/chapter2.md"
+      },
+      {
+        "slug": "chapter3.md",
+        "title": "Chapter 3: ยามราตรีในนานาอิ (The Shadow of Nanai)",
+        "path": "novels/BOF1 Novel/chapter3.md"
+      },
+      {
+        "slug": "chapter4.md",
+        "title": "Chapter 4: เจ้าหญิงผู้ถูกตัดปีก (The Princess of Wind)",
+        "path": "novels/BOF1 Novel/chapter4.md"
+      },
+      {
+        "slug": "chapter5.md",
+        "title": "Chapter 5: มนตราแห่งคาร์ม่า (The Sorcery of Karma)",
+        "path": "novels/BOF1 Novel/chapter5.md"
+      },
+      {
+        "slug": "chapter6.md",
+        "title": "Chapter 6: พายุที่หวนคืน (The Storm Reclaimed)",
+        "path": "novels/BOF1 Novel/chapter6.md"
+      },
+      {
+        "slug": "chapter7.md",
+        "title": "Chapter 7: หมาป่าแห่งผืนป่าพฤกษา (The Forest Wolf)",
+        "path": "novels/BOF1 Novel/chapter7.md"
+      },
+      {
+        "slug": "chapter8.md",
+        "title": "Chapter 8: สุสานสายน้ำและแหวนโบราณ (The Water Cave & Ring of Lament)",
+        "path": "novels/BOF1 Novel/chapter8.md"
+      },
+      {
+        "slug": "chapter9.md",
+        "title": "Chapter 9: ยักษ์ศิลาแห่งอากัว (The Stone Giant of Agua)",
+        "path": "novels/BOF1 Novel/chapter9.md"
+      },
+      {
+        "slug": "chapter10.md",
+        "title": "Chapter 10: ทลายทำนบกักสายน้ำ (Breaking the Dam)",
+        "path": "novels/BOF1 Novel/chapter10.md"
+      },
+      {
+        "slug": "chapter11.md",
+        "title": "Chapter 11: นครทองคำและความโลภ (Auria: The Golden Mirage)",
+        "path": "novels/BOF1 Novel/chapter11.md"
+      },
+      {
+        "slug": "chapter12.md",
+        "title": "Chapter 12: เล่ห์กลของจอมโจร (The Rogue's Gambit)",
+        "path": "novels/BOF1 Novel/chapter12.md"
+      },
+      {
+        "slug": "chapter13.md",
+        "title": "Chapter 13: สุสานโบราณและกับดักมรณะ (The Crypt of Krypt)",
+        "path": "novels/BOF1 Novel/chapter13.md"
+      },
+      {
+        "slug": "chapter14.md",
+        "title": "Chapter 14: ป้อมทมิฬในป่าสิ้นหวัง (Fort of the Black Dragon)",
+        "path": "novels/BOF1 Novel/chapter14.md"
+      },
+      {
+        "slug": "chapter15.md",
+        "title": "Chapter 15: สัญญากลางสมุทร (The Ocean Trader's Pact)",
+        "path": "novels/BOF1 Novel/chapter15.md"
+      },
+      {
+        "slug": "chapter16.md",
+        "title": "Chapter 16: ทั่งตีเหล็กแห่งกานต์ (The Anvil of Gant)",
+        "path": "novels/BOF1 Novel/chapter16.md"
+      },
+      {
+        "slug": "chapter17.md",
+        "title": "Chapter 17: จุดพลิกผัน ณ ป้อมนาบาล (Midpoint: The Shattered Promise)",
+        "path": "novels/BOF1 Novel/chapter17.md"
+      },
+      {
+        "slug": "chapter18.md",
+        "title": "Chapter 18: วิญญาณแม่มดและผืนทรายแห่งวิสดอน (The Witch of Wisdon)",
+        "path": "novels/BOF1 Novel/chapter18.md"
+      },
+      {
+        "slug": "chapter19.md",
+        "title": "Chapter 19: ศึกเพลิงผลาญน่านน้ำ (The Crimson Ocean)",
+        "path": "novels/BOF1 Novel/chapter19.md"
+      },
+      {
+        "slug": "chapter20.md",
+        "title": "Chapter 20: ค่ำคืนในฝันร้ายของเผ่าตุ่น (The Mole Clan's Nightmare)",
+        "path": "novels/BOF1 Novel/chapter20.md"
+      },
+      {
+        "slug": "chapter21.md",
+        "title": "Chapter 21: เขาวงกตแห่งความหวาดกลัว (Maze of Senses)",
+        "path": "novels/BOF1 Novel/chapter21.md"
+      },
+      {
+        "slug": "chapter22.md",
+        "title": "Chapter 22: ความหาญกล้าที่ฟื้นคืน (The Waking Courage)",
+        "path": "novels/BOF1 Novel/chapter22.md"
+      },
+      {
+        "slug": "chapter23.md",
+        "title": "Chapter 23: หอคอยแห่งผืนฟ้า (Tower of the Skies)",
+        "path": "novels/BOF1 Novel/chapter23.md"
+      },
+      {
+        "slug": "chapter24.md",
+        "title": "Chapter 24: หอคอยเหนือกาลเวลา (The Timeless Sanctuary)",
+        "path": "novels/BOF1 Novel/chapter24.md"
+      },
+      {
+        "slug": "chapter25.md",
+        "title": "Chapter 25: ทรราชย์แห่งเหล็กกล้า (The Iron Emperor's Demise)",
+        "path": "novels/BOF1 Novel/chapter25.md"
+      },
+      {
+        "slug": "chapter26.md",
+        "title": "Chapter 26: กลลวงของเจด (The Puppeteer's Trap / Jade's Betrayal)",
+        "path": "novels/BOF1 Novel/chapter26.md"
+      },
+      {
+        "slug": "chapter27.md",
+        "title": "Chapter 27: สู่ยอดหอคอยลอยฟ้า (The Ascent to Obelisk)",
+        "path": "novels/BOF1 Novel/chapter27.md"
+      },
+      {
+        "slug": "chapter28.md",
+        "title": "Chapter 28: ศึกสายเลือดกลางท้องฟ้า (The Bloodline Duel)",
+        "path": "novels/BOF1 Novel/chapter28.md"
+      },
+      {
+        "slug": "chapter29.md",
+        "title": "Chapter 29: อสูรร้ายและคำสัตย์แห่งความมืด (The Grim Fiend)",
+        "path": "novels/BOF1 Novel/chapter29.md"
+      },
+      {
+        "slug": "chapter30.md",
+        "title": "Chapter 30: อัคนีและวันพรุ่งนี้ที่ดีกว่า (Agni's Will: True Ending)",
+        "path": "novels/BOF1 Novel/chapter30.md"
+      }
+    ]
+  },
+  {
     "slug": "Bof2 Novel",
     "title": "Bof2 Novel",
     "author": "Unknown Author",
