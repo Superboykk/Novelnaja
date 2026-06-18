@@ -537,6 +537,240 @@
     ]
   },
   {
+    "slug": "FF1 Novel",
+    "title": "FF1 Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/FF1 Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "FF1Chapter1_1.md",
+        "title": "FF1Chapter1 1",
+        "path": "novels/FF1 Novel/FF1Chapter1_1.md"
+      },
+      {
+        "slug": "FF1Chapter1_2.md",
+        "title": "ตอนที่ 1.2: คำอ้อนวอนของราชาเฒ่า และเงาของอดีตวีรบุรุษ Garland",
+        "path": "novels/FF1 Novel/FF1Chapter1_2.md"
+      },
+      {
+        "slug": "FF1Chapter1_3.md",
+        "title": "ตอนที่ 1.3: ความขัดแย้งของนักรบและการรับภารกิจแรก",
+        "path": "novels/FF1 Novel/FF1Chapter1_3.md"
+      },
+      {
+        "slug": "FF1Chapter2_1.md",
+        "title": "ตอนที่ 2.1: รอยคาวเลือดและฝูงอันเดดใน Chaos Shrine",
+        "path": "novels/FF1 Novel/FF1Chapter2_1.md"
+      },
+      {
+        "slug": "FF1Chapter2_2.md",
+        "title": "ตอนที่ 2.2: การปะทะกับ Garland และความจริงเบื้องหลังการลักพาตัว",
+        "path": "novels/FF1 Novel/FF1Chapter2_2.md"
+      },
+      {
+        "slug": "FF1Chapter2_3.md",
+        "title": "ตอนที่ 2.3: ปรากฏการณ์หลุมดำแห่งกาลเวลา และการช่วยเหลือเจ้าหญิง Sarah",
+        "path": "novels/FF1 Novel/FF1Chapter2_3.md"
+      },
+      {
+        "slug": "FF1Chapter3_1.md",
+        "title": "บทที่ 3.1: การซ่อมแซมสะพานเหนือ และภัยคุกคามที่รออยู่",
+        "path": "novels/FF1 Novel/FF1Chapter3_1.md"
+      },
+      {
+        "slug": "FF1Chapter3_2.md",
+        "title": "บทที่ 3.2: Pravoka เมืองท่าแห่งตัณหา โจรสลัด และความโสมม",
+        "path": "novels/FF1 Novel/FF1Chapter3_2.md"
+      },
+      {
+        "slug": "FF1Chapter3_3.md",
+        "title": "บทที่ 3.3: คมดาบในเงามืด การสังหารหมู่ Bikke และการยึดเรือพาณิชย์",
+        "path": "novels/FF1 Novel/FF1Chapter3_3.md"
+      },
+      {
+        "slug": "FF1Chapter4_1.md",
+        "title": "4.1: Elfheim ป่าไร้เสียง และเจ้าชายนิทราผู้ถูกสาป",
+        "path": "novels/FF1 Novel/FF1Chapter4_1.md"
+      },
+      {
+        "slug": "FF1Chapter4_2.md",
+        "title": "4.2: Matoya แม่มดตาบอดผู้เรียกร้องราคาของการมองเห็น",
+        "path": "novels/FF1 Novel/FF1Chapter4_2.md"
+      },
+      {
+        "slug": "FF1Chapter4_3.md",
+        "title": "4.3: ตัวตนจำแลงของกษัตริย์ Astos และคำลวงสู่หนองน้ำมรณะ",
+        "path": "novels/FF1 Novel/FF1Chapter4_3.md"
+      },
+      {
+        "slug": "FF1Chapter5_1.md",
+        "title": "Chapter 5: The Marsh of Lost Souls (หนองน้ำแห่งวิญญาณหลงทาง)",
+        "path": "novels/FF1 Novel/FF1Chapter5_1.md"
+      },
+      {
+        "slug": "FF1Chapter5_2.md",
+        "title": "Sub-chapter 5.2: การซุ่มโจมตีของ Piscodemon ท่ามกลางความมืดมิดและพิษร้าย",
+        "path": "novels/FF1 Novel/FF1Chapter5_2.md"
+      },
+      {
+        "slug": "FF1Chapter5_3.md",
+        "title": "Sub-chapter 5.3: มงกุฎมรณะ การเผยร่างของ Astos และความตายของราชาความมืด",
+        "path": "novels/FF1 Novel/FF1Chapter5_3.md"
+      },
+      {
+        "slug": "FF1Chapter6_1.md",
+        "title": "Sub-chapter 6.1: ล่องเรือสู่ Melmond แผ่นดินที่ถูกสูบกลืนความอุดมสมบูรณ์",
+        "path": "novels/FF1 Novel/FF1Chapter6_1.md"
+      },
+      {
+        "slug": "FF1Chapter6_2.md",
+        "title": "Sub-chapter 6.2: ถ้ำศพใต้ดิน การแลกเลือดกับ Vampire และการชิง Star Ruby",
+        "path": "novels/FF1 Novel/FF1Chapter6_2.md"
+      },
+      {
+        "slug": "FF1Chapter6_3.md",
+        "title": "Sub-chapter 6.3: Titan ผู้หิวโหย, ปราชญ์ Sadda และคทา Earth Rod",
+        "path": "novels/FF1 Novel/FF1Chapter6_3.md"
+      },
+      {
+        "slug": "FF1Chapter7_1.md",
+        "title": "Chapter 7: The Lich's Banquet",
+        "path": "novels/FF1 Novel/FF1Chapter7_1.md"
+      },
+      {
+        "slug": "FF1Chapter7_2.md",
+        "title": "Sub-chapter 7.2: ภาพหลอนของครอบครัวที่สูญเสีย และภาระของจิตวิญญาณ",
+        "path": "novels/FF1 Novel/FF1Chapter7_2.md"
+      },
+      {
+        "slug": "FF1Chapter7_3.md",
+        "title": "Sub-chapter 7.3: ปราบ Lich (Fiend แห่งดิน) การตื่นของคริสตัลดวงแรกที่แลกมาด้วยบาดแผล",
+        "path": "novels/FF1 Novel/FF1Chapter7_3.md"
+      },
+      {
+        "slug": "FF1Chapter8_1.md",
+        "title": "Chapter 8: The Heart of the Inferno",
+        "path": "novels/FF1 Novel/FF1Chapter8_1.md"
+      },
+      {
+        "slug": "FF1Chapter8_2.md",
+        "title": "Sub-chapter 8.2: ทะเลสาบลาวา การใช้เวทคุ้มกันที่แผดเผาพลังชีวิตของผู้ร่าย",
+        "path": "novels/FF1 Novel/FF1Chapter8_2.md"
+      },
+      {
+        "slug": "FF1Chapter8_3.md",
+        "title": "Sub-chapter 8.3: ศึกนองเลือดกับ Marilith (Fiend แห่งไฟ) สตรีหกแขนผู้บ้าคลั่ง",
+        "path": "novels/FF1 Novel/FF1Chapter8_3.md"
+      },
+      {
+        "slug": "FF1Chapter9_1.md",
+        "title": "Chapter 9: The Frozen Tomb (สุสานน้ำแข็ง)",
+        "path": "novels/FF1 Novel/FF1Chapter9_1.md"
+      },
+      {
+        "slug": "FF1Chapter9_2.md",
+        "title": "FF1Chapter9 2",
+        "path": "novels/FF1 Novel/FF1Chapter9_2.md"
+      },
+      {
+        "slug": "FF1Chapter9_3.md",
+        "title": "FF1Chapter9 3",
+        "path": "novels/FF1 Novel/FF1Chapter9_3.md"
+      },
+      {
+        "slug": "FF1Chapter10_1.md",
+        "title": "Chapter 10: คำพิพากษาของราชามังกร (The Dragon's Judgment)",
+        "path": "novels/FF1 Novel/FF1Chapter10_1.md"
+      },
+      {
+        "slug": "FF1Chapter10_2.md",
+        "title": "Sub-chapter 10.2: ก้าวสู่รังมังกร การเผชิญหน้ากับความยิ่งใหญ่ของ Bahamut",
+        "path": "novels/FF1 Novel/FF1Chapter10_2.md"
+      },
+      {
+        "slug": "FF1Chapter10_3.md",
+        "title": "Sub-chapter 10.3: Class Change: พิธีกรรมที่ฉีกกระชากวิญญาณเพื่อสละความเป็นมนุษย์",
+        "path": "novels/FF1 Novel/FF1Chapter10_3.md"
+      },
+      {
+        "slug": "FF1Chapter11_1.md",
+        "title": "Chapter 11.1: Oxyale แห่งชีวิต และการดำดิ่งสู่นครที่ถูกลืมใต้มหาสมุทร (Onrac)",
+        "path": "novels/FF1 Novel/FF1Chapter11_1.md"
+      },
+      {
+        "slug": "FF1Chapter11_2.md",
+        "title": "Chapter 11.2: ฝ่าแรงดันน้ำและอสุรกายทะเลลึกใน Sunken Shrine",
+        "path": "novels/FF1 Novel/FF1Chapter11_2.md"
+      },
+      {
+        "slug": "FF1Chapter11_3.md",
+        "title": "Chapter 11.3: โค่น Kraken (Fiend แห่งน้ำ) และการค้นพบ Rosetta Stone",
+        "path": "novels/FF1 Novel/FF1Chapter11_3.md"
+      },
+      {
+        "slug": "FF1Chapter12_1.md",
+        "title": "Chapter 12: เสียงกระซิบจากฟากฟ้า (The Whispers of the Sky)",
+        "path": "novels/FF1 Novel/FF1Chapter12_1.md"
+      },
+      {
+        "slug": "FF1Chapter12_2.md",
+        "title": "Sub-chapter 12.2: ฝ่าชั้นบรรยากาศทะลุ Mirage Tower สู่ปราสาทไร้ชีวิต Flying Fortress",
+        "path": "novels/FF1 Novel/FF1Chapter12_2.md"
+      },
+      {
+        "slug": "FF1Chapter12_3.md",
+        "title": "Sub-chapter 12.3: ปะทะ Tiamat (Fiend แห่งลม) และการขุดพบแร่ Adamantite",
+        "path": "novels/FF1 Novel/FF1Chapter12_3.md"
+      },
+      {
+        "slug": "FF1Chapter13_1.md",
+        "title": "Chapter 13: The 2,000-Year Descent (ดิ่งลึกสู่อดีตสองพันปี)",
+        "path": "novels/FF1 Novel/FF1Chapter13_1.md"
+      },
+      {
+        "slug": "FF1Chapter13_2.md",
+        "title": "Sub-chapter 13.2: การดีดประสานของ Lute และการฉีกทึ้งห้วงเวลาที่ Chaos Shrine",
+        "path": "novels/FF1 Novel/FF1Chapter13_2.md"
+      },
+      {
+        "slug": "FF1Chapter13_3.md",
+        "title": "Sub-chapter 13.3: การเดินทางสู่ Temple of Chaos ในอดีตกาลท่ามกลางความวิปริตของมิติ",
+        "path": "novels/FF1 Novel/FF1Chapter13_3.md"
+      },
+      {
+        "slug": "FF1Chapter14_1.md",
+        "title": "บทที่ 14.1: การเผชิญหน้ากับ 4 Fiends ในร่างอดีตที่สมบูรณ์แบบ",
+        "path": "novels/FF1 Novel/FF1Chapter14_1.md"
+      },
+      {
+        "slug": "FF1Chapter14_2.md",
+        "title": "บทที่ 14.2: การปรากฏตัวของ Garland และคำสารภาพถึงวงจรแห่งความทรมาน",
+        "path": "novels/FF1 Novel/FF1Chapter14_2.md"
+      },
+      {
+        "slug": "FF1Chapter14_3.md",
+        "title": "บทที่ 14.3: การก่อกำเนิดของ Chaos ปีศาจที่กลืนกินแสงสว่างของทุกสรรพสิ่ง",
+        "path": "novels/FF1 Novel/FF1Chapter14_3.md"
+      },
+      {
+        "slug": "FF1Chapter15_1.md",
+        "title": "Sub-chapter 15.1: สงครามข้ามเวลา การใช้เวทมนตร์และดาบที่สลายพลังชีวิตเฮือกสุดท้าย",
+        "path": "novels/FF1 Novel/FF1Chapter15_1.md"
+      },
+      {
+        "slug": "FF1Chapter15_2.md",
+        "title": "Sub-chapter 15.2: การใช้คริสตัลเพื่อทำลายลูปเวลา และการยอมรับชะตากรรมที่ต้องหายไป",
+        "path": "novels/FF1 Novel/FF1Chapter15_2.md"
+      },
+      {
+        "slug": "FF1Chapter15_3.md",
+        "title": "Sub-chapter 15.3: โลกใบใหม่ที่ปราศจากวีรบุรุษ หยาดน้ำตาของ Sarah และตำนานที่ไม่มีใครจำได้",
+        "path": "novels/FF1 Novel/FF1Chapter15_3.md"
+      }
+    ]
+  },
+  {
     "slug": "FF3 KBG Novel",
     "title": "FF3 KBG Novel",
     "author": "Unknown Author",
