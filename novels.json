@@ -666,6 +666,115 @@
     ]
   },
   {
+    "slug": "DWM2 Novel",
+    "title": "DWM2 Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/DWM2 Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "DWM2 Chapter1_1.md",
+        "title": "บทที่ 1: บ้านใหม่และพายสูตรพิเศษ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter1_1.md"
+      },
+      {
+        "slug": "DWM2 Chapter1_2.md",
+        "title": "ตอนที่ 1.2: ขโมยตัวน้อยริมรากไม้",
+        "path": "novels/DWM2 Novel/DWM2 Chapter1_2.md"
+      },
+      {
+        "slug": "DWM2 Chapter1_3.md",
+        "title": "บทที่ 1: บ้านใหม่และพายสูตรพิเศษ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter1_3.md"
+      },
+      {
+        "slug": "DWM2 Chapter1_4.md",
+        "title": "บทที่ 1: บ้านใหม่และพายสูตรพิเศษ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter1_4.md"
+      },
+      {
+        "slug": "DWM2 Chapter2_1.md",
+        "title": "บทที่ 2: รอยร้าวใต้รากไม้",
+        "path": "novels/DWM2 Novel/DWM2 Chapter2_1.md"
+      },
+      {
+        "slug": "DWM2 Chapter2_2.md",
+        "title": "บทที่ 2: รอยร้าวใต้รากไม้",
+        "path": "novels/DWM2 Novel/DWM2 Chapter2_2.md"
+      },
+      {
+        "slug": "DWM2 Chapter2_3.md",
+        "title": "บทที่ 2: รอยร้าวใต้รากไม้",
+        "path": "novels/DWM2 Novel/DWM2 Chapter2_3.md"
+      },
+      {
+        "slug": "DWM2 Chapter2_4.md",
+        "title": "บทที่ 2: รอยร้าวใต้รากไม้",
+        "path": "novels/DWM2 Novel/DWM2 Chapter2_4.md"
+      },
+      {
+        "slug": "DWM2 Chapter3_1.md",
+        "title": "บทที่ 3: ข้ามขอบฟ้าสู่ผืนทรายแห้งแล้ง",
+        "path": "novels/DWM2 Novel/DWM2 Chapter3_1.md"
+      },
+      {
+        "slug": "DWM2 Chapter3_2.md",
+        "title": "บทที่ 3: ข้ามขอบฟ้าสู่ผืนทรายแห้งแล้ง",
+        "path": "novels/DWM2 Novel/DWM2 Chapter3_2.md"
+      },
+      {
+        "slug": "DWM2 Chapter3_3.md",
+        "title": "บทที่ 3: ข้ามขอบฟ้าสู่ผืนทรายแห้งแล้ง",
+        "path": "novels/DWM2 Novel/DWM2 Chapter3_3.md"
+      },
+      {
+        "slug": "DWM2 Chapter3_4.md",
+        "title": "บทที่ 3: ข้ามขอบฟ้าสู่ผืนทรายแห้งแล้ง",
+        "path": "novels/DWM2 Novel/DWM2 Chapter3_4.md"
+      },
+      {
+        "slug": "DWM2 Chapter4_1.md",
+        "title": "บทที่ 4: เงาอสูรใต้อุโมงค์ระบายน้ำ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter4_1.md"
+      },
+      {
+        "slug": "DWM2 Chapter4_2.md",
+        "title": "บทที่ 4: เงาอสูรใต้อุโมงค์ระบายน้ำ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter4_2.md"
+      },
+      {
+        "slug": "DWM2 Chapter4_3.md",
+        "title": "บทที่ 4: เงาอสูรใต้อุโมงค์ระบายน้ำ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter4_3.md"
+      },
+      {
+        "slug": "DWM2 Chapter4_4.md",
+        "title": "บทที่ 4: เงาอสูรใต้อุโมงค์ระบายน้ำ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter4_4.md"
+      },
+      {
+        "slug": "DWM2 Chapter5_1.md",
+        "title": "บทที่ 5: ภาพลวงตาที่ทะเลสาบมิราจ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter5_1.md"
+      },
+      {
+        "slug": "DWM2 Chapter5_2.md",
+        "title": "บทที่ 5: ภาพลวงตาที่ทะเลสาบมิราจ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter5_2.md"
+      },
+      {
+        "slug": "DWM2 Chapter5_3.md",
+        "title": "บทที่ 5: ภาพลวงตาที่ทะเลสาบมิราจ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter5_3.md"
+      },
+      {
+        "slug": "DWM2 Chapter5_4.md",
+        "title": "บทที่ 5: ภาพลวงตาที่ทะเลสาบมิราจ",
+        "path": "novels/DWM2 Novel/DWM2 Chapter5_4.md"
+      }
+    ]
+  },
+  {
     "slug": "FF1 Novel",
     "title": "FF1 Novel",
     "author": "Unknown Author",
