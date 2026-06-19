@@ -308,231 +308,360 @@
     ]
   },
   {
-    "slug": "BOF3 Novels",
-    "title": "BOF3 Novels",
+    "slug": "BOF3 Part 1",
+    "title": "BOF3 Part 1",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/BOF3 Novels/cover.png",
+    "cover": "novels/BOF3 Part 1/cover.png",
     "chapters": [
       {
         "slug": "Chapter_1_Sub-chapter_1.1.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Novels/Chapter_1_Sub-chapter_1.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.1.md"
       },
       {
         "slug": "Chapter_1_Sub-chapter_1.2.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Novels/Chapter_1_Sub-chapter_1.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.2.md"
       },
       {
         "slug": "Chapter_1_Sub-chapter_1.3.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Novels/Chapter_1_Sub-chapter_1.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.3.md"
       },
       {
         "slug": "Chapter_1_Sub-chapter_1.4.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Novels/Chapter_1_Sub-chapter_1.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.4.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.1.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Novels/Chapter_2_Sub-chapter_2.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.1.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.2.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Novels/Chapter_2_Sub-chapter_2.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.2.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.3.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Novels/Chapter_2_Sub-chapter_2.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.3.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.4.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Novels/Chapter_2_Sub-chapter_2.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.4.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.1.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Novels/Chapter_3_Sub-chapter_3.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.1.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.2.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Novels/Chapter_3_Sub-chapter_3.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.2.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.3.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Novels/Chapter_3_Sub-chapter_3.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.3.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.4.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Novels/Chapter_3_Sub-chapter_3.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.4.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.1.md",
         "title": "Chapter 4: เถ้าถ่านและเสียงคำรามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Novels/Chapter_4_Sub-chapter_4.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.1.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.2.md",
         "title": "Chapter 4: เถ้าถ่านและเสียงครามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Novels/Chapter_4_Sub-chapter_4.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.2.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.3.md",
         "title": "Chapter 4: เเถ้าถ่านและเสียงครามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Novels/Chapter_4_Sub-chapter_4.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.3.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.4.md",
         "title": "Chapter 4: เถ้าถ่านและเสียงครามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Novels/Chapter_4_Sub-chapter_4.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.4.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.1.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Novels/Chapter_5_Sub-chapter_5.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.1.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.2.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Novels/Chapter_5_Sub-chapter_5.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.2.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.3.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Novels/Chapter_5_Sub-chapter_5.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.3.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.4.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Novels/Chapter_5_Sub-chapter_5.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.4.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.1.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Novels/Chapter_6_Sub-chapter_6.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.1.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.2.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Novels/Chapter_6_Sub-chapter_6.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.2.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.3.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Novels/Chapter_6_Sub-chapter_6.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.3.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.4.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Novels/Chapter_6_Sub-chapter_6.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.4.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.1.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Novels/Chapter_7_Sub-chapter_7.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.1.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.2.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Novels/Chapter_7_Sub-chapter_7.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.2.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.3.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Novels/Chapter_7_Sub-chapter_7.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.3.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.4.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Novels/Chapter_7_Sub-chapter_7.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.4.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.1.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Novels/Chapter_8_Sub-chapter_8.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.1.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.2.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Novels/Chapter_8_Sub-chapter_8.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.2.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.3.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Novels/Chapter_8_Sub-chapter_8.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.3.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.4.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Novels/Chapter_8_Sub-chapter_8.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.4.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.1.md",
         "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
-        "path": "novels/BOF3 Novels/Chapter_9_Sub-chapter_9.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.1.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.2.md",
         "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
-        "path": "novels/BOF3 Novels/Chapter_9_Sub-chapter_9.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.2.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.3.md",
         "title": "Chapter 9: ประภาคารแห่งความหวังและการเดินทางข้ามทะเล (The Lighthouse of Hope and the Ocean Crossing)",
-        "path": "novels/BOF3 Novels/Chapter_9_Sub-chapter_9.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.3.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.4.md",
         "title": "Chapter 9: สายลมแห่งราพาลาส (The Winds of Rhapala)",
-        "path": "novels/BOF3 Novels/Chapter_9_Sub-chapter_9.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.4.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.1.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Novels/Chapter_10_Sub-chapter_10.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.1.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.2.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Novels/Chapter_10_Sub-chapter_10.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.2.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.3.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Novels/Chapter_10_Sub-chapter_10.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.3.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.4.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Novels/Chapter_10_Sub-chapter_10.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.4.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.1.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Novels/Chapter_11_Sub-chapter_11.1.md"
+        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.1.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.2.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Novels/Chapter_11_Sub-chapter_11.2.md"
+        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.2.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.3.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Novels/Chapter_11_Sub-chapter_11.3.md"
+        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.3.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.4.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Novels/Chapter_11_Sub-chapter_11.4.md"
+        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.4.md"
+      }
+    ]
+  },
+  {
+    "slug": "BOF3 Part 2",
+    "title": "BOF3 Part 2",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/BOF3 Part 2/cover.png",
+    "chapters": [
+      {
+        "slug": "Chapter_6_Sub-chapter_6.1.md",
+        "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
+        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.1.md"
+      },
+      {
+        "slug": "Chapter_6_Sub-chapter_6.2.md",
+        "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
+        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.2.md"
+      },
+      {
+        "slug": "Chapter_6_Sub-chapter_6.3.md",
+        "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
+        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.3.md"
+      },
+      {
+        "slug": "Chapter_6_Sub-chapter_6.4.md",
+        "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
+        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.4.md"
+      },
+      {
+        "slug": "Chapter_7_Sub-chapter_7.1.md",
+        "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
+        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.1.md"
+      },
+      {
+        "slug": "Chapter_7_Sub-chapter_7.2.md",
+        "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
+        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.2.md"
+      },
+      {
+        "slug": "Chapter_7_Sub-chapter_7.3.md",
+        "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
+        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.3.md"
+      },
+      {
+        "slug": "Chapter_7_Sub-chapter_7.4.md",
+        "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
+        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.4.md"
+      },
+      {
+        "slug": "Chapter_8_Sub-chapter_8.1.md",
+        "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
+        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.1.md"
+      },
+      {
+        "slug": "Chapter_8_Sub-chapter_8.2.md",
+        "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
+        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.2.md"
+      },
+      {
+        "slug": "Chapter_8_Sub-chapter_8.3.md",
+        "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
+        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.3.md"
+      },
+      {
+        "slug": "Chapter_8_Sub-chapter_8.4.md",
+        "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
+        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.4.md"
+      },
+      {
+        "slug": "Chapter_9_Sub-chapter_9.1.md",
+        "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
+        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.1.md"
+      },
+      {
+        "slug": "Chapter_9_Sub-chapter_9.2.md",
+        "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
+        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.2.md"
+      },
+      {
+        "slug": "Chapter_9_Sub-chapter_9.3.md",
+        "title": "Chapter 9: ประภาคารแห่งความหวังและการเดินทางข้ามทะเล (The Lighthouse of Hope and the Ocean Crossing)",
+        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.3.md"
+      },
+      {
+        "slug": "Chapter_9_Sub-chapter_9.4.md",
+        "title": "Chapter 9: สายลมแห่งราพาลาส (The Winds of Rhapala)",
+        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.4.md"
+      },
+      {
+        "slug": "Chapter_10_Sub-chapter_10.1.md",
+        "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
+        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.1.md"
+      },
+      {
+        "slug": "Chapter_10_Sub-chapter_10.2.md",
+        "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
+        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.2.md"
+      },
+      {
+        "slug": "Chapter_10_Sub-chapter_10.3.md",
+        "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
+        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.3.md"
+      },
+      {
+        "slug": "Chapter_10_Sub-chapter_10.4.md",
+        "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
+        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.4.md"
+      },
+      {
+        "slug": "Chapter_11_Sub-chapter_11.1.md",
+        "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
+        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.1.md"
+      },
+      {
+        "slug": "Chapter_11_Sub-chapter_11.2.md",
+        "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
+        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.2.md"
+      },
+      {
+        "slug": "Chapter_11_Sub-chapter_11.3.md",
+        "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
+        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.3.md"
+      },
+      {
+        "slug": "Chapter_11_Sub-chapter_11.4.md",
+        "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
+        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.4.md"
       }
     ]
   },
