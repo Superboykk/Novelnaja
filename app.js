@@ -264,11 +264,9 @@ function renderBookshelf() {
       ? `<img class="book-cover-img" src="${book.cover}" alt="ปก ${book.title}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
          <div class="book-cover-fallback" style="display:none;">
            <span class="fallback-title">${book.title}</span>
-           <span class="fallback-author">${book.author}</span>
          </div>`
       : `<div class="book-cover-fallback">
            <span class="fallback-title">${book.title}</span>
-           <span class="fallback-author">${book.author}</span>
          </div>`;
 
     return `
@@ -278,16 +276,6 @@ function renderBookshelf() {
         </div>
         <div class="book-info">
           <h2 class="book-title">${book.title}</h2>
-          <div class="book-author">โดย ${book.author}</div>
-          <p class="book-description">${book.description}</p>
-        </div>
-        <div class="book-card-progress">
-          <div class="progress-labels">
-            <span>${progressLabel}</span>
-          </div>
-          <div class="progress-track">
-            <div class="progress-bar-fill" style="width: ${progressPercent}%;"></div>
-          </div>
         </div>
       </article>
     `;

@@ -1,667 +1,667 @@
 [
   {
-    "slug": "BOF1 Novel",
-    "title": "BOF1 Novel",
+    "slug": "Breath of Fire 1 Novel",
+    "title": "Breath Of Fire 1 Novel",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/BOF1 Novel/cover.png",
+    "cover": "novels/Breath of Fire 1 Novel/cover.png",
     "chapters": [
       {
         "slug": "chapter1.md",
         "title": "Chapter 1: เถ้าถ่านแห่งดรอกา (The Ashes of Drogen)",
-        "path": "novels/BOF1 Novel/chapter1.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter1.md"
       },
       {
         "slug": "chapter2.md",
         "title": "Chapter 2: ดาบเหล็กกล้าและเศษซากคามลอน (The Broken Sword of Camlon)",
-        "path": "novels/BOF1 Novel/chapter2.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter2.md"
       },
       {
         "slug": "chapter3.md",
         "title": "Chapter 3: ยามราตรีในนานาอิ (The Shadow of Nanai)",
-        "path": "novels/BOF1 Novel/chapter3.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter3.md"
       },
       {
         "slug": "chapter4.md",
         "title": "Chapter 4: เจ้าหญิงผู้ถูกตัดปีก (The Princess of Wind)",
-        "path": "novels/BOF1 Novel/chapter4.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter4.md"
       },
       {
         "slug": "chapter5.md",
         "title": "Chapter 5: มนตราแห่งคาร์ม่า (The Sorcery of Karma)",
-        "path": "novels/BOF1 Novel/chapter5.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter5.md"
       },
       {
         "slug": "chapter6.md",
         "title": "Chapter 6: พายุที่หวนคืน (The Storm Reclaimed)",
-        "path": "novels/BOF1 Novel/chapter6.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter6.md"
       },
       {
         "slug": "chapter7.md",
         "title": "Chapter 7: หมาป่าแห่งผืนป่าพฤกษา (The Forest Wolf)",
-        "path": "novels/BOF1 Novel/chapter7.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter7.md"
       },
       {
         "slug": "chapter8.md",
         "title": "Chapter 8: สุสานสายน้ำและแหวนโบราณ (The Water Cave & Ring of Lament)",
-        "path": "novels/BOF1 Novel/chapter8.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter8.md"
       },
       {
         "slug": "chapter9.md",
         "title": "Chapter 9: ยักษ์ศิลาแห่งอากัว (The Stone Giant of Agua)",
-        "path": "novels/BOF1 Novel/chapter9.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter9.md"
       },
       {
         "slug": "chapter10.md",
         "title": "Chapter 10: ทลายทำนบกักสายน้ำ (Breaking the Dam)",
-        "path": "novels/BOF1 Novel/chapter10.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter10.md"
       },
       {
         "slug": "chapter11.md",
         "title": "Chapter 11: นครทองคำและความโลภ (Auria: The Golden Mirage)",
-        "path": "novels/BOF1 Novel/chapter11.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter11.md"
       },
       {
         "slug": "chapter12.md",
         "title": "Chapter 12: เล่ห์กลของจอมโจร (The Rogue's Gambit)",
-        "path": "novels/BOF1 Novel/chapter12.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter12.md"
       },
       {
         "slug": "chapter13.md",
         "title": "Chapter 13: สุสานโบราณและกับดักมรณะ (The Crypt of Krypt)",
-        "path": "novels/BOF1 Novel/chapter13.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter13.md"
       },
       {
         "slug": "chapter14.md",
         "title": "Chapter 14: ป้อมทมิฬในป่าสิ้นหวัง (Fort of the Black Dragon)",
-        "path": "novels/BOF1 Novel/chapter14.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter14.md"
       },
       {
         "slug": "chapter15.md",
         "title": "Chapter 15: สัญญากลางสมุทร (The Ocean Trader's Pact)",
-        "path": "novels/BOF1 Novel/chapter15.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter15.md"
       },
       {
         "slug": "chapter16.md",
         "title": "Chapter 16: ทั่งตีเหล็กแห่งกานต์ (The Anvil of Gant)",
-        "path": "novels/BOF1 Novel/chapter16.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter16.md"
       },
       {
         "slug": "chapter17.md",
         "title": "Chapter 17: จุดพลิกผัน ณ ป้อมนาบาล (Midpoint: The Shattered Promise)",
-        "path": "novels/BOF1 Novel/chapter17.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter17.md"
       },
       {
         "slug": "chapter18.md",
         "title": "Chapter 18: วิญญาณแม่มดและผืนทรายแห่งวิสดอน (The Witch of Wisdon)",
-        "path": "novels/BOF1 Novel/chapter18.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter18.md"
       },
       {
         "slug": "chapter19.md",
         "title": "Chapter 19: ศึกเพลิงผลาญน่านน้ำ (The Crimson Ocean)",
-        "path": "novels/BOF1 Novel/chapter19.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter19.md"
       },
       {
         "slug": "chapter20.md",
         "title": "Chapter 20: ค่ำคืนในฝันร้ายของเผ่าตุ่น (The Mole Clan's Nightmare)",
-        "path": "novels/BOF1 Novel/chapter20.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter20.md"
       },
       {
         "slug": "chapter21.md",
         "title": "Chapter 21: เขาวงกตแห่งความหวาดกลัว (Maze of Senses)",
-        "path": "novels/BOF1 Novel/chapter21.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter21.md"
       },
       {
         "slug": "chapter22.md",
         "title": "Chapter 22: ความหาญกล้าที่ฟื้นคืน (The Waking Courage)",
-        "path": "novels/BOF1 Novel/chapter22.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter22.md"
       },
       {
         "slug": "chapter23.md",
         "title": "Chapter 23: หอคอยแห่งผืนฟ้า (Tower of the Skies)",
-        "path": "novels/BOF1 Novel/chapter23.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter23.md"
       },
       {
         "slug": "chapter24.md",
         "title": "Chapter 24: หอคอยเหนือกาลเวลา (The Timeless Sanctuary)",
-        "path": "novels/BOF1 Novel/chapter24.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter24.md"
       },
       {
         "slug": "chapter25.md",
         "title": "Chapter 25: ทรราชย์แห่งเหล็กกล้า (The Iron Emperor's Demise)",
-        "path": "novels/BOF1 Novel/chapter25.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter25.md"
       },
       {
         "slug": "chapter26.md",
         "title": "Chapter 26: กลลวงของเจด (The Puppeteer's Trap / Jade's Betrayal)",
-        "path": "novels/BOF1 Novel/chapter26.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter26.md"
       },
       {
         "slug": "chapter27.md",
         "title": "Chapter 27: สู่ยอดหอคอยลอยฟ้า (The Ascent to Obelisk)",
-        "path": "novels/BOF1 Novel/chapter27.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter27.md"
       },
       {
         "slug": "chapter28.md",
         "title": "Chapter 28: ศึกสายเลือดกลางท้องฟ้า (The Bloodline Duel)",
-        "path": "novels/BOF1 Novel/chapter28.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter28.md"
       },
       {
         "slug": "chapter29.md",
         "title": "Chapter 29: อสูรร้ายและคำสัตย์แห่งความมืด (The Grim Fiend)",
-        "path": "novels/BOF1 Novel/chapter29.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter29.md"
       },
       {
         "slug": "chapter30.md",
         "title": "Chapter 30: อัคนีและวันพรุ่งนี้ที่ดีกว่า (Agni's Will: True Ending)",
-        "path": "novels/BOF1 Novel/chapter30.md"
+        "path": "novels/Breath of Fire 1 Novel/chapter30.md"
       }
     ]
   },
   {
-    "slug": "Bof2 Novel",
-    "title": "Bof2 Novel",
+    "slug": "Breath of Fire 2 Novel",
+    "title": "Breath Of Fire 2 Novel",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/Bof2 Novel/cover.png",
+    "cover": "novels/Breath of Fire 2 Novel/cover.png",
     "chapters": [
       {
         "slug": "Chapter_1.md",
         "title": "ตอนที่ 1: วิหารมังกรกลืนตะวัน",
-        "path": "novels/Bof2 Novel/Chapter_1.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_1.md"
       },
       {
         "slug": "Chapter_2.md",
         "title": "ตอนที่ 2: คืนที่โลกหลงลืม",
-        "path": "novels/Bof2 Novel/Chapter_2.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_2.md"
       },
       {
         "slug": "Chapter_3.md",
         "title": "ตอนที่ 3: นักล่าใต้เงาม่านหมอก",
-        "path": "novels/Bof2 Novel/Chapter_3.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_3.md"
       },
       {
         "slug": "Chapter_4.md",
         "title": "ตอนที่ 4: คดีโจรกรรมผ้าคลุมมนตรา",
-        "path": "novels/Bof2 Novel/Chapter_4.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_4.md"
       },
       {
         "slug": "Chapter_5.md",
         "title": "บทที่ 5: ลานประลองแห่งโคลอสเซียม",
-        "path": "novels/Bof2 Novel/Chapter_5.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_5.md"
       },
       {
         "slug": "Chapter_6.md",
         "title": "บทที่ 6: กรงเล็บและพิษร้าย",
-        "path": "novels/Bof2 Novel/Chapter_6.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_6.md"
       },
       {
         "slug": "Chapter_7.md",
         "title": "บทที่ 7: คำสาปปีกสีเขม่า",
-        "path": "novels/Bof2 Novel/Chapter_7.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_7.md"
       },
       {
         "slug": "Chapter_8.md",
         "title": "บทที่ 8: รังแมงมุมแห่งความเจ็บปวด",
-        "path": "novels/Bof2 Novel/Chapter_8.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_8.md"
       },
       {
         "slug": "Chapter_9.md",
         "title": "บทที่ 9: เมืองแห่งบ่อน้ำกลืนชีวิต",
-        "path": "novels/Bof2 Novel/Chapter_9.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_9.md"
       },
       {
         "slug": "Chapter_10.md",
         "title": "บทที่ 10: ทะเลเพลิงสะกดมังกร",
-        "path": "novels/Bof2 Novel/Chapter_10.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_10.md"
       },
       {
         "slug": "Chapter_11.md",
         "title": "ตอนที่ 11: หอคอยหินแห่งความใคร่",
-        "path": "novels/Bof2 Novel/Chapter_11.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_11.md"
       },
       {
         "slug": "Chapter_12.md",
         "title": "ตอนที่ 12: เจ้าชายกบแห่งซิม่าฟอร์ต",
-        "path": "novels/Bof2 Novel/Chapter_12.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_12.md"
       },
       {
         "slug": "Chapter_13.md",
         "title": "ตอนที่ 13: ท่อโสโครกและแหวนตรามังกร",
-        "path": "novels/Bof2 Novel/Chapter_13.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_13.md"
       },
       {
         "slug": "Chapter_14.md",
         "title": "ตอนที่ 14: ครัวนรกและแผนปีศาจแมลง",
-        "path": "novels/Bof2 Novel/Chapter_14.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_14.md"
       },
       {
         "slug": "Chapter_15.md",
         "title": "ตอนที่ 15: คุกใต้ดินและบาปของทรวด์",
-        "path": "novels/Bof2 Novel/Chapter_15.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_15.md"
       },
       {
         "slug": "Chapter_16.md",
         "title": "ตอนที่ 16: ท่วงทำนองแห่งวาฬโบราณ",
-        "path": "novels/Bof2 Novel/Chapter_16.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_16.md"
       },
       {
         "slug": "Chapter_17.md",
         "title": "ตอนที่ 17: คณะละครสัตว์ทลายวิญญาณ",
-        "path": "novels/Bof2 Novel/Chapter_17.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_17.md"
       },
       {
         "slug": "Chapter_18.md",
         "title": "ตอนที่ 18: กลิ่นอายสงครามแห่งไฮฟอร์ต",
-        "path": "novels/Bof2 Novel/Chapter_18.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_18.md"
       },
       {
         "slug": "Chapter_19.md",
         "title": "ตอนที่ 19: หัวใจของปืนใหญ่ล้างวิญญาณ",
-        "path": "novels/Bof2 Novel/Chapter_19.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_19.md"
       },
       {
         "slug": "Chapter_20.md",
         "title": "ตอนที่ 20: พยาธิมนตราในกายราชินี",
-        "path": "novels/Bof2 Novel/Chapter_20.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_20.md"
       },
       {
         "slug": "Chapter_21.md",
         "title": "ตอนที่ 21: สามหมู่บ้านจำลองแห่งความฝัน",
-        "path": "novels/Bof2 Novel/Chapter_21.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_21.md"
       },
       {
         "slug": "Chapter_22.md",
         "title": "ตอนที่ 22: สังเวยปีกขาวสู่ฟากฟ้า",
-        "path": "novels/Bof2 Novel/Chapter_22.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_22.md"
       },
       {
         "slug": "Chapter_23.md",
         "title": "ตอนที่ 23: ทัณฑสถานแห่งความศรัทธา",
-        "path": "novels/Bof2 Novel/Chapter_23.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_23.md"
       },
       {
         "slug": "Chapter_24.md",
         "title": "ตอนที่ 24: ดาบชำแหละพระเจ้า",
-        "path": "novels/Bof2 Novel/Chapter_24.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_24.md"
       },
       {
         "slug": "Chapter_25.md",
         "title": "ตอนที่ 25: บันทึกเลือดมังกรวารี",
-        "path": "novels/Bof2 Novel/Chapter_25.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_25.md"
       },
       {
         "slug": "Chapter_26.md",
         "title": "ตอนที่ 26: ดินแดนห้วงความตายและอันฟินี่",
-        "path": "novels/Bof2 Novel/Chapter_26.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_26.md"
       },
       {
         "slug": "Chapter_27.md",
         "title": "ตอนที่ 27: คริสตัลแห่งนิคาโนรู",
-        "path": "novels/Bof2 Novel/Chapter_27.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_27.md"
       },
       {
         "slug": "Chapter_28.md",
         "title": "ตอนที่ 28: ท้องฟ้าที่ไม่มีวันแห้งแล้ง",
-        "path": "novels/Bof2 Novel/Chapter_28.md"
+        "path": "novels/Breath of Fire 2 Novel/Chapter_28.md"
       }
     ]
   },
   {
-    "slug": "BOF3 Part 1",
-    "title": "BOF3 Part 1",
+    "slug": "Breath of Fire 3 Part 1",
+    "title": "Breath Of Fire 3 Part 1",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/BOF3 Part 1/cover.png",
+    "cover": "novels/Breath of Fire 3 Part 1/cover.png",
     "chapters": [
       {
         "slug": "Chapter_1_Sub-chapter_1.1.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_1_Sub-chapter_1.1.md"
       },
       {
         "slug": "Chapter_1_Sub-chapter_1.2.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_1_Sub-chapter_1.2.md"
       },
       {
         "slug": "Chapter_1_Sub-chapter_1.3.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_1_Sub-chapter_1.3.md"
       },
       {
         "slug": "Chapter_1_Sub-chapter_1.4.md",
         "title": "Chapter 1: ครรภ์แร่อัสดงและกระท่อมบนต้นไม้ (The Chrysm Womb)",
-        "path": "novels/BOF3 Part 1/Chapter_1_Sub-chapter_1.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_1_Sub-chapter_1.4.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.1.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_2_Sub-chapter_2.1.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.2.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_2_Sub-chapter_2.2.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.3.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_2_Sub-chapter_2.3.md"
       },
       {
         "slug": "Chapter_2_Sub-chapter_2.4.md",
         "title": "Chapter 2: บทลงโทษของนายพรานและอสูรแห่งกลอส (The Sentence and the Nue)",
-        "path": "novels/BOF3 Part 1/Chapter_2_Sub-chapter_2.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_2_Sub-chapter_2.4.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.1.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_3_Sub-chapter_3.1.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.2.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_3_Sub-chapter_3.2.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.3.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_3_Sub-chapter_3.3.md"
       },
       {
         "slug": "Chapter_3_Sub-chapter_3.4.md",
         "title": "Chapter 3: ภาพลวงตาของวีรบุรุษจอมโจร (The Robin Hood Heist)",
-        "path": "novels/BOF3 Part 1/Chapter_3_Sub-chapter_3.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_3_Sub-chapter_3.4.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.1.md",
         "title": "Chapter 4: เถ้าถ่านและเสียงคำรามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_4_Sub-chapter_4.1.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.2.md",
         "title": "Chapter 4: เถ้าถ่านและเสียงครามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_4_Sub-chapter_4.2.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.3.md",
         "title": "Chapter 4: เเถ้าถ่านและเสียงครามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_4_Sub-chapter_4.3.md"
       },
       {
         "slug": "Chapter_4_Sub-chapter_4.4.md",
         "title": "Chapter 4: เถ้าถ่านและเสียงครามที่เลือนหาย (The Ash of Cedar Woods)",
-        "path": "novels/BOF3 Part 1/Chapter_4_Sub-chapter_4.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_4_Sub-chapter_4.4.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.1.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_5_Sub-chapter_5.1.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.2.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_5_Sub-chapter_5.2.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.3.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_5_Sub-chapter_5.3.md"
       },
       {
         "slug": "Chapter_5_Sub-chapter_5.4.md",
         "title": "Chapter 5: ปีกที่ร่วงโรยและการหลบหนีสีเงิน (The Flight of the Winged Princess)",
-        "path": "novels/BOF3 Part 1/Chapter_5_Sub-chapter_5.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_5_Sub-chapter_5.4.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.1.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_6_Sub-chapter_6.1.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.2.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_6_Sub-chapter_6.2.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.3.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_6_Sub-chapter_6.3.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.4.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 1/Chapter_6_Sub-chapter_6.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_6_Sub-chapter_6.4.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.1.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_7_Sub-chapter_7.1.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.2.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_7_Sub-chapter_7.2.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.3.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_7_Sub-chapter_7.3.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.4.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 1/Chapter_7_Sub-chapter_7.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_7_Sub-chapter_7.4.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.1.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_8_Sub-chapter_8.1.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.2.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_8_Sub-chapter_8.2.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.3.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_8_Sub-chapter_8.3.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.4.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 1/Chapter_8_Sub-chapter_8.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_8_Sub-chapter_8.4.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.1.md",
         "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
-        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_9_Sub-chapter_9.1.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.2.md",
         "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
-        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_9_Sub-chapter_9.2.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.3.md",
         "title": "Chapter 9: ประภาคารแห่งความหวังและการเดินทางข้ามทะเล (The Lighthouse of Hope and the Ocean Crossing)",
-        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_9_Sub-chapter_9.3.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.4.md",
         "title": "Chapter 9: สายลมแห่งราพาลาส (The Winds of Rhapala)",
-        "path": "novels/BOF3 Part 1/Chapter_9_Sub-chapter_9.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_9_Sub-chapter_9.4.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.1.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_10_Sub-chapter_10.1.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.2.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_10_Sub-chapter_10.2.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.3.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_10_Sub-chapter_10.3.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.4.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 1/Chapter_10_Sub-chapter_10.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_10_Sub-chapter_10.4.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.1.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.1.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_11_Sub-chapter_11.1.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.2.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.2.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_11_Sub-chapter_11.2.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.3.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.3.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_11_Sub-chapter_11.3.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.4.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 1/Chapter_11_Sub-chapter_11.4.md"
+        "path": "novels/Breath of Fire 3 Part 1/Chapter_11_Sub-chapter_11.4.md"
       }
     ]
   },
   {
-    "slug": "BOF3 Part 2",
-    "title": "BOF3 Part 2",
+    "slug": "Breath of Fire 3 Part 2",
+    "title": "Breath Of Fire 3 Part 2",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/BOF3 Part 2/cover.png",
+    "cover": "novels/Breath of Fire 3 Part 2/cover.png",
     "chapters": [
       {
         "slug": "Chapter_6_Sub-chapter_6.1.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.1.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_6_Sub-chapter_6.1.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.2.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.2.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_6_Sub-chapter_6.2.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.3.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.3.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_6_Sub-chapter_6.3.md"
       },
       {
         "slug": "Chapter_6_Sub-chapter_6.4.md",
         "title": "Chapter 6: หอคอยจักรกลของนักปราชญ์ผู้วิปลาส (The Tower of Momo)",
-        "path": "novels/BOF3 Part 2/Chapter_6_Sub-chapter_6.4.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_6_Sub-chapter_6.4.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.1.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.1.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_7_Sub-chapter_7.1.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.2.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.2.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_7_Sub-chapter_7.2.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.3.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.3.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_7_Sub-chapter_7.3.md"
       },
       {
         "slug": "Chapter_7_Sub-chapter_7.4.md",
         "title": "Chapter 7: สิ่งมีชีวิตเทียมจากเถ้าขยะ (The Dump and the Seedling)",
-        "path": "novels/BOF3 Part 2/Chapter_7_Sub-chapter_7.4.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_7_Sub-chapter_7.4.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.1.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.1.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_8_Sub-chapter_8.1.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.2.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.2.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_8_Sub-chapter_8.2.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.3.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.3.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_8_Sub-chapter_8.3.md"
       },
       {
         "slug": "Chapter_8_Sub-chapter_8.4.md",
         "title": "Chapter 8: สังเวียนคนบาปและมังกรจำแลง (The Arena of Champions)",
-        "path": "novels/BOF3 Part 2/Chapter_8_Sub-chapter_8.4.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_8_Sub-chapter_8.4.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.1.md",
         "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
-        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.1.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_9_Sub-chapter_9.1.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.2.md",
         "title": "Chapter 9: ประภาคารชายฝั่งและไฟที่มอดดับ (The Beacon of Rhapala)",
-        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.2.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_9_Sub-chapter_9.2.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.3.md",
         "title": "Chapter 9: ประภาคารแห่งความหวังและการเดินทางข้ามทะเล (The Lighthouse of Hope and the Ocean Crossing)",
-        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.3.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_9_Sub-chapter_9.3.md"
       },
       {
         "slug": "Chapter_9_Sub-chapter_9.4.md",
         "title": "Chapter 9: สายลมแห่งราพาลาส (The Winds of Rhapala)",
-        "path": "novels/BOF3 Part 2/Chapter_9_Sub-chapter_9.4.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_9_Sub-chapter_9.4.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.1.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.1.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_10_Sub-chapter_10.1.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.2.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.2.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_10_Sub-chapter_10.2.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.3.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.3.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_10_Sub-chapter_10.3.md"
       },
       {
         "slug": "Chapter_10_Sub-chapter_10.4.md",
         "title": "Chapter 10: เพลิงภูเขาไฟและคำใบ้ของนักรบเออร์คัน (The Fires of Zublo)",
-        "path": "novels/BOF3 Part 2/Chapter_10_Sub-chapter_10.4.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_10_Sub-chapter_10.4.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.1.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.1.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_11_Sub-chapter_11.1.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.2.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.2.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_11_Sub-chapter_11.2.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.3.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.3.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_11_Sub-chapter_11.3.md"
       },
       {
         "slug": "Chapter_11_Sub-chapter_11.4.md",
         "title": "Chapter 11: คำพิพากษาสุดท้ายที่หอคอยนางฟ้า (The Betrayal at Angel Tower)",
-        "path": "novels/BOF3 Part 2/Chapter_11_Sub-chapter_11.4.md"
+        "path": "novels/Breath of Fire 3 Part 2/Chapter_11_Sub-chapter_11.4.md"
       }
     ]
   },
@@ -775,510 +775,510 @@
     ]
   },
   {
-    "slug": "FF1 Novel",
-    "title": "FF1 Novel",
+    "slug": "Final Fantasy 1 Novel",
+    "title": "Final Fantasy 1 Novel",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/FF1 Novel/cover.png",
+    "cover": "novels/Final Fantasy 1 Novel/cover.png",
     "chapters": [
       {
         "slug": "FF1Chapter1_1.md",
         "title": "FF1Chapter1 1",
-        "path": "novels/FF1 Novel/FF1Chapter1_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter1_1.md"
       },
       {
         "slug": "FF1Chapter1_2.md",
         "title": "ตอนที่ 1.2: คำอ้อนวอนของราชาเฒ่า และเงาของอดีตวีรบุรุษ Garland",
-        "path": "novels/FF1 Novel/FF1Chapter1_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter1_2.md"
       },
       {
         "slug": "FF1Chapter1_3.md",
         "title": "ตอนที่ 1.3: ความขัดแย้งของนักรบและการรับภารกิจแรก",
-        "path": "novels/FF1 Novel/FF1Chapter1_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter1_3.md"
       },
       {
         "slug": "FF1Chapter2_1.md",
         "title": "ตอนที่ 2.1: รอยคาวเลือดและฝูงอันเดดใน Chaos Shrine",
-        "path": "novels/FF1 Novel/FF1Chapter2_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter2_1.md"
       },
       {
         "slug": "FF1Chapter2_2.md",
         "title": "ตอนที่ 2.2: การปะทะกับ Garland และความจริงเบื้องหลังการลักพาตัว",
-        "path": "novels/FF1 Novel/FF1Chapter2_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter2_2.md"
       },
       {
         "slug": "FF1Chapter2_3.md",
         "title": "ตอนที่ 2.3: ปรากฏการณ์หลุมดำแห่งกาลเวลา และการช่วยเหลือเจ้าหญิง Sarah",
-        "path": "novels/FF1 Novel/FF1Chapter2_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter2_3.md"
       },
       {
         "slug": "FF1Chapter3_1.md",
         "title": "บทที่ 3.1: การซ่อมแซมสะพานเหนือ และภัยคุกคามที่รออยู่",
-        "path": "novels/FF1 Novel/FF1Chapter3_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter3_1.md"
       },
       {
         "slug": "FF1Chapter3_2.md",
         "title": "บทที่ 3.2: Pravoka เมืองท่าแห่งตัณหา โจรสลัด และความโสมม",
-        "path": "novels/FF1 Novel/FF1Chapter3_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter3_2.md"
       },
       {
         "slug": "FF1Chapter3_3.md",
         "title": "บทที่ 3.3: คมดาบในเงามืด การสังหารหมู่ Bikke และการยึดเรือพาณิชย์",
-        "path": "novels/FF1 Novel/FF1Chapter3_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter3_3.md"
       },
       {
         "slug": "FF1Chapter4_1.md",
         "title": "4.1: Elfheim ป่าไร้เสียง และเจ้าชายนิทราผู้ถูกสาป",
-        "path": "novels/FF1 Novel/FF1Chapter4_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter4_1.md"
       },
       {
         "slug": "FF1Chapter4_2.md",
         "title": "4.2: Matoya แม่มดตาบอดผู้เรียกร้องราคาของการมองเห็น",
-        "path": "novels/FF1 Novel/FF1Chapter4_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter4_2.md"
       },
       {
         "slug": "FF1Chapter4_3.md",
         "title": "4.3: ตัวตนจำแลงของกษัตริย์ Astos และคำลวงสู่หนองน้ำมรณะ",
-        "path": "novels/FF1 Novel/FF1Chapter4_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter4_3.md"
       },
       {
         "slug": "FF1Chapter5_1.md",
         "title": "Chapter 5: The Marsh of Lost Souls (หนองน้ำแห่งวิญญาณหลงทาง)",
-        "path": "novels/FF1 Novel/FF1Chapter5_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter5_1.md"
       },
       {
         "slug": "FF1Chapter5_2.md",
         "title": "Sub-chapter 5.2: การซุ่มโจมตีของ Piscodemon ท่ามกลางความมืดมิดและพิษร้าย",
-        "path": "novels/FF1 Novel/FF1Chapter5_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter5_2.md"
       },
       {
         "slug": "FF1Chapter5_3.md",
         "title": "Sub-chapter 5.3: มงกุฎมรณะ การเผยร่างของ Astos และความตายของราชาความมืด",
-        "path": "novels/FF1 Novel/FF1Chapter5_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter5_3.md"
       },
       {
         "slug": "FF1Chapter6_1.md",
         "title": "Sub-chapter 6.1: ล่องเรือสู่ Melmond แผ่นดินที่ถูกสูบกลืนความอุดมสมบูรณ์",
-        "path": "novels/FF1 Novel/FF1Chapter6_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter6_1.md"
       },
       {
         "slug": "FF1Chapter6_2.md",
         "title": "Sub-chapter 6.2: ถ้ำศพใต้ดิน การแลกเลือดกับ Vampire และการชิง Star Ruby",
-        "path": "novels/FF1 Novel/FF1Chapter6_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter6_2.md"
       },
       {
         "slug": "FF1Chapter6_3.md",
         "title": "Sub-chapter 6.3: Titan ผู้หิวโหย, ปราชญ์ Sadda และคทา Earth Rod",
-        "path": "novels/FF1 Novel/FF1Chapter6_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter6_3.md"
       },
       {
         "slug": "FF1Chapter7_1.md",
         "title": "Chapter 7: The Lich's Banquet",
-        "path": "novels/FF1 Novel/FF1Chapter7_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter7_1.md"
       },
       {
         "slug": "FF1Chapter7_2.md",
         "title": "Sub-chapter 7.2: ภาพหลอนของครอบครัวที่สูญเสีย และภาระของจิตวิญญาณ",
-        "path": "novels/FF1 Novel/FF1Chapter7_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter7_2.md"
       },
       {
         "slug": "FF1Chapter7_3.md",
         "title": "Sub-chapter 7.3: ปราบ Lich (Fiend แห่งดิน) การตื่นของคริสตัลดวงแรกที่แลกมาด้วยบาดแผล",
-        "path": "novels/FF1 Novel/FF1Chapter7_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter7_3.md"
       },
       {
         "slug": "FF1Chapter8_1.md",
         "title": "Chapter 8: The Heart of the Inferno",
-        "path": "novels/FF1 Novel/FF1Chapter8_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter8_1.md"
       },
       {
         "slug": "FF1Chapter8_2.md",
         "title": "Sub-chapter 8.2: ทะเลสาบลาวา การใช้เวทคุ้มกันที่แผดเผาพลังชีวิตของผู้ร่าย",
-        "path": "novels/FF1 Novel/FF1Chapter8_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter8_2.md"
       },
       {
         "slug": "FF1Chapter8_3.md",
         "title": "Sub-chapter 8.3: ศึกนองเลือดกับ Marilith (Fiend แห่งไฟ) สตรีหกแขนผู้บ้าคลั่ง",
-        "path": "novels/FF1 Novel/FF1Chapter8_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter8_3.md"
       },
       {
         "slug": "FF1Chapter9_1.md",
         "title": "Chapter 9: The Frozen Tomb (สุสานน้ำแข็ง)",
-        "path": "novels/FF1 Novel/FF1Chapter9_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter9_1.md"
       },
       {
         "slug": "FF1Chapter9_2.md",
         "title": "FF1Chapter9 2",
-        "path": "novels/FF1 Novel/FF1Chapter9_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter9_2.md"
       },
       {
         "slug": "FF1Chapter9_3.md",
         "title": "FF1Chapter9 3",
-        "path": "novels/FF1 Novel/FF1Chapter9_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter9_3.md"
       },
       {
         "slug": "FF1Chapter10_1.md",
         "title": "Chapter 10: คำพิพากษาของราชามังกร (The Dragon's Judgment)",
-        "path": "novels/FF1 Novel/FF1Chapter10_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter10_1.md"
       },
       {
         "slug": "FF1Chapter10_2.md",
         "title": "Sub-chapter 10.2: ก้าวสู่รังมังกร การเผชิญหน้ากับความยิ่งใหญ่ของ Bahamut",
-        "path": "novels/FF1 Novel/FF1Chapter10_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter10_2.md"
       },
       {
         "slug": "FF1Chapter10_3.md",
         "title": "Sub-chapter 10.3: Class Change: พิธีกรรมที่ฉีกกระชากวิญญาณเพื่อสละความเป็นมนุษย์",
-        "path": "novels/FF1 Novel/FF1Chapter10_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter10_3.md"
       },
       {
         "slug": "FF1Chapter11_1.md",
         "title": "Chapter 11.1: Oxyale แห่งชีวิต และการดำดิ่งสู่นครที่ถูกลืมใต้มหาสมุทร (Onrac)",
-        "path": "novels/FF1 Novel/FF1Chapter11_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter11_1.md"
       },
       {
         "slug": "FF1Chapter11_2.md",
         "title": "Chapter 11.2: ฝ่าแรงดันน้ำและอสุรกายทะเลลึกใน Sunken Shrine",
-        "path": "novels/FF1 Novel/FF1Chapter11_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter11_2.md"
       },
       {
         "slug": "FF1Chapter11_3.md",
         "title": "Chapter 11.3: โค่น Kraken (Fiend แห่งน้ำ) และการค้นพบ Rosetta Stone",
-        "path": "novels/FF1 Novel/FF1Chapter11_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter11_3.md"
       },
       {
         "slug": "FF1Chapter12_1.md",
         "title": "Chapter 12: เสียงกระซิบจากฟากฟ้า (The Whispers of the Sky)",
-        "path": "novels/FF1 Novel/FF1Chapter12_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter12_1.md"
       },
       {
         "slug": "FF1Chapter12_2.md",
         "title": "Sub-chapter 12.2: ฝ่าชั้นบรรยากาศทะลุ Mirage Tower สู่ปราสาทไร้ชีวิต Flying Fortress",
-        "path": "novels/FF1 Novel/FF1Chapter12_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter12_2.md"
       },
       {
         "slug": "FF1Chapter12_3.md",
         "title": "Sub-chapter 12.3: ปะทะ Tiamat (Fiend แห่งลม) และการขุดพบแร่ Adamantite",
-        "path": "novels/FF1 Novel/FF1Chapter12_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter12_3.md"
       },
       {
         "slug": "FF1Chapter13_1.md",
         "title": "Chapter 13: The 2,000-Year Descent (ดิ่งลึกสู่อดีตสองพันปี)",
-        "path": "novels/FF1 Novel/FF1Chapter13_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter13_1.md"
       },
       {
         "slug": "FF1Chapter13_2.md",
         "title": "Sub-chapter 13.2: การดีดประสานของ Lute และการฉีกทึ้งห้วงเวลาที่ Chaos Shrine",
-        "path": "novels/FF1 Novel/FF1Chapter13_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter13_2.md"
       },
       {
         "slug": "FF1Chapter13_3.md",
         "title": "Sub-chapter 13.3: การเดินทางสู่ Temple of Chaos ในอดีตกาลท่ามกลางความวิปริตของมิติ",
-        "path": "novels/FF1 Novel/FF1Chapter13_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter13_3.md"
       },
       {
         "slug": "FF1Chapter14_1.md",
         "title": "บทที่ 14.1: การเผชิญหน้ากับ 4 Fiends ในร่างอดีตที่สมบูรณ์แบบ",
-        "path": "novels/FF1 Novel/FF1Chapter14_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter14_1.md"
       },
       {
         "slug": "FF1Chapter14_2.md",
         "title": "บทที่ 14.2: การปรากฏตัวของ Garland และคำสารภาพถึงวงจรแห่งความทรมาน",
-        "path": "novels/FF1 Novel/FF1Chapter14_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter14_2.md"
       },
       {
         "slug": "FF1Chapter14_3.md",
         "title": "บทที่ 14.3: การก่อกำเนิดของ Chaos ปีศาจที่กลืนกินแสงสว่างของทุกสรรพสิ่ง",
-        "path": "novels/FF1 Novel/FF1Chapter14_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter14_3.md"
       },
       {
         "slug": "FF1Chapter15_1.md",
         "title": "Sub-chapter 15.1: สงครามข้ามเวลา การใช้เวทมนตร์และดาบที่สลายพลังชีวิตเฮือกสุดท้าย",
-        "path": "novels/FF1 Novel/FF1Chapter15_1.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter15_1.md"
       },
       {
         "slug": "FF1Chapter15_2.md",
         "title": "Sub-chapter 15.2: การใช้คริสตัลเพื่อทำลายลูปเวลา และการยอมรับชะตากรรมที่ต้องหายไป",
-        "path": "novels/FF1 Novel/FF1Chapter15_2.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter15_2.md"
       },
       {
         "slug": "FF1Chapter15_3.md",
         "title": "Sub-chapter 15.3: โลกใบใหม่ที่ปราศจากวีรบุรุษ หยาดน้ำตาของ Sarah และตำนานที่ไม่มีใครจำได้",
-        "path": "novels/FF1 Novel/FF1Chapter15_3.md"
+        "path": "novels/Final Fantasy 1 Novel/FF1Chapter15_3.md"
       }
     ]
   },
   {
-    "slug": "FF2 Novel",
-    "title": "FF2 Novel",
+    "slug": "Final Fantasy 2 Novel",
+    "title": "Final Fantasy 2 Novel",
     "author": "Unknown Author",
     "description": "No description available.",
-    "cover": "novels/FF2 Novel/cover.png",
+    "cover": "novels/Final Fantasy 2 Novel/cover.png",
     "chapters": [
       {
         "slug": "FF2 Chapter 1_1.md",
         "title": "ตอนที่ 1: การล่มสลายของฟินน์ (The Fall of Fynn)",
-        "path": "novels/FF2 Novel/FF2 Chapter 1_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 1_1.md"
       },
       {
         "slug": "FF2 Chapter 1_2.md",
         "title": "ตอนที่ 1: การล่มสลายของฟินน์ (The Fall of Fynn)",
-        "path": "novels/FF2 Novel/FF2 Chapter 1_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 1_2.md"
       },
       {
         "slug": "FF2 Chapter 1_3.md",
         "title": "ตอนที่ 1: การล่มสลายของฟินน์ (The Fall of Fynn)",
-        "path": "novels/FF2 Novel/FF2 Chapter 1_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 1_3.md"
       },
       {
         "slug": "FF2 Chapter 2_1.md",
         "title": "ตอนที่ 2: การลอบเร้นในดินแดนทมิฬ (The Infiltration of Fynn)",
-        "path": "novels/FF2 Novel/FF2 Chapter 2_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 2_1.md"
       },
       {
         "slug": "FF2 Chapter 2_2.md",
         "title": "ตอนที่ 2: การลอบเร้นในดินแดนทมิฬ (The Infiltration of Fynn)",
-        "path": "novels/FF2 Novel/FF2 Chapter 2_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 2_2.md"
       },
       {
         "slug": "FF2 Chapter 2_3.md",
         "title": "ตอนที่ 2: การลอบเร้นในดินแดนทมิฬ (The Infiltration of Fynn)",
-        "path": "novels/FF2 Novel/FF2 Chapter 2_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 2_3.md"
       },
       {
         "slug": "FF2 Chapter 3_1.md",
         "title": "ตอนที่ 3: ภารกิจแร่มนตรา (The Mythril Directive)",
-        "path": "novels/FF2 Novel/FF2 Chapter 3_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 3_1.md"
       },
       {
         "slug": "FF2 Chapter 3_2.md",
         "title": "ตอนที่ 3: ภารกิจแร่มนตรา (The Mythril Directive)",
-        "path": "novels/FF2 Novel/FF2 Chapter 3_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 3_2.md"
       },
       {
         "slug": "FF2 Chapter 3_3.md",
         "title": "ตอนที่ 3: ภารกิจแร่มนตรา (The Mythril Directive)",
-        "path": "novels/FF2 Novel/FF2 Chapter 3_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 3_3.md"
       },
       {
         "slug": "FF2 Chapter 4_1.md",
         "title": "ตอนที่ 4: การทลายเหมืองใต้ดิน (The Mines of Semitt Falls)",
-        "path": "novels/FF2 Novel/FF2 Chapter 4_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 4_1.md"
       },
       {
         "slug": "FF2 Chapter 4_2.md",
         "title": "ตอนที่ 4: การทลายเหมืองใต้ดิน (The Mines of Semitt Falls)",
-        "path": "novels/FF2 Novel/FF2 Chapter 4_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 4_2.md"
       },
       {
         "slug": "FF2 Chapter 4_3.md",
         "title": "ตอนที่ 4: การทลายเหมืองใต้ดิน (The Mines of Semitt Falls)",
-        "path": "novels/FF2 Novel/FF2 Chapter 4_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 4_3.md"
       },
       {
         "slug": "FF2 Chapter 5_1.md",
         "title": "ตอนที่ 5: ถ้ำหิมะและการจากลาของโจเซฟ (The Goddess's Bell and Josef's Sacrifice)",
-        "path": "novels/FF2 Novel/FF2 Chapter 5_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 5_1.md"
       },
       {
         "slug": "FF2 Chapter 5_2.md",
         "title": "ตอนที่ 5: ถ้ำหิมะและการจากลาของโจเซฟ (The Goddess's Bell and Josef's Sacrifice)",
-        "path": "novels/FF2 Novel/FF2 Chapter 5_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 5_2.md"
       },
       {
         "slug": "FF2 Chapter 5_3.md",
         "title": "ตอนที่ 5: ถ้ำหิมะและการจากลาของโจเซฟ (The Goddess's Bell and Josef's Sacrifice)",
-        "path": "novels/FF2 Novel/FF2 Chapter 5_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 5_3.md"
       },
       {
         "slug": "FF2 Chapter 6_1.md",
         "title": "ตอนที่ 6: ศึกยักษ์เหล็กน่านฟ้า (The Iron Colossus)",
-        "path": "novels/FF2 Novel/FF2 Chapter 6_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 6_1.md"
       },
       {
         "slug": "FF2 Chapter 6_2.md",
         "title": "ตอนที่ 6: ศึกยักษ์เหล็กน่านฟ้า (The Iron Colossus)",
-        "path": "novels/FF2 Novel/FF2 Chapter 6_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 6_2.md"
       },
       {
         "slug": "FF2 Chapter 6_3.md",
         "title": "ตอนที่ 6: ศึกยักษ์เหล็กน่านฟ้า (The Iron Colossus)",
-        "path": "novels/FF2 Novel/FF2 Chapter 6_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 6_3.md"
       },
       {
         "slug": "FF2 Chapter 7_1.md",
         "title": "ตอนที่ 7: เปลวไฟที่ Kashuan (Egil's Light)",
-        "path": "novels/FF2 Novel/FF2 Chapter 7_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 7_1.md"
       },
       {
         "slug": "FF2 Chapter 7_2.md",
         "title": "ตอนที่ 7: เปลวไฟที่ Kashuan (Egil's Light)",
-        "path": "novels/FF2 Novel/FF2 Chapter 7_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 7_2.md"
       },
       {
         "slug": "FF2 Chapter 7_3.md",
         "title": "ตอนที่ 7: เปลวไฟที่ Kashuan (Egil's Light)",
-        "path": "novels/FF2 Novel/FF2 Chapter 7_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 7_3.md"
       },
       {
         "slug": "FF2 Chapter 8_1.md",
         "title": "ตอนที่ 8: บุกเรือรบเวหา (Storming the Sky Giant)",
-        "path": "novels/FF2 Novel/FF2 Chapter 8_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 8_1.md"
       },
       {
         "slug": "FF2 Chapter 8_2.md",
         "title": "ตอนที่ 8: บุกเรือรบเวหา (Storming the Sky Giant)",
-        "path": "novels/FF2 Novel/FF2 Chapter 8_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 8_2.md"
       },
       {
         "slug": "FF2 Chapter 8_3.md",
         "title": "ตอนที่ 8: บุกเรือรบเวหา (Storming the Sky Giant)",
-        "path": "novels/FF2 Novel/FF2 Chapter 8_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 8_3.md"
       },
       {
         "slug": "FF2 Chapter 9_1.md",
         "title": "ตอนที่ 9: ดินแดนดรากูนที่โรยรา (The Poisoned Skies of Deist)",
-        "path": "novels/FF2 Novel/FF2 Chapter 9_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 9_1.md"
       },
       {
         "slug": "FF2 Chapter 9_2.md",
         "title": "ตอนย่อย 9.2: ท่าเรือปาลูมและเรือโจรสลัด (Port Paloom and the Pirate Ship)",
-        "path": "novels/FF2 Novel/FF2 Chapter 9_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 9_2.md"
       },
       {
         "slug": "FF2 Chapter 9_3.md",
         "title": "ตอนย่อย 9.3: เกาะแห่งซากกระดูกและเสียงกระซิบของมังกรลม (Island of Bones and Whispering Wyverns)",
-        "path": "novels/FF2 Novel/FF2 Chapter 9_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 9_3.md"
       },
       {
         "slug": "FF2 Chapter 9_4.md",
         "title": "ตอนย่อย 9.4: บ่อน้ำพุศักดิ์สิทธิ์และไข่มังกรตัวสุดท้าย (The Sacred Spring and the Dragon's Egg)",
-        "path": "novels/FF2 Novel/FF2 Chapter 9_4.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 9_4.md"
       },
       {
         "slug": "FF2 Chapter 10_1.md",
         "title": "ตอนที่ 10: กับดักอารีน่า (The Serpent's Arena)",
-        "path": "novels/FF2 Novel/FF2 Chapter 10_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 10_1.md"
       },
       {
         "slug": "FF2 Chapter 10_2.md",
         "title": "ตอนย่อย 10.2: สนามประลองโคลอสเซียมและอสุรกายเบเฮมอท (The Coliseum Arena and the Behemoth)",
-        "path": "novels/FF2 Novel/FF2 Chapter 10_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 10_2.md"
       },
       {
         "slug": "FF2 Chapter 10_3.md",
         "title": "ตอนย่อย 10.3: การบุกชิงตัวในคุกใต้ดิน (Rescue from the Arena Dungeons)",
-        "path": "novels/FF2 Novel/FF2 Chapter 10_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 10_3.md"
       },
       {
         "slug": "FF2 Chapter 11_1.md",
         "title": "ตอนที่ 11: ทวงคืนสายใย (The Reclamation)",
-        "path": "novels/FF2 Novel/FF2 Chapter 11_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 11_1.md"
       },
       {
         "slug": "FF2 Chapter 11_2.md",
         "title": "ตอนย่อย 11.2: ศึกบัลลังก์กษัตริย์ (Battle on the Throne Room)",
-        "path": "novels/FF2 Novel/FF2 Chapter 11_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 11_2.md"
       },
       {
         "slug": "FF2 Chapter 11_3.md",
         "title": "ตอนย่อย 11.3: ปราสาทฟื้นฟูและแดนมนตราที่เงียบงัน (Fynn Restored and the Silent Mysidia)",
-        "path": "novels/FF2 Novel/FF2 Chapter 11_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 11_3.md"
       },
       {
         "slug": "FF2 Chapter 12_1.md",
         "title": "ตอนที่ 12: วิญญาณสวมหน้ากาก (Dual Masks of Magic)",
-        "path": "novels/FF2 Novel/FF2 Chapter 12_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 12_1.md"
       },
       {
         "slug": "FF2 Chapter 12_2.md",
         "title": "ตอนย่อย 12.2: การล่องเรือสู่เกาะเขตร้อนชื้น (The Voyage to the Tropical Island)",
-        "path": "novels/FF2 Novel/FF2 Chapter 12_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 12_2.md"
       },
       {
         "slug": "FF2 Chapter 12_3.md",
         "title": "ตอนย่อย 12.3: ร่างเงาแห่งถ้ำมนตรา (Doppelganger of Mysidian Cave)",
-        "path": "novels/FF2 Novel/FF2 Chapter 12_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 12_3.md"
       },
       {
         "slug": "FF2 Chapter 13_1.md",
         "title": "ตอนที่ 13: กลืนกินในหุบเหวมหาสมุทร (Swallowed by the Abyss)",
-        "path": "novels/FF2 Novel/FF2 Chapter 13_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 13_1.md"
       },
       {
         "slug": "FF2 Chapter 13_2.md",
         "title": "ตอนย่อย 13.2: ส่วนลึกในช่องท้องลีไวอาซัน (Bowels of the Leviathan)",
-        "path": "novels/FF2 Novel/FF2 Chapter 13_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 13_2.md"
       },
       {
         "slug": "FF2 Chapter 13_3.md",
         "title": "ตอนย่อย 13.3: อัศวินมังกรริคาร์ดและปรสิตแบร์เรลเวิร์ม (Ricard the Dragoon and the Barrel Worm)",
-        "path": "novels/FF2 Novel/FF2 Chapter 13_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 13_3.md"
       },
       {
         "slug": "FF2 Chapter 14_1.md",
         "title": "ตอนที่ 14: หอคอยมนตราแห่งวิญญาณ (The Ascent of Mysidia)",
-        "path": "novels/FF2 Novel/FF2 Chapter 14_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 14_1.md"
       },
       {
         "slug": "FF2 Chapter 14_2.md",
         "title": "ตอนย่อย 14.2: ผู้พิทักษ์ธาตุทั้งสาม (Elemental Guardians)",
-        "path": "novels/FF2 Novel/FF2 Chapter 14_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 14_2.md"
       },
       {
         "slug": "FF2 Chapter 14_3.md",
         "title": "ตอนย่อย 14.3: ปลดผนึกคัมภีร์ต้องห้าม (Breaking the Forbidden Seal)",
-        "path": "novels/FF2 Novel/FF2 Chapter 14_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 14_3.md"
       },
       {
         "slug": "FF2 Chapter 15_1.md",
         "title": "ตอนที่ 15: พายุพิฆาตจักรวรรดิ (The Cyclone)",
-        "path": "novels/FF2 Novel/FF2 Chapter 15_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 15_1.md"
       },
       {
         "slug": "FF2 Chapter 15_2.md",
         "title": "ตอนย่อย 15.2: เจตนารมณ์สุดท้ายของซิด (The Will of Cid)",
-        "path": "novels/FF2 Novel/FF2 Chapter 15_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 15_2.md"
       },
       {
         "slug": "FF2 Chapter 15_3.md",
         "title": "ตอนย่อย 15.3: ศึกตัดสินในพายุทมิฬ (Confrontation inside the Cyclone)",
-        "path": "novels/FF2 Novel/FF2 Chapter 15_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 15_3.md"
       },
       {
         "slug": "FF2 Chapter 16_1.md",
         "title": "ตอนที่ 16: บัลลังก์เกราะทมิฬ (Throne of the Emperor)",
-        "path": "novels/FF2 Novel/FF2 Chapter 16_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 16_1.md"
       },
       {
         "slug": "FF2 Chapter 16_2.md",
         "title": "ตอนย่อย 16.2: บุกปราสาทพาราเมเกีย (Castle Palamecia Infiltration)",
-        "path": "novels/FF2 Novel/FF2 Chapter 16_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 16_2.md"
       },
       {
         "slug": "FF2 Chapter 16_3.md",
         "title": "ตอนย่อย 16.3: การคืนชีพของจักรพรรดิและการเสียสละของริคาร์ด (The Resurrected Emperor and the Dragon's Flight)",
-        "path": "novels/FF2 Novel/FF2 Chapter 16_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 16_3.md"
       },
       {
         "slug": "FF2 Chapter 17_1.md",
         "title": "ตอนที่ 17: ศึกอวสานนรกโลกันตร์ (Pandaemonium)",
-        "path": "novels/FF2 Novel/FF2 Chapter 17_1.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 17_1.md"
       },
       {
         "slug": "FF2 Chapter 17_2.md",
         "title": "ตอนย่อย 17.2: ใต้ร่มเงาปราสาทแพนเดโมนียม (In the Shadow of Pandemonium)",
-        "path": "novels/FF2 Novel/FF2 Chapter 17_2.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 17_2.md"
       },
       {
         "slug": "FF2 Chapter 17_3.md",
         "title": "ตอนย่อย 17.3: ศึกสุดท้ายล้มจอมอสูรมาเทอุส (Confronting the Master of Hell)",
-        "path": "novels/FF2 Novel/FF2 Chapter 17_3.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 17_3.md"
       },
       {
         "slug": "FF2 Chapter 17_4.md",
         "title": "ตอนย่อย 17.4: แสงรุ่งอรุณและเงาสะท้อนจากอดีต (The Dawn of a Broken Peace)",
-        "path": "novels/FF2 Novel/FF2 Chapter 17_4.md"
+        "path": "novels/Final Fantasy 2 Novel/FF2 Chapter 17_4.md"
       }
     ]
   },
@@ -1528,25 +1528,6 @@
         "slug": "Goemon3Chapter9_6.md",
         "title": "ตอนที่ 9.6: บทส่งท้าย: ดังโงะแห่งมิตรภาพ และ Laugh Track ที่ดังไม่หยุด",
         "path": "novels/Goemon 3 Novel/Goemon3Chapter9_6.md"
-      }
-    ]
-  },
-  {
-    "slug": "the-shadow-chronicles",
-    "title": "The Shadow Chronicles",
-    "author": "A. S. Writer",
-    "description": "An epic fantasy story of light and dark forces battling for control of the ancient kingdom of Eldoria.",
-    "cover": "novels/the-shadow-chronicles/cover.png",
-    "chapters": [
-      {
-        "slug": "01-introduction.md",
-        "title": "Introduction: The Awakening",
-        "path": "novels/the-shadow-chronicles/01-introduction.md"
-      },
-      {
-        "slug": "02-chapter-1.md",
-        "title": "Chapter 1: The Quest Begins",
-        "path": "novels/the-shadow-chronicles/02-chapter-1.md"
       }
     ]
   }
