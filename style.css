@@ -1153,3 +1153,196 @@ body.toc-open .reading-viewport {
     pointer-events: none;
   }
 }
+
+/* ==========================================================================
+   LIBRARY TABS & SUPPORT SECTION
+   ========================================================================== */
+.library-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0 24px 0;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-radius: var(--border-radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.tab-btn svg {
+  transition: transform var(--transition-fast);
+}
+
+.tab-btn:hover {
+  color: var(--text-primary);
+  background-color: var(--border-color);
+}
+
+.tab-btn:hover svg {
+  transform: translateY(-1px);
+}
+
+.tab-btn.active {
+  color: var(--accent-color);
+  background-color: var(--border-color);
+  box-shadow: inset 0 -2px 0 var(--accent-color);
+}
+
+.support-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px 8px;
+  animation: fadeIn var(--transition-medium);
+}
+
+.donation-card {
+  background-color: #121212; /* Clean deep black matching the screenshot */
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 440px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  font-family: 'Sarabun', 'Inter', sans-serif;
+  border: 1px solid #222;
+}
+
+.donation-header .donation-emojis {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.donation-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 8px 0 16px 0;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.donation-subtitle {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #b0b0b0;
+  margin: 0 auto 24px auto;
+  max-width: 360px;
+}
+
+.qr-code-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.qr-code-box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  width: 200px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.qr-code-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.qr-caption {
+  font-size: 0.75rem;
+  color: #333333;
+  font-weight: bold;
+  margin: 4px 0 0 0;
+}
+
+.donation-details-box {
+  border: 1px solid #333333;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  background-color: #1a1a1a;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.details-row:last-child {
+  border-bottom: none;
+}
+
+.details-label {
+  color: #888888;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.details-val {
+  color: #ffffff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.details-val.font-mono {
+  font-family: 'Consolas', monospace;
+  letter-spacing: 0.05em;
+}
+
+.status-dot {
+  font-size: 0.7rem;
+  margin-left: 4px;
+}
+
+.btn-copy {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  border: 1px solid #444444;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all var(--transition-fast);
+}
+
+.btn-copy:hover {
+  background-color: #3e3e3e;
+  border-color: #666666;
+}
+
+.btn-copy.copied {
+  background-color: #2e7d32;
+  border-color: #388e3c;
+  color: #ffffff;
+}
+
+.donation-footer {
+  font-size: 0.82rem;
+  color: #888888;
+  line-height: 1.5;
+  margin: 0;
+}
+

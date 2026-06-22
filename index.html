@@ -100,8 +100,20 @@
           <p class="subtitle">เลือกนิยายเพื่อเริ่มเข้าสู่โหมดการอ่านแบบ Kindle ถนอมสายตา</p>
         </div>
 
+        <!-- Library / Support Tabs -->
+        <div class="library-tabs">
+          <button id="tab-library" class="tab-btn active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span>ชั้นหนังสือ</span>
+          </button>
+          <button id="tab-support" class="tab-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            <span>เลี้ยงกาแฟ</span>
+          </button>
+        </div>
+
         <!-- Search Bar -->
-        <div class="search-container">
+        <div id="search-section" class="search-container">
           <div class="search-box">
             <!-- Inline SVG for Search -->
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -114,6 +126,48 @@
           <div class="loading-spinner">
             <div class="spinner"></div>
             <p>กำลังโหลดคลังนิยาย...</p>
+          </div>
+        </div>
+
+        <!-- Support Section -->
+        <div id="support-container" class="support-container hidden">
+          <div class="donation-card">
+            <div class="donation-header">
+              <span class="donation-emojis">🎁 ☕</span>
+              <h2>ถ้าอยากเลี้ยงกาแฟผม</h2>
+              <p class="donation-subtitle">
+                ถ้าแอปนี้ช่วยมีประโยชน์หรือถูกใจ ร่วมสนับสนุนเปย์ค่าเมล็ดกาแฟให้นักชงตัวน้อยๆ ได้ช่องทางนี้เลยนะครับ 🥰
+              </p>
+            </div>
+            
+            <div class="qr-code-wrapper">
+              <div class="qr-code-box">
+                <img src="./qr-code.png" alt="สแกนเพื่อจ่ายค่ากาแฟ" class="qr-code-image">
+                <p class="qr-caption">สแกนเพื่อจ่ายค่ากาแฟ 📱</p>
+              </div>
+            </div>
+            
+            <div class="donation-details-box">
+              <div class="details-row">
+                <span class="details-label">🏢 ธนาคาร:</span>
+                <span class="details-val">กสิกรไทย (K-Bank) <span class="status-dot">🟢</span></span>
+              </div>
+              <div class="details-row">
+                <span class="details-label">👤 ชื่อบัญชี:</span>
+                <span class="details-val">นบนรินทร์ จินดานิช</span>
+              </div>
+              <div class="details-row">
+                <span class="details-label">💳 เลขบัญชี:</span>
+                <span class="details-val font-mono">
+                  <span id="acc-num-text">016-3-95073-1</span>
+                  <button id="btn-copy-acc" class="btn-copy">COPY</button>
+                </span>
+              </div>
+            </div>
+            
+            <p class="donation-footer">
+              ทุกการสนับสนุนคือเชื้อเพลิงชั้นยอดของบาริสต้าตังแตก ขอบคุณมากๆ เลยนะครับ! 💛☕
+            </p>
           </div>
         </div>
       </div>

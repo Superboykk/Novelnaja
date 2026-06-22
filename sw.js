@@ -7,7 +7,8 @@ const ASSETS_TO_CACHE = [
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
-  './novels.json'
+  './novels.json',
+  './qr-code.png'
 ];
 
 // Install Event: Cache Core Assets

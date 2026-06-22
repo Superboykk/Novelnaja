@@ -41,6 +41,12 @@ const readingProgressContainer = document.getElementById('reading-progress-conta
 const readerViewport = document.getElementById('reading-viewport');
 const readerContent = document.getElementById('reader-content');
 
+// Library Tabs & Support Elements
+const tabLibrary = document.getElementById('tab-library');
+const tabSupport = document.getElementById('tab-support');
+const supportContainer = document.getElementById('support-container');
+const searchSection = document.getElementById('search-section');
+
 // Navigation buttons
 const btnPrevChapter = document.getElementById('btn-prev-chapter');
 const btnNextChapter = document.getElementById('btn-next-chapter');
@@ -197,6 +203,15 @@ function showLibraryView() {
   appTitle.classList.remove('hidden');
   readerControls.classList.add('hidden');
   readingProgressContainer.classList.add('hidden');
+
+  // Reset tab active state
+  if (tabLibrary && tabSupport) {
+    tabLibrary.classList.add('active');
+    tabSupport.classList.remove('active');
+    searchSection.classList.remove('hidden');
+    bookshelfGrid.classList.remove('hidden');
+    supportContainer.classList.add('hidden');
+  }
 
   // Refresh Bookshelf grid to show updated reading progress bars
   renderBookshelf();
@@ -684,6 +699,48 @@ btnFloatTop.addEventListener('click', () => {
     behavior: 'smooth'
   });
 });
+
+// Tab Switching between Bookshelf and Support
+if (tabLibrary && tabSupport && supportContainer && searchSection) {
+  tabLibrary.addEventListener('click', () => {
+    tabLibrary.classList.add('active');
+    tabSupport.classList.remove('active');
+    
+    searchSection.classList.remove('hidden');
+    bookshelfGrid.classList.remove('hidden');
+    supportContainer.classList.add('hidden');
+  });
+
+  tabSupport.addEventListener('click', () => {
+    tabSupport.classList.add('active');
+    tabLibrary.classList.remove('active');
+    
+    searchSection.classList.add('hidden');
+    bookshelfGrid.classList.add('hidden');
+    supportContainer.classList.remove('hidden');
+  });
+}
+
+// Copy Account Number to Clipboard
+const btnCopyAcc = document.getElementById('btn-copy-acc');
+const accNumText = document.getElementById('acc-num-text');
+
+if (btnCopyAcc && accNumText) {
+  btnCopyAcc.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const cleanNumber = accNumText.textContent.replace(/-/g, '').trim();
+    navigator.clipboard.writeText(cleanNumber).then(() => {
+      btnCopyAcc.textContent = 'COPIED!';
+      btnCopyAcc.classList.add('copied');
+      setTimeout(() => {
+        btnCopyAcc.textContent = 'COPY';
+        btnCopyAcc.classList.remove('copied');
+      }, 2000);
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  });
+}
 
 // Bookshelf Search bar input listener
 searchInput.addEventListener('input', () => {
