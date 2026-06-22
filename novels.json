@@ -1009,6 +1009,280 @@
     ]
   },
   {
+    "slug": "FF2 Novel",
+    "title": "FF2 Novel",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/FF2 Novel/cover.png",
+    "chapters": [
+      {
+        "slug": "FF2 Chapter 1_1.md",
+        "title": "ตอนที่ 1: การล่มสลายของฟินน์ (The Fall of Fynn)",
+        "path": "novels/FF2 Novel/FF2 Chapter 1_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 1_2.md",
+        "title": "ตอนที่ 1: การล่มสลายของฟินน์ (The Fall of Fynn)",
+        "path": "novels/FF2 Novel/FF2 Chapter 1_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 1_3.md",
+        "title": "ตอนที่ 1: การล่มสลายของฟินน์ (The Fall of Fynn)",
+        "path": "novels/FF2 Novel/FF2 Chapter 1_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 2_1.md",
+        "title": "ตอนที่ 2: การลอบเร้นในดินแดนทมิฬ (The Infiltration of Fynn)",
+        "path": "novels/FF2 Novel/FF2 Chapter 2_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 2_2.md",
+        "title": "ตอนที่ 2: การลอบเร้นในดินแดนทมิฬ (The Infiltration of Fynn)",
+        "path": "novels/FF2 Novel/FF2 Chapter 2_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 2_3.md",
+        "title": "ตอนที่ 2: การลอบเร้นในดินแดนทมิฬ (The Infiltration of Fynn)",
+        "path": "novels/FF2 Novel/FF2 Chapter 2_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 3_1.md",
+        "title": "ตอนที่ 3: ภารกิจแร่มนตรา (The Mythril Directive)",
+        "path": "novels/FF2 Novel/FF2 Chapter 3_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 3_2.md",
+        "title": "ตอนที่ 3: ภารกิจแร่มนตรา (The Mythril Directive)",
+        "path": "novels/FF2 Novel/FF2 Chapter 3_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 3_3.md",
+        "title": "ตอนที่ 3: ภารกิจแร่มนตรา (The Mythril Directive)",
+        "path": "novels/FF2 Novel/FF2 Chapter 3_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 4_1.md",
+        "title": "ตอนที่ 4: การทลายเหมืองใต้ดิน (The Mines of Semitt Falls)",
+        "path": "novels/FF2 Novel/FF2 Chapter 4_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 4_2.md",
+        "title": "ตอนที่ 4: การทลายเหมืองใต้ดิน (The Mines of Semitt Falls)",
+        "path": "novels/FF2 Novel/FF2 Chapter 4_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 4_3.md",
+        "title": "ตอนที่ 4: การทลายเหมืองใต้ดิน (The Mines of Semitt Falls)",
+        "path": "novels/FF2 Novel/FF2 Chapter 4_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 5_1.md",
+        "title": "ตอนที่ 5: ถ้ำหิมะและการจากลาของโจเซฟ (The Goddess's Bell and Josef's Sacrifice)",
+        "path": "novels/FF2 Novel/FF2 Chapter 5_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 5_2.md",
+        "title": "ตอนที่ 5: ถ้ำหิมะและการจากลาของโจเซฟ (The Goddess's Bell and Josef's Sacrifice)",
+        "path": "novels/FF2 Novel/FF2 Chapter 5_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 5_3.md",
+        "title": "ตอนที่ 5: ถ้ำหิมะและการจากลาของโจเซฟ (The Goddess's Bell and Josef's Sacrifice)",
+        "path": "novels/FF2 Novel/FF2 Chapter 5_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 6_1.md",
+        "title": "ตอนที่ 6: ศึกยักษ์เหล็กน่านฟ้า (The Iron Colossus)",
+        "path": "novels/FF2 Novel/FF2 Chapter 6_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 6_2.md",
+        "title": "ตอนที่ 6: ศึกยักษ์เหล็กน่านฟ้า (The Iron Colossus)",
+        "path": "novels/FF2 Novel/FF2 Chapter 6_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 6_3.md",
+        "title": "ตอนที่ 6: ศึกยักษ์เหล็กน่านฟ้า (The Iron Colossus)",
+        "path": "novels/FF2 Novel/FF2 Chapter 6_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 7_1.md",
+        "title": "ตอนที่ 7: เปลวไฟที่ Kashuan (Egil's Light)",
+        "path": "novels/FF2 Novel/FF2 Chapter 7_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 7_2.md",
+        "title": "ตอนที่ 7: เปลวไฟที่ Kashuan (Egil's Light)",
+        "path": "novels/FF2 Novel/FF2 Chapter 7_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 7_3.md",
+        "title": "ตอนที่ 7: เปลวไฟที่ Kashuan (Egil's Light)",
+        "path": "novels/FF2 Novel/FF2 Chapter 7_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 8_1.md",
+        "title": "ตอนที่ 8: บุกเรือรบเวหา (Storming the Sky Giant)",
+        "path": "novels/FF2 Novel/FF2 Chapter 8_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 8_2.md",
+        "title": "ตอนที่ 8: บุกเรือรบเวหา (Storming the Sky Giant)",
+        "path": "novels/FF2 Novel/FF2 Chapter 8_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 8_3.md",
+        "title": "ตอนที่ 8: บุกเรือรบเวหา (Storming the Sky Giant)",
+        "path": "novels/FF2 Novel/FF2 Chapter 8_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 9_1.md",
+        "title": "ตอนที่ 9: ดินแดนดรากูนที่โรยรา (The Poisoned Skies of Deist)",
+        "path": "novels/FF2 Novel/FF2 Chapter 9_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 9_2.md",
+        "title": "ตอนย่อย 9.2: ท่าเรือปาลูมและเรือโจรสลัด (Port Paloom and the Pirate Ship)",
+        "path": "novels/FF2 Novel/FF2 Chapter 9_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 9_3.md",
+        "title": "ตอนย่อย 9.3: เกาะแห่งซากกระดูกและเสียงกระซิบของมังกรลม (Island of Bones and Whispering Wyverns)",
+        "path": "novels/FF2 Novel/FF2 Chapter 9_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 9_4.md",
+        "title": "ตอนย่อย 9.4: บ่อน้ำพุศักดิ์สิทธิ์และไข่มังกรตัวสุดท้าย (The Sacred Spring and the Dragon's Egg)",
+        "path": "novels/FF2 Novel/FF2 Chapter 9_4.md"
+      },
+      {
+        "slug": "FF2 Chapter 10_1.md",
+        "title": "ตอนที่ 10: กับดักอารีน่า (The Serpent's Arena)",
+        "path": "novels/FF2 Novel/FF2 Chapter 10_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 10_2.md",
+        "title": "ตอนย่อย 10.2: สนามประลองโคลอสเซียมและอสุรกายเบเฮมอท (The Coliseum Arena and the Behemoth)",
+        "path": "novels/FF2 Novel/FF2 Chapter 10_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 10_3.md",
+        "title": "ตอนย่อย 10.3: การบุกชิงตัวในคุกใต้ดิน (Rescue from the Arena Dungeons)",
+        "path": "novels/FF2 Novel/FF2 Chapter 10_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 11_1.md",
+        "title": "ตอนที่ 11: ทวงคืนสายใย (The Reclamation)",
+        "path": "novels/FF2 Novel/FF2 Chapter 11_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 11_2.md",
+        "title": "ตอนย่อย 11.2: ศึกบัลลังก์กษัตริย์ (Battle on the Throne Room)",
+        "path": "novels/FF2 Novel/FF2 Chapter 11_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 11_3.md",
+        "title": "ตอนย่อย 11.3: ปราสาทฟื้นฟูและแดนมนตราที่เงียบงัน (Fynn Restored and the Silent Mysidia)",
+        "path": "novels/FF2 Novel/FF2 Chapter 11_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 12_1.md",
+        "title": "ตอนที่ 12: วิญญาณสวมหน้ากาก (Dual Masks of Magic)",
+        "path": "novels/FF2 Novel/FF2 Chapter 12_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 12_2.md",
+        "title": "ตอนย่อย 12.2: การล่องเรือสู่เกาะเขตร้อนชื้น (The Voyage to the Tropical Island)",
+        "path": "novels/FF2 Novel/FF2 Chapter 12_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 12_3.md",
+        "title": "ตอนย่อย 12.3: ร่างเงาแห่งถ้ำมนตรา (Doppelganger of Mysidian Cave)",
+        "path": "novels/FF2 Novel/FF2 Chapter 12_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 13_1.md",
+        "title": "ตอนที่ 13: กลืนกินในหุบเหวมหาสมุทร (Swallowed by the Abyss)",
+        "path": "novels/FF2 Novel/FF2 Chapter 13_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 13_2.md",
+        "title": "ตอนย่อย 13.2: ส่วนลึกในช่องท้องลีไวอาซัน (Bowels of the Leviathan)",
+        "path": "novels/FF2 Novel/FF2 Chapter 13_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 13_3.md",
+        "title": "ตอนย่อย 13.3: อัศวินมังกรริคาร์ดและปรสิตแบร์เรลเวิร์ม (Ricard the Dragoon and the Barrel Worm)",
+        "path": "novels/FF2 Novel/FF2 Chapter 13_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 14_1.md",
+        "title": "ตอนที่ 14: หอคอยมนตราแห่งวิญญาณ (The Ascent of Mysidia)",
+        "path": "novels/FF2 Novel/FF2 Chapter 14_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 14_2.md",
+        "title": "ตอนย่อย 14.2: ผู้พิทักษ์ธาตุทั้งสาม (Elemental Guardians)",
+        "path": "novels/FF2 Novel/FF2 Chapter 14_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 14_3.md",
+        "title": "ตอนย่อย 14.3: ปลดผนึกคัมภีร์ต้องห้าม (Breaking the Forbidden Seal)",
+        "path": "novels/FF2 Novel/FF2 Chapter 14_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 15_1.md",
+        "title": "ตอนที่ 15: พายุพิฆาตจักรวรรดิ (The Cyclone)",
+        "path": "novels/FF2 Novel/FF2 Chapter 15_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 15_2.md",
+        "title": "ตอนย่อย 15.2: เจตนารมณ์สุดท้ายของซิด (The Will of Cid)",
+        "path": "novels/FF2 Novel/FF2 Chapter 15_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 15_3.md",
+        "title": "ตอนย่อย 15.3: ศึกตัดสินในพายุทมิฬ (Confrontation inside the Cyclone)",
+        "path": "novels/FF2 Novel/FF2 Chapter 15_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 16_1.md",
+        "title": "ตอนที่ 16: บัลลังก์เกราะทมิฬ (Throne of the Emperor)",
+        "path": "novels/FF2 Novel/FF2 Chapter 16_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 16_2.md",
+        "title": "ตอนย่อย 16.2: บุกปราสาทพาราเมเกีย (Castle Palamecia Infiltration)",
+        "path": "novels/FF2 Novel/FF2 Chapter 16_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 16_3.md",
+        "title": "ตอนย่อย 16.3: การคืนชีพของจักรพรรดิและการเสียสละของริคาร์ด (The Resurrected Emperor and the Dragon's Flight)",
+        "path": "novels/FF2 Novel/FF2 Chapter 16_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 17_1.md",
+        "title": "ตอนที่ 17: ศึกอวสานนรกโลกันตร์ (Pandaemonium)",
+        "path": "novels/FF2 Novel/FF2 Chapter 17_1.md"
+      },
+      {
+        "slug": "FF2 Chapter 17_2.md",
+        "title": "ตอนย่อย 17.2: ใต้ร่มเงาปราสาทแพนเดโมนียม (In the Shadow of Pandemonium)",
+        "path": "novels/FF2 Novel/FF2 Chapter 17_2.md"
+      },
+      {
+        "slug": "FF2 Chapter 17_3.md",
+        "title": "ตอนย่อย 17.3: ศึกสุดท้ายล้มจอมอสูรมาเทอุส (Confronting the Master of Hell)",
+        "path": "novels/FF2 Novel/FF2 Chapter 17_3.md"
+      },
+      {
+        "slug": "FF2 Chapter 17_4.md",
+        "title": "ตอนย่อย 17.4: แสงรุ่งอรุณและเงาสะท้อนจากอดีต (The Dawn of a Broken Peace)",
+        "path": "novels/FF2 Novel/FF2 Chapter 17_4.md"
+      }
+    ]
+  },
+  {
     "slug": "Goemon 3 Novel",
     "title": "Goemon 3 Novel",
     "author": "Unknown Author",
