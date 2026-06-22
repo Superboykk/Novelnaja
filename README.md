@@ -1,104 +1,65 @@
-# Kindle Novel Reader PWA
+# 📖 Kindle Novel Reader PWA (แอปอ่านนิยายสไตล์ Kindle)
 
-A premium, Kindle-like Progressive Web Application (PWA) designed to read offline novels. It is hosted on GitHub Pages and reads novels from the `./novels` directory. It features warm reading themes, typographic customization, offline support, search capabilities, and automatic index updates via GitHub Actions.
-
----
-
-## Features
-
-- **📚 Beautiful Bookshelf Grid**: Lists all indexed novels with cover images, descriptions, authors, and real-time reading progress.
-- **🔍 Book Search**: Filter books instantly by title, author, or description.
-- **📖 Kindle-Like Reading Interface**:
-  - **Reading Themes**: Light Paper, Warm Sepia, Sage Mint Green, Muted Newsprint Grey, and OLED Black.
-  - **Custom Typography**: Serif (Lora/Merriweather) or Sans-serif (Sarabun/Inter), with 6 font sizes, 3 text-width layouts, and 3 line-height adjustments.
-  - **Typographical Indentation**: Classical novel typesetting (automatic indenting on inner paragraphs, no-indent on leading paragraphs).
-- **💾 Automatic Progress Recovery**: Tracks your exact reading chapter and scroll percentage for every novel. Open any book to resume reading exactly where you left off.
-- **📑 Sidebar Table of Contents**: View chapter lists, complete with checkmarks indicating which chapters have been read.
-- **📱 PWA Offline Support**: Installs on mobile or desktop and caches books and chapters for offline reading (e.g., in subways or airplanes).
-- **🤖 GitHub Pages Auto-Update**: Adding a new folder to the `novels/` directory and pushing it to GitHub automatically triggers a build action to update the bookshelf index.
+ยินดีต้อนรับสู่ **Kindle Novel Reader**! แอปพลิเคชันอ่านนิยายแบบ PWA (Progressive Web App) ที่ออกแบบมาให้มีหน้าตาและการใช้งานที่เรียบง่าย สบายตา และมีฟีเจอร์ปรับแต่งหลากหลายเสมือนอ่านบนเครื่อง Kindle รองรับการอ่านแบบออฟไลน์ และสามารถใช้งานบนเว็บหรือติดตั้งลงบนโทรศัพท์มือถือ/คอมพิวเตอร์ของคุณได้โดยตรง
 
 ---
 
-## Project Structure
+## 🚀 แนะนำการใช้งานเบื้องต้น (User Guide)
 
-```
-Novel App/
-├── .github/workflows/
-│   └── deploy.yml       # GitHub Actions automated deployment workflow
-├── novels/                  # Novel folders (Add your novels here!)
-│   ├── Bof2 Novel/
-│   ├── KGB Naruto novel/
-│   └── the-shadow-chronicles/
-├── generate-index.js        # Node script that scans novels/ and creates novels.json
-├── server.js                # Built-in zero-dependency local web server
-├── index.html               # Main app page (shelf and reading views)
-├── style.css                # Visual themes and responsive layouts
-├── app.js                   # Application state, router, and Markdown parser
-├── manifest.json            # PWA manifest
-├── sw.js                    # Service worker for offline caching
-├── icon-192.png             # PWA app icons
-├── icon-512.png
-├── novels.json              # Compiled database of books (auto-generated)
-└── package.json             # NPM package script helper
-```
+1. **การเข้าใช้งานแอปพลิเคชัน**:
+   - เปิดลิงก์เว็บแอปพลิเคชันผ่านบราวเซอร์ของคุณ (เช่น Google Chrome, Safari หรือ Edge)
+   - หน้าแรกจะแสดง **ชั้นหนังสือ (Bookshelf)** ที่มีรายชื่อนิยายทั้งหมดพร้อมหน้าปกและจำนวนตอน
+
+2. **การติดตั้งแอป (PWA)**:
+   - หากใช้งานบน Google Chrome หรือ Safari คุณสามารถกดปุ่ม **"เพิ่มไปยังหน้าจอหลัก" (Add to Home Screen)** หรือกดไอคอนรูปคอมพิวเตอร์/เครื่องหมายบวกที่แถบที่อยู่เว็บเพื่อติดตั้งแอปพลิเคชันลงบนเครื่องได้ทันที ซึ่งจะทำให้อ่านนิยายได้รวดเร็วขึ้นและรองรับการใช้งานออฟไลน์
+
+3. **การอ่านนิยาย**:
+   - คลิกที่ปกนิยายเรื่องที่ต้องการอ่านจากชั้นหนังสือ
+   - ระบบจะเปิดตอนล่าสุดที่คุณอ่านค้างไว้ หรือตอนแรกสุดโดยอัตนัย
+
+4. **การปรับแต่งแถบควบคุมการอ่าน (Customization Menu)**:
+   - คลิก/แตะที่แถบเมนูด้านบนหรือบริเวณกึ่งกลางหน้าจอขณะอ่านเพื่อเปิดเมนูตั้งค่า
+   - **ธีมการอ่าน (Themes)**: เลือกโทนสีที่ต้องการ เช่น กระดาษขาว (Light Paper), ถนอมสายตา (Warm Sepia), เขียวพาสเทล (Sage Mint Green), เทาหนังสือพิมพ์ (Muted Newsprint), หรือจอมืด (OLED Black)
+   - **แบบอักษร (Fonts)**: สลับระหว่างแบบอักษรมีหัว (Serif - Lora/Merriweather) หรือไม่มีหัว (Sans-serif - Sarabun/Inter)
+   - **ขนาดอักษร (Font Size)**: ปรับขนาดตัวอักษรได้ 6 ระดับ
+   - **ความกว้างของหน้าจอ (Layout Width)**: ปรับระยะขอบข้อความได้ 3 ระดับ
+   - **ระยะห่างระหว่างบรรทัด (Line Height)**: ปรับความโปร่งของย่อหน้าได้ 3 ระดับ
+
+5. **เมนูสารบัญและการจดจำตำแหน่งอ่านค้าง**:
+   - กดปุ่มไอคอนสารบัญด้านบนเพื่อเลือกบทเรียนหรือตอนต่างๆ
+   - แอปจะจดจำบทที่อ่านล่าสุดและตำแหน่งที่เลื่อนค้างไว้โดยอัตโนมัติ เมื่อเปิดเข้ามาใหม่จะเริ่มอ่านต่อได้ทันที
 
 ---
 
-## How to Add New Novels
+## 📚 รายชื่อนิยายในระบบ (Novels List)
 
-To add a new novel, create a folder inside the `novels/` directory:
+นี่คือรายชื่อนิยายทั้งหมดที่มีอยู่ในระบบปัจจุบันพร้อมภาพปกและจำนวนตอน:
 
-1. **Folder Name**: The name of the folder is used to generate the book's slug and default title (e.g. `novels/My-New-Novel`).
-2. **Chapters**: Add chapters as Markdown (`.md`) files. They will be sorted in natural numeric order (e.g., `Chapter_1.md`, `Chapter_2.md`... `Chapter_10.md`).
-3. **Cover Image**: Add a cover image (`.png`, `.jpg`, `.jpeg`, `.webp`, or `.gif`). The script looks for a file named `cover` or `thumbnail` (e.g., `cover.png`), falling back to the first image in the folder if not found.
-4. **Metadata (Optional)**: Add a `metadata.json` file inside the novel folder to customize details:
+| หน้าปก (Cover) | ชื่อนิยาย (Title) | รายละเอียดเบื้องต้น (Description) | จำนวนตอน (Chapters) |
+| :---: | :--- | :--- | :---: |
+| <img src="novels/BOF1%20Novel/cover.png" width="120" alt="BOF1 Novel"> | **BOF1 Novel** | นิยายผจญภัยสุดคลาสสิกของนักรบแห่งเผ่ามังกรขาวในการกอบกู้โลกจากจักรวรรดิมังกรดำ | 30 ตอน |
+| <img src="novels/Bof2%20Novel/cover.png" width="120" alt="Bof2 Novel"> | **Bof2 Novel** | ตำนานบทใหม่ของเด็กหนุ่มผู้ถูกโลกหลงลืมและชะตากรรมที่ต้องเผชิญหน้ากับความศรัทธาที่บิดเบี้ยว | 28 ตอน |
+| <img src="novels/BOF3%20Part%201/cover.png" width="120" alt="BOF3 Part 1"> | **BOF3 Part 1** | การเดินทางของริว เด็กหนุ่มผู้สืบทอดพลังมังกรโบราณในครึ่งแรกของการเดินทางแสวงหาความจริง | 44 ตอน |
+| <img src="novels/BOF3%20Part%202/cover.png" width="120" alt="BOF3 Part 2"> | **BOF3 Part 2** | บทสรุปการผจญภัยของริวและพรรคพวกเพื่อเผชิญหน้ากับพระผู้สร้างและค้นหาความหมายของชีวิต | 24 ตอน |
+| <img src="novels/DWM2%20Novel/cover.png" width="120" alt="DWM2 Novel"> | **DWM2 Novel** | การเดินทางทะลุมิติของเด็กหญิงและเด็กชายผู้เป็นผู้ฝึกมอนสเตอร์เพื่อปกป้องเกาะบ้านเกิดของตน | 20 ตอน |
+| <img src="novels/FF1%20Novel/cover.png" width="120" alt="FF1 Novel"> | **FF1 Novel** | มหากาพย์นักรบแห่งแสงทั้งสี่กับการทำลายลูปเวลา 2,000 ปีเพื่อช่วยเหลืออาณาจักรคอร์เนเลีย | 45 ตอน |
+| <img src="novels/Goemon%203%20Novel/cover.png" width="120" alt="Goemon 3 Novel"> | **Goemon 3 Novel** | การผจญภัยข้ามเวลาสุดป่วนของโกเอมอนนินจาจอมกะล่อนและหุ่นยักษ์อิมแพคในยุคนีโอเอโดะ | 48 ตอน |
+| <img src="novels/the-shadow-chronicles/cover.png" width="120" alt="The Shadow Chronicles"> | **The Shadow Chronicles** | An epic fantasy story of light and dark forces battling for control of the ancient kingdom of Eldoria. | 2 ตอน |
+
+---
+
+## 🛠️ วิธีการเพิ่มนิยายเรื่องใหม่ (For Developers)
+
+หากต้องการเพิ่มนิยายเข้าไปในระบบ:
+1. สร้างโฟลเดอร์นิยายใหม่ไว้ภายใต้ `novels/` (เช่น `novels/My-New-Novel`)
+2. ใส่ตอนของนิยายในรูปแบบไฟล์ Markdown (`.md`) โดยตั้งชื่อเรียงตามลำดับ เช่น `Chapter_1.md`, `Chapter_2.md`
+3. วางภาพหน้าปกในโฟลเดอร์ โดยตั้งชื่อไฟล์เป็น `cover.png` หรือภาพประเภทอื่น เช่น `.jpg`
+4. (ตัวเลือกเสริม) เพิ่มไฟล์ `metadata.json` ในโฟลเดอร์เพื่อกำหนดชื่อเรื่อง ผู้เขียน และคำอธิบายนิยาย:
    ```json
    {
-     "title": "My Custom Book Title",
-     "author": "Author Name",
-     "description": "An epic description of your story."
+     "title": "ชื่อนิยายของคุณ",
+     "author": "ชื่อผู้แต่ง",
+     "description": "คำอธิบายหรือเนื้อเรื่องย่อ"
    }
    ```
-
----
-
-## Local Development
-
-You can run and test the application locally without installing any external dependencies.
-
-1. **Compile the novels database**:
-   Run this command in the project root to scan the `novels/` directory and compile the database `novels.json`:
-   ```bash
-   npm run generate
-   # or
-   node generate-index.js
-   ```
-
-2. **Start the local web server**:
-   Start the zero-dependency web server:
-   ```bash
-   npm start
-   # or
-   node server.js
-   ```
-
-3. **Open the App**:
-   Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
-
----
-
-## Automatic Deployment to GitHub Pages
-
-The project contains a GitHub Action that automates index generation and deployment:
-
-1. **Push Changes**: When you add a new novel folder to `novels/` locally, commit it and push it to your GitHub repository:
-   ```bash
-   git add novels/
-   git commit -m "Add new novel: My Novel"
-   git push origin main
-   ```
-2. **Automatic Deployment**: The workflow `.github/workflows/deploy.yml` will automatically trigger in GitHub Actions. It will run `node generate-index.js` to update the index and deploy the website to GitHub Pages.
-3. **Update Complete**: In a few minutes, your GitHub Pages site will automatically refresh with the newly added book!
+5. รันคำสั่งคอมไพล์ดัชนีด้วยคำสั่ง `node generate-index.js` หรือทำการ Commit และ Push ไปยัง GitHub เพื่อให้ GitHub Actions รันคอมไพล์และอัปเดตเว็บให้อัตโนมัติ!
