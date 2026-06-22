@@ -43,6 +43,7 @@
 | <img src="novels/BOF3%20Part%202/cover.png" width="120" alt="BOF3 Part 2"> | **BOF3 Part 2** | บทสรุปการผจญภัยของริวและพรรคพวกเพื่อเผชิญหน้ากับพระผู้สร้างและค้นหาความหมายของชีวิต | 24 ตอน |
 | <img src="novels/DWM2%20Novel/cover.png" width="120" alt="DWM2 Novel"> | **DWM2 Novel** | การเดินทางทะลุมิติของเด็กหญิงและเด็กชายผู้เป็นผู้ฝึกมอนสเตอร์เพื่อปกป้องเกาะบ้านเกิดของตน | 20 ตอน |
 | <img src="novels/FF1%20Novel/cover.png" width="120" alt="FF1 Novel"> | **FF1 Novel** | มหากาพย์นักรบแห่งแสงทั้งสี่กับการทำลายลูปเวลา 2,000 ปีเพื่อช่วยเหลืออาณาจักรคอร์เนเลีย | 45 ตอน |
+| <img src="novels/FF2%20Novel/cover.png" width="120" alt="FF2 Novel"> | **FF2 Novel** | มหากาพย์การต่อสู้ของกลุ่มต่อต้านเพื่อโค่นล้มจักรวรรดิพาลามีเซียและเผชิญหน้ากับจักรพรรดิทมิฬ | 53 ตอน |
 | <img src="novels/Goemon%203%20Novel/cover.png" width="120" alt="Goemon 3 Novel"> | **Goemon 3 Novel** | การผจญภัยข้ามเวลาสุดป่วนของโกเอมอนนินจาจอมกะล่อนและหุ่นยักษ์อิมแพคในยุคนีโอเอโดะ | 48 ตอน |
 | <img src="novels/the-shadow-chronicles/cover.png" width="120" alt="The Shadow Chronicles"> | **The Shadow Chronicles** | An epic fantasy story of light and dark forces battling for control of the ancient kingdom of Eldoria. | 2 ตอน |
 
