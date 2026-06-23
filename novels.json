@@ -666,6 +666,360 @@
     ]
   },
   {
+    "slug": "Breath of Fire 4",
+    "title": "Breath Of Fire 4",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Breath of Fire 4/cover.png",
+    "chapters": [
+      {
+        "slug": "BOF4 Chapter1_1.md",
+        "title": "ตอนที่ 1: การตื่นรู้แห่งทวิเทวะ (Awakening)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_1.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_2.md",
+        "title": "บทที่ 1: การตื่นรู้แห่งทวิเทวะ (Awakening)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_2.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_3.md",
+        "title": "ตอนที่ 1.3: ตลาดซารายและสายตาของฝุ่นผง",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_3.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_4.md",
+        "title": "ตอนย่อยที่ 1.4: หุบเขารถร่อนและเศษชิ้นส่วนอารยธรรม",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_4.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_5.md",
+        "title": "Sub-chapter 1.5: แชมบ้า เมืองที่หายใจใต้ไอพิษ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_5.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_6.md",
+        "title": "ตอนที่ 1.6: ซากหมอกแชมบ้าเหนือและผู้อาศัยในเกราะเหล็ก",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_6.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_7.md",
+        "title": "ตอนที่ 1.7: ห้วงฝันข้ามทวีปและเสียงกรีดร้องสีม่วง",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_7.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_8.md",
+        "title": "ตอนที่ 1.8: หุบเขาคุร็อกและการเผชิญหน้ากับวอเรนเสือ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_8.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_9.md",
+        "title": "ตอนที่ 1.9: เพลงของดินและเสียงเรียกร้องแห่งสายน้ำ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_9.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_10.md",
+        "title": "ตอนที่ 1.10: คีเรีย เมืองกับดักนอกรอยต่อ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_10.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_11.md",
+        "title": "ตอนที่ 1.11: ผืนป่าพรานป่าและผู้ใหญ่บ้านที่ติดแร้ว",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_11.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_12.md",
+        "title": "ตอนที่ 1: การตื่นรู้แห่งทวิเทวะ (Awakening)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_12.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_13.md",
+        "title": "ตอนที่ 1.13: บ้านเด็กกำพร้าไซเนสตาและซิสเตอร์ไลต้า",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_13.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_14.md",
+        "title": "ตอนที่ 1.14: ความมืดใต้พื้นห้องใต้ดินและขโมยหัวใจทราม",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_14.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_15.md",
+        "title": "ตอนที่ 1.15: รังโจรนอกด่านชายแดนและสัญญาของมาร์ลอค",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_15.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_16.md",
+        "title": "ตอนที่ 1.16: ลานรถร่อนฝุ่นผงและการเดินทางทอดข้ามทะเลทราย",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_16.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_17.md",
+        "title": "ตอนย่อย 1.17: ยอดเขาซิงก้าและเส้นทางด่านปิด",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_17.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_18.md",
+        "title": "ตอนที่ 1.18: คิโออิน เมืองป้อมปราการและเสียงหัวเราะของราสโซ่",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_18.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_19.md",
+        "title": "บทที่ 1.19: ประตูเชื่อมแดนเวทมนตร์บิดเบี้ยวและการปะทะข้ามขอบฟ้า",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_19.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_20.md",
+        "title": "ตอนที่ 1.20: เมืองแอสทาน่าใต้เงาสถาบันวิจัย",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_20.md"
+      },
+      {
+        "slug": "BOF4 Chapter1_21.md",
+        "title": "ตอนที่ 1.21: ท่อระบายน้ำก้อนเนื้อและชะตากรรมที่ล่มสลาย",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter1_21.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_1.md",
+        "title": "ตอนที่ 2: บ่วงกรรมอันไร้สิ้นสุด (Endless)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_1.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_2.md",
+        "title": "ตอนที่ 2: บ่วงกรรมอันไร้สิ้นสุด (Endless)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_2.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_3.md",
+        "title": "ตอนที่ 2.3: หมู่บ้านวอเรนท์และตำนานของเผ่าเสือ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_3.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_4.md",
+        "title": "ตอนที่ 2.4: ที่ราบแผ่นดินทองคำและรอยร้าวของมังกรลม",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_4.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_5.md",
+        "title": "ตอนที่ 2.5: ยอดเขากลอมและเสียงสะท้อนโบราณ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_5.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_6.md",
+        "title": "ตอนที่ 2.6: ความฝันของแฟรี่ล่มสลายและการต่อสู้ในห้วงนิทรา",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_6.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_7.md",
+        "title": "ตอนที่ 2.7: ปราสาทลูเดียยามราตรีและปฏิบัติการชิงของสำคัญ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_7.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_8.md",
+        "title": "ตอนที่ 2.8: วิหารมังกรศักดิ์สิทธิ์และเกียรติแห่งคมดาบ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_8.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_9.md",
+        "title": "ตอนที่ 2: บ่วงกรรมอันไร้สิ้นสุด (Endless)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_9.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_10.md",
+        "title": "ตอนที่ 2.10: อาณาจักรวินเดียและการต้อนรับในท้องพระโรงใหญ่",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_10.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_11.md",
+        "title": "ตอนที่ 2.11: ป่าคาสก์ลึกและผู้พิทักษ์ขลุ่ยสายลม",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_11.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_12.md",
+        "title": "ตอนที่ 2.12: ใต้ดินมหาวิหารวินเดียและความทรงจำสีทอง",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_12.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_13.md",
+        "title": "Sub-chapter 2.13: ยอดหอคอยพุงแตปและการเปิดเสียงขลุ่ยสายลม",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_13.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_14.md",
+        "title": "ตอนที่ 2.14: ยอดเขาน้ำแข็งพายุและไออุ่นแห่งความห่วงใย",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_14.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_15.md",
+        "title": "ตอนที่ 15: หมู่บ้านเช็คกลางหุบเขาและเจ้าอธิการลึกลับ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_15.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_16.md",
+        "title": "ตอนย่อย 2.16: สู่ห้วงลึกในเกราะเหล็ก ปลดปล่อยดีส",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_16.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_17.md",
+        "title": "ตอนที่ 2.17: กระท่อมซอนเน่และซุปอุ่นของมามิ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_17.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_18.md",
+        "title": "ตอนที่ 2.18: เสรีภาพของดีสและตัวตนใหม่ของเออร์ชิน",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_18.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_19.md",
+        "title": "ตอนที่ 2.19: วิหารซินชอนและศิลามังกรโบราณ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_19.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_20.md",
+        "title": "ตอนย่อยที่ 2.20: ภูเขาไฟโยกิระเบิดเพลิงและการแสดงเดชเทวะ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_20.md"
+      },
+      {
+        "slug": "BOF4 Chapter2_21.md",
+        "title": "ตอนที่ 2.21: หมู่บ้านร้าง การล่าสังหารของราสโซ่และกำเนิดมังกรคลั่ง",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter2_21.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_1.md",
+        "title": "ตอนย่อยที่ 3.1: ศาลเจ้าศักดิ์สิทธิ์และการลี้ภัยของปฐมจักรพรรดิ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_1.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_2.md",
+        "title": "ตอนที่ 3.2: คาร์โรเนดสังหารผืนป่าและกระดิ่งมามิ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_2.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_3.md",
+        "title": "บทที่ 3.3: หุบเขาริฟต์ตึกชันและการสกัดกั้นจิตมังกร",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_3.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_4.md",
+        "title": "ตอนที่ 3.4: ท่าเรือทรายไชด์และความพยายามเปิดรถร่อนข้ามแดน",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_4.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_5.md",
+        "title": "ตอนที่ 3.5: หุบเขากิก้าและแนวกันฝุ่นทหารศัตรู",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_5.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_6.md",
+        "title": "ตอนที่ 3.6: เจรจาด่านทหารและความเสียสละของเออร์ซูล่า",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_6.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_7.md",
+        "title": "ตอนที่ 3.7: เมืองท่าชิคก์และบทเพลงบูชาเทพทะเล",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_7.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_8.md",
+        "title": "BOF4 Chapter3 8",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_8.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_9.md",
+        "title": "ตอนที่ 3.9: เดินเรือฝ่าพายุกระหน่ำและเงายักษ์ใต้สมุทร",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_9.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_10.md",
+        "title": "ตอนย่อยที่ 3.10: เกาะภูเขาไฟและอัคคีมังกรแห่งเจตจำนง",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_10.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_11.md",
+        "title": "ตอนที่ 3.11: หมู่บ้านลิปริมฝั่งและความสงบชั่วคราว",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_11.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_12.md",
+        "title": "ตอนที่ 12: ป่าทึบตะวันตกดงอสูรป่าดิบชื้น",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_12.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_13.md",
+        "title": "ตอนที่ 13: เผ่าภูตพับพับและอุปสรรคของการสื่อภาษา",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_13.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_14.md",
+        "title": "ตอนที่ 14: ที่ราบลุ่มเลนตมน้ำหลากและการลุยเลนนำพา",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_14.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_15.md",
+        "title": "ตอนที่ 3.15: หมู่บ้านโคชก้าดินเผาและเงื่อนงำทางเดิน",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_15.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_16.md",
+        "title": "ตอนที่ 3.16: แม่น้ำชานล่องแก่งซุงลอยและวิถีลุยแก่ง",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_16.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_17.md",
+        "title": "ตอนที่ 17: เมืองชิคิวน่านน้ำค้าและข่าวคาร์โรเนดมอดไหม้",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_17.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_18.md",
+        "title": "ตอนที่ 3.18: โบราณสถานเอ็นโจว ซากวิทยาการการสังเวยเทพ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_18.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_19.md",
+        "title": "ตอนที่ 3.19: สะพานแม่น้ำกลางและสัญญาณเตือนในวิญญาณ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_19.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_20.md",
+        "title": "ตอนที่ 3.20: ที่ราบพอกและสัตว์ประหลาดป่าดิบชื้น",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_20.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_21.md",
+        "title": "ตอนที่ 3.21: สุสานหลวงปฐมกษัตริย์และคมดาบล้างอสูรวอนคู",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_21.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_22.md",
+        "title": "ตอนที่ 3.22: ซากมุกโตโบราณและการสะสมพลังมังกร",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_22.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_23.md",
+        "title": "ตอนที่ 3.23: สถาบันวิจัยแอสทาน่าและการทรมานกายเนื้ออมตะ",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_23.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_24.md",
+        "title": "ตอนที่ 3.24: ทางหลวงพายุน้ำฝนหมอกพิษและประกายจิตมืด",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_24.md"
+      },
+      {
+        "slug": "BOF4 Chapter3_25.md",
+        "title": "บทที่ 3: กระแสน้ำแห่งโชคชะตา (Streams)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter3_25.md"
+      },
+      {
+        "slug": "BOF4 Chapter4_1.md",
+        "title": "บทที่ 4: สิ่งที่มลายหายไป (That Which Passes)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter4_1.md"
+      },
+      {
+        "slug": "BOF4 Chapter4_2.md",
+        "title": "บทที่ 4: สิ่งที่มลายหายไป (That Which Passes)",
+        "path": "novels/Breath of Fire 4/BOF4 Chapter4_2.md"
+      }
+    ]
+  },
+  {
     "slug": "DWM2 Novel",
     "title": "DWM2 Novel",
     "author": "Unknown Author",
