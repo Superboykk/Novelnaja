@@ -39,6 +39,7 @@
 | :---: | :--- | :--- | :---: |
 | <img src="novels/Breath%20of%20Fire%201%20Novel/cover.png" width="120" alt="Breath of Fire 1 Novel"> | **Breath of Fire 1 Novel** | นิยายผจญภัยสุดคลาสสิกของนักรบแห่งเผ่ามังกรขาวในการกอบกู้โลกจากจักรวรรดิมังกรดำ | 30 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Novel/cover.png" width="120" alt="Breath of Fire 2 Novel"> | **Breath of Fire 2 Novel** | ตำนานบทใหม่ของเด็กหนุ่มผู้ถูกโลกหลงลืมและชะตากรรมที่ต้องเผชิญหน้ากับความศรัทธาที่บิดเบี้ยว | 28 ตอน |
+| <img src="novels/Breath%20of%20Fire%202%20Remake/cover.png" width="120" alt="Breath of Fire 2 Remake"> | **Breath of Fire 2 Remake** | การผจญภัยและการต่อสู้ของริวและพรรคพวกในภาค 2 ฉบับเรียบเรียงใหม่ | 39 ตอน |
 | <img src="novels/Breath%20of%20Fire%203%20Part%201/cover.png" width="120" alt="Breath of Fire 3 Part 1"> | **Breath of Fire 3 Part 1** | การเดินทางของริว เด็กหนุ่มผู้สืบทอดพลังมังกรโบราณในครึ่งแรกของการเดินทางแสวงหาความจริง | 44 ตอน |
 | <img src="novels/Breath%20of%20Fire%203%20Part%202/cover.png" width="120" alt="Breath of Fire 3 Part 2"> | **Breath of Fire 3 Part 2** | บทสรุปการผจญภัยของริวและพรรคพวกเพื่อเผชิญหน้ากับพระผู้สร้างและค้นหาความหมายของชีวิต | 24 ตอน |
 | <img src="novels/Breath%20of%20Fire%204/cover.png" width="120" alt="Breath of Fire 4"> | **Breath of Fire 4** | นิยายผจญภัยของริวเด็กหนุ่มเผ่ามังกรและฟูเลอร์จักรพรรดิผู้ฟื้นคืนชีพในสงครามแห่งสองทวีป | 69 ตอน |

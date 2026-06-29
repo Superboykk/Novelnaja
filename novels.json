@@ -308,6 +308,210 @@
     ]
   },
   {
+    "slug": "Breath of Fire 2 Remake",
+    "title": "Breath Of Fire 2 Remake",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Breath of Fire 2 Remake/cover.png",
+    "chapters": [
+      {
+        "slug": "Bof2 Chapter 1.1.md",
+        "title": "ตอนที่ 1.1: ประตูศิลาและโศกนาฏกรรมใต้เงาปีกมังกร",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 1.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 1.2.md",
+        "title": "ตอนที่ 1.2: ค่ำคืนลบใบหน้าและบาปหนาจำยอม",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 1.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 1.3.md",
+        "title": "ตอนที่ 1.3: อัสนีบาต ราตรีกาล และดวงตาแห่งเทวอสูร",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 1.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 1.4.md",
+        "title": "ตอนที่ 1.4: รุ่งอรุณแห่งเรนเจอร์: สิบปีผ่านพ้นกับภารกิจแรก",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 1.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 2.1.md",
+        "title": "ตอนที่ 2.1: จอมโจรปีกค้างคาวและ Whisper Hood",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 2.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 2.2.md",
+        "title": "ตอนที่ 2.2: ตราบาปแห่งการใส่ร้ายและความโกรธเกรี้ยวของคนรวย",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 2.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 2.3.md",
+        "title": "ตอนที่ 2.3: รอดพ้นทวารเมืองและวิหารร้างแห่งเงามืด",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 2.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 2.4.md",
+        "title": "ตอนที่ 2.4: ออกผจญภัยเพียงลำพังเพื่อล้างมลทิน",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 2.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 3.1.md",
+        "title": "ตอนที่ 3.1: นครแห่งความโสมมและยักษ์ใหญ่ผู้กร้านโลก",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 3.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 3.2.md",
+        "title": "ตอนที่ 3.2: สุนทรียะแห่งความตายและการดวลกับสมิงเสือสาว",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 3.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 3.3.md",
+        "title": "บทที่ 3.3: เบื้องหลังบ่อนพนันและความบ้าคลั่งของอสุรกายออกัส",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 3.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 3.4.md",
+        "title": "ตอนที่ 3.4: กระแสน้ำหลากแห่งคาพิทันและประทีปใต้วารี",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 3.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 3.5.md",
+        "title": "ตอนที่ 3.5: แสงประทีปแห่งมังกรและถิ่นฐานร่วมใจของคนนอก",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 3.5.md"
+      },
+      {
+        "slug": "Bof2 Chapter 4.1.md",
+        "title": "ตอนที่ 4.1: มายากลลวงในหอคอยแม่มดและเจ้าชายกบผู้ทรนง",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 4.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 4.2.md",
+        "title": "ตอนที่ 4.2: รัชทายาทวินเดียและแผนลักพาตัวเจ้าหญิงมิน่า",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 4.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 4.3.md",
+        "title": "บทที่ 4.3: ปราสาทซิมาฟอร์ตใต้เงาผู้สวมรอย",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 4.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 4.4.md",
+        "title": "ตอนที่ 4.4: คมดาบพิสูจน์สัจจะ และการชำระมลทินแห่งปราสาทวารี",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 4.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 4.5.md",
+        "title": "ตอนที่ 4.5: หน้ากากการกุศลและเทวอสูรใต้คฤหาสน์เทราท์",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 4.5.md"
+      },
+      {
+        "slug": "Bof2 Chapter 5.1.md",
+        "title": "ตอนที่ 5.1: ปราการสายลมและรอยแผลแห่งความทรยศ",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 5.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 5.2.md",
+        "title": "ตอนที่ 5.2: ฟันเฟืองแห่งความแค้น และจิตวิญญาณบนขื่อเหล็ก",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 5.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 5.3.md",
+        "title": "ตอนที่ 5.3: สงครามระเบิดเพลิงและมิตรภาพที่สูญเสีย",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 5.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 5.4.md",
+        "title": "ตอนที่ 5.4: ท่วงทำนองแห่งไพรพฤกษ์ และเศษเสี้ยวแห่งนิทรา",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 5.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 5.5.md",
+        "title": "ตอนที่ 5.5: อัคคีหลอมจิตวิญญาณและการจุติแห่งโวเรน",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 5.5.md"
+      },
+      {
+        "slug": "Bof2 Chapter 6.1.md",
+        "title": "ตอนที่ 6.1: รากไม้ปราชญ์แห้งเหี่ยวและความวิปลาสของโลก",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 6.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 6.2.md",
+        "title": "ตอนที่ 6.2: ระเบียงฝันมายาและเงามืดในมโนสำนึก",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 6.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 6.3.md",
+        "title": "ตอนที่ 6.3: มโนสำนึกสีเทาและอัคคีพิพากษาอสุรกายความทรงจำ",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 6.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 6.4.md",
+        "title": "ตอนที่ 6.4: โศกนาฏกรรมแห่งปีกวายุและการสละชีพของสายเลือดบริสุทธิ์",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 6.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 7.1.md",
+        "title": "ตอนที่ 7.1: ปีกมหาวิหคโบราณท้ากำแพงลมและเมืองเอฟไรหุ่นเชิด",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 7.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 7.2.md",
+        "title": "ตอนที่ 7.2: คืนสังหารสุสานบันโด: กำจัดบาทหลวงแมนสัน",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 7.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 7.3.md",
+        "title": "ตอนที่ 7.3: อสนีบาตพิพากษาและธุลีแห่งสัจจะ",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 7.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 7.4.md",
+        "title": "ตอนที่ 7.4: ศึกสายเลือดมังกรคู่ขนานและการหลุดพ้นจากลวงตา",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 7.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 7.5.md",
+        "title": "ตอนที่ 7.5: หนามเหล็กแห่งบันโดและการเสียสละอันสูงสุด",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 7.5.md"
+      },
+      {
+        "slug": "Bof2 Chapter 7.6.md",
+        "title": "ตอนที่ 7.6: ศึกชิงวิญญาณใต้ฐานโบสถ์: โค่นล้มทวารบาล Guard Eyes",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 7.6.md"
+      },
+      {
+        "slug": "Bof2 Chapter 8.1.md",
+        "title": "ตอนที่ 8.1: พิธีสังเวยสตรีศักดิ์สิทธิ์และการล่มสลายของฮาบารุคุ",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 8.1.md"
+      },
+      {
+        "slug": "Bof2 Chapter 8.2.md",
+        "title": "ตอนที่ 8.2: มังกรศิลาสลายพลังชีวิตและบิดาเกเนอร์ผู้ตื่นรู้",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 8.2.md"
+      },
+      {
+        "slug": "Bof2 Chapter 8.3.md",
+        "title": "ตอนที่ 8.3: นครใต้ดินดรากูเนียร์และสัตยาธิษฐานอันฟินี",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 8.3.md"
+      },
+      {
+        "slug": "Bof2 Chapter 8.4.md",
+        "title": "บทที่ 8.4: ทัณฑ์โลหิตแห่งราชัน (The Blood Trial of the Sovereign)",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 8.4.md"
+      },
+      {
+        "slug": "Bof2 Chapter 8.5.md",
+        "title": "ตอนที่ 8.5: อนันตศรัทธาและกัมปนาทแห่งจิตวิญญาณ: การจุติใหม่และสิ้นแสงเดธเอวาน",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 8.5.md"
+      },
+      {
+        "slug": "Bof2 Chapter 8.6.md",
+        "title": "ตอนที่ 8.6: ชัยชนะบนรอยร้าวแห่งปาฏิหาริย์: การเสียสละของรุ่นพ่อ",
+        "path": "novels/Breath of Fire 2 Remake/Bof2 Chapter 8.6.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 3 Part 1",
     "title": "Breath Of Fire 3 Part 1",
     "author": "Unknown Author",
