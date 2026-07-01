@@ -47,6 +47,7 @@
 | <img src="novels/Final%20Fantasy%201%20Novel/cover.png" width="120" alt="Final Fantasy 1 Novel"> | **Final Fantasy 1 Novel** | มหากาพย์นักรบแห่งแสงทั้งสี่กับการทำลายลูปเวลา 2,000 ปีเพื่อช่วยเหลืออาณาจักรคอร์เนเลีย | 45 ตอน |
 | <img src="novels/Final%20Fantasy%202%20Novel/cover.png" width="120" alt="Final Fantasy 2 Novel"> | **Final Fantasy 2 Novel** | มหากาพย์การต่อสู้ของกลุ่มต่อต้านเพื่อโค่นล้มจักรวรรดิพาลามีเซียและเผชิญหน้ากับจักรพรรดิทมิฬ | 53 ตอน |
 | <img src="novels/Goemon%203%20Novel/cover.png" width="120" alt="Goemon 3 Novel"> | **Goemon 3 Novel** | การผจญภัยข้ามเวลาสุดป่วนของโกเอมอนนินจาจอมกะล่อนและหุ่นยักษ์อิมแพคในยุคนีโอเอโดะ | 48 ตอน |
+| <img src="novels/Kuroko%20Samurai%20Shodown/cover.png" width="120" alt="Kuroko Samurai Shodown"> | **Kuroko Samurai Shodown** | นิยายแนวซามูไรโชดาวน์ฉบับคุโรโกะ การเดินทางและเรื่องราวการต่อสู้ | 24 ตอน |
 
 ---
 
