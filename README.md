@@ -40,6 +40,7 @@
 | <img src="novels/Breath%20of%20Fire%201%20Novel/cover.png" width="120" alt="Breath of Fire 1 Novel"> | **Breath of Fire 1 Novel** | นิยายผจญภัยสุดคลาสสิกของนักรบแห่งเผ่ามังกรขาวในการกอบกู้โลกจากจักรวรรดิมังกรดำ | 30 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Novel/cover.png" width="120" alt="Breath of Fire 2 Novel"> | **Breath of Fire 2 Novel** | ตำนานบทใหม่ของเด็กหนุ่มผู้ถูกโลกหลงลืมและชะตากรรมที่ต้องเผชิญหน้ากับความศรัทธาที่บิดเบี้ยว | 28 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Remake/cover.png" width="120" alt="Breath of Fire 2 Remake"> | **Breath of Fire 2 Remake** | การผจญภัยและการต่อสู้ของริวและพรรคพวกในภาค 2 ฉบับเรียบเรียงใหม่ | 39 ตอน |
+| <img src="novels/Breath%20of%20Fire%203/Cover.png" width="120" alt="Breath of Fire 3"> | **Breath of Fire 3** | การเดินทางแสวงหาความจริงเบื้องหลังอารยธรรมและมังกรโบราณของริวและผองเพื่อน | 96 ตอน |
 | <img src="novels/Breath%20of%20Fire%204/cover.png" width="120" alt="Breath of Fire 4"> | **Breath of Fire 4** | นิยายผจญภัยของริวเด็กหนุ่มเผ่ามังกรและฟูเลอร์จักรพรรดิผู้ฟื้นคืนชีพในสงครามแห่งสองทวีป | 69 ตอน |
 | <img src="novels/DWM2%20Novel/cover.png" width="120" alt="DWM2 Novel"> | **DWM2 Novel** | การเดินทางทะลุมิติของเด็กหญิงและเด็กชายผู้เป็นผู้ฝึกมอนสเตอร์เพื่อปกป้องเกาะบ้านเกิดของตน | 20 ตอน |
 | <img src="novels/Final%20Fantasy%201%20Novel/cover.png" width="120" alt="Final Fantasy 1 Novel"> | **Final Fantasy 1 Novel** | มหากาพย์นักรบแห่งแสงทั้งสี่กับการทำลายลูปเวลา 2,000 ปีเพื่อช่วยเหลืออาณาจักรคอร์เนเลีย | 45 ตอน |
