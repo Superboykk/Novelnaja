@@ -37,17 +37,17 @@
 
 | หน้าปก (Cover) | ชื่อนิยาย (Title) | รายละเอียดเบื้องต้น (Description) | จำนวนตอน (Chapters) |
 | :---: | :--- | :--- | :---: |
+| <img src="novels/Shinsetsu%20Samurai%20Spirits%20Bushidou%20Retsuden/cover.png" width="120" alt="Shinsetsu Samurai Spirits Bushidou Retsuden"> | **Shinsetsu Samurai Spirits Bushidou Retsuden** | นิยาย RPG ซามูไรสปิริตส์บทตำนานอัศวินผู้พิทักษ์ | 36 ตอน |
+| <img src="novels/Kuroko%20Samurai%20Shodown/cover.png" width="120" alt="Kuroko Samurai Shodown"> | **Kuroko Samurai Shodown** | นิยายแนวซามูไรโชดาวน์ฉบับคุโรโกะ การเดินทางและเรื่องราวการต่อสู้ | 24 ตอน |
 | <img src="novels/Breath%20of%20Fire%201%20Novel/cover.png" width="120" alt="Breath of Fire 1 Novel"> | **Breath of Fire 1 Novel** | นิยายผจญภัยสุดคลาสสิกของนักรบแห่งเผ่ามังกรขาวในการกอบกู้โลกจากจักรวรรดิมังกรดำ | 30 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Novel/cover.png" width="120" alt="Breath of Fire 2 Novel"> | **Breath of Fire 2 Novel** | ตำนานบทใหม่ของเด็กหนุ่มผู้ถูกโลกหลงลืมและชะตากรรมที่ต้องเผชิญหน้ากับความศรัทธาที่บิดเบี้ยว | 28 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Remake/cover.png" width="120" alt="Breath of Fire 2 Remake"> | **Breath of Fire 2 Remake** | การผจญภัยและการต่อสู้ของริวและพรรคพวกในภาค 2 ฉบับเรียบเรียงใหม่ | 39 ตอน |
-| <img src="novels/Breath%20of%20Fire%203/Cover.png" width="120" alt="Breath of Fire 3"> | **Breath of Fire 3** | การเดินทางแสวงหาความจริงเบื้องหลังอารยธรรมและมังกรโบราณของริวและผองเพื่อน | 96 ตอน |
+| <img src="novels/Breath%20of%20Fire%203/Cover.png" width="120" alt="Breath of Fire 3"> | **Breath of Fire 3** | การเดินทางแสวงหาความจริงเบื้องหลังอารยธรรมและมังกรโบราณ of ริวและผองเพื่อน | 96 ตอน |
 | <img src="novels/Breath%20of%20Fire%204/cover.png" width="120" alt="Breath of Fire 4"> | **Breath of Fire 4** | นิยายผจญภัยของริวเด็กหนุ่มเผ่ามังกรและฟูเลอร์จักรพรรดิผู้ฟื้นคืนชีพในสงครามแห่งสองทวีป | 69 ตอน |
 | <img src="novels/DWM2%20Novel/cover.png" width="120" alt="DWM2 Novel"> | **DWM2 Novel** | การเดินทางทะลุมิติของเด็กหญิงและเด็กชายผู้เป็นผู้ฝึกมอนสเตอร์เพื่อปกป้องเกาะบ้านเกิดของตน | 20 ตอน |
 | <img src="novels/Final%20Fantasy%201%20Novel/cover.png" width="120" alt="Final Fantasy 1 Novel"> | **Final Fantasy 1 Novel** | มหากาพย์นักรบแห่งแสงทั้งสี่กับการทำลายลูปเวลา 2,000 ปีเพื่อช่วยเหลืออาณาจักรคอร์เนเลีย | 45 ตอน |
 | <img src="novels/Final%20Fantasy%202%20Novel/cover.png" width="120" alt="Final Fantasy 2 Novel"> | **Final Fantasy 2 Novel** | มหากาพย์การต่อสู้ของกลุ่มต่อต้านเพื่อโค่นล้มจักรวรรดิพาลามีเซียและเผชิญหน้ากับจักรพรรดิทมิฬ | 53 ตอน |
 | <img src="novels/Goemon%203%20Novel/cover.png" width="120" alt="Goemon 3 Novel"> | **Goemon 3 Novel** | การผจญภัยข้ามเวลาสุดป่วนของโกเอมอนนินจาจอมกะล่อนและหุ่นยักษ์อิมแพคในยุคนีโอเอโดะ | 48 ตอน |
-| <img src="novels/Kuroko%20Samurai%20Shodown/cover.png" width="120" alt="Kuroko Samurai Shodown"> | **Kuroko Samurai Shodown** | นิยายแนวซามูไรโชดาวน์ฉบับคุโรโกะ การเดินทางและเรื่องราวการต่อสู้ | 24 ตอน |
-| <img src="novels/Shinsetsu%20Samurai%20Spirits%20Bushidou%20Retsuden/cover.png" width="120" alt="Shinsetsu Samurai Spirits Bushidou Retsuden"> | **Shinsetsu Samurai Spirits Bushidou Retsuden** | นิยาย RPG ซามูไรสปิริตส์บทตำนานอัศวินผู้พิทักษ์ | 36 ตอน |
 
 ---
 

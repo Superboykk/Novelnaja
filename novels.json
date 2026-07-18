@@ -1,5 +1,323 @@
 [
   {
+    "slug": "Shinsetsu Samurai Spirits Bushidou Retsuden",
+    "title": "Shinsetsu Samurai Spirits Bushidou Retsuden",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/cover.png",
+    "chapters": [
+      {
+        "slug": "SSRpgChapter1.md",
+        "title": "บทที่ 1: ดาวตกแห่งเกียวโต",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter1.md"
+      },
+      {
+        "slug": "SSRpgChapter2.md",
+        "title": "บทที่ 2: ต้นโอ๊กร่ำไห้แห่งฮอกไกโด",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter2.md"
+      },
+      {
+        "slug": "SSRpgChapter3.md",
+        "title": "บทที่ 3: ท่าเรือแห่งความยุติธรรม",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter3.md"
+      },
+      {
+        "slug": "SSRpgChapter4.md",
+        "title": "บทที่ 4: ปราการกลับหัว",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter4.md"
+      },
+      {
+        "slug": "SSRpgChapter5.md",
+        "title": "บทที่ 5: ร่างแยกแห่งฮาโกเน่",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter5.md"
+      },
+      {
+        "slug": "SSRpgChapter6.md",
+        "title": "บทที่ 6: ลัทธิอัมโบรซามะ",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter6.md"
+      },
+      {
+        "slug": "SSRpgChapter7.md",
+        "title": "บทที่ 7: เงาอัคนี",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter7.md"
+      },
+      {
+        "slug": "SSRpgChapter8.md",
+        "title": "บทที่ 8: ละลายในบุปผา",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter8.md"
+      },
+      {
+        "slug": "SSRpgChapter9.md",
+        "title": "บทที่ 9: ห้วงลึกแห่งพิษ",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter9.md"
+      },
+      {
+        "slug": "SSRpgChapter10.md",
+        "title": "บทที่ 10: สังหารรากอสูร (Slaying the Roots)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter10.md"
+      },
+      {
+        "slug": "SSRpgChapter11.md",
+        "title": "บทที่ 11: ศิลาแยกเขี้ยวแห่งอิเสะ (Shattered Rocks of Ise)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter11.md"
+      },
+      {
+        "slug": "SSRpgChapter12.md",
+        "title": "บทที่ 12: เสียงคำรามของเทพอสุราปฐพี (The Earth Lord's Roar)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter12.md"
+      },
+      {
+        "slug": "SSRpgChapter13.md",
+        "title": "บทที่ 13: คำสาบานอันเงียบงันของผู้เป็นพ่อ (A Father's Silent Vow)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter13.md"
+      },
+      {
+        "slug": "SSRpgChapter14.md",
+        "title": "บท บทที่ 14: ปราสาทเทนคูโจลอยฟ้า (Ascent of the Sky Castle)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter14.md"
+      },
+      {
+        "slug": "SSRpgChapter15.md",
+        "title": "บทที่ 15: ความเมตตาแห่งคู่หมั้นคู่หมาย (Grace of the Betrothed)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter15.md"
+      },
+      {
+        "slug": "SSRpgChapter16.md",
+        "title": "บทที่ 16: เงาผู้ไร้กาลเวลา (The Ageless Shadow)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter16.md"
+      },
+      {
+        "slug": "SSRpgChapter17.md",
+        "title": "บท บทที่ 17: เสียงระฆังแห่งภูเขาไฟ (Volcanic Chime)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter17.md"
+      },
+      {
+        "slug": "SSRpgChapter18.md",
+        "title": "บทที่ 18: กู้คืนชีพน้ำพุร้อน (Restoring the Springs)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter18.md"
+      },
+      {
+        "slug": "SSRpgChapter19.md",
+        "title": "บทที่ 19: จักรพรรดิผู้แปดเปื้อน (The Corrupted Emperor)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter19.md"
+      },
+      {
+        "slug": "SSRpgChapter20.md",
+        "title": "บทที่ 20: สุสานใต้ภพ (The Underworld Ossuary)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter20.md"
+      },
+      {
+        "slug": "SSRpgChapter21.md",
+        "title": "บทที่ 21: เพลิงพิโรธแห่งป่านรก (Green Hell's Fury)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter21.md"
+      },
+      {
+        "slug": "SSRpgChapter22.md",
+        "title": "บทที่ 22: ถ้ำทะเลแห่งศิลาแร่ (Sea Caves of Stone)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter22.md"
+      },
+      {
+        "slug": "SSRpgChapter23.md",
+        "title": "บทที่ 23: พายุหมุนแห่งกาลเวลา (The Temporal Storm)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter23.md"
+      },
+      {
+        "slug": "SSRpgChapter24.md",
+        "title": "บทที่ 24: รอยแยกเหนืออ่าวอิเสะ (Rift over Ise)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter24.md"
+      },
+      {
+        "slug": "SSRpgChapter25.md",
+        "title": "บทที่ 25: ตกลงสู่กาลเวลา (Falling through the Ages)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter25.md"
+      },
+      {
+        "slug": "SSRpgChapter26.md",
+        "title": "บทที่ 26: สาวน้อยบริสุทธิ์แห่งเซนโกกุ (The Pure Maiden of Sengoku)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter26.md"
+      },
+      {
+        "slug": "SSRpgChapter27.md",
+        "title": "บทที่ 27: มรดกแห่งวาตาริ (Legacy of Watarai)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter27.md"
+      },
+      {
+        "slug": "SSRpgChapter28.md",
+        "title": "บทที่ 28: เดินทัพสู่ประตูยมโลก (March to the Gate)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter28.md"
+      },
+      {
+        "slug": "SSRpgChapter29.md",
+        "title": "บทที่ 29: ปากอเวจีอันเหนือกาลเวลา (The Ageless Maw)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter29.md"
+      },
+      {
+        "slug": "SSRpgChapter30.md",
+        "title": "SSRpgChapter30",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter30.md"
+      },
+      {
+        "slug": "SSRpgChapter31.md",
+        "title": "บทที่ 31: การกลับคืนสู่เถ้าถ่าน (Return to the Ashes)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter31.md"
+      },
+      {
+        "slug": "SSRpgChapter32.md",
+        "title": "บทที่ 32: ฝั่งน้ำซันสึ (The Bank of the Sanzu)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter32.md"
+      },
+      {
+        "slug": "SSRpgChapter33.md",
+        "title": "บทที่ 33: ประตูยมโลก (Underworld Gate)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter33.md"
+      },
+      {
+        "slug": "SSRpgChapter34.md",
+        "title": "บทที่ 34: ปราบอสูรมายา (Slaying the Beast)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter34.md"
+      },
+      {
+        "slug": "SSRpgChapter35.md",
+        "title": "บทที่ 35: ม่านปิดฉาก (The Curtain Falls)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter35.md"
+      },
+      {
+        "slug": "SSRpgChapter36.md",
+        "title": "บทที่ 36: ดอกซากุระร่วงโรย (Sake and Cherry Blossoms)",
+        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter36.md"
+      }
+    ]
+  },
+  {
+    "slug": "Kuroko Samurai Shodown",
+    "title": "Kuroko Samurai Shodown",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Kuroko Samurai Shodown/cover.png",
+    "chapters": [
+      {
+        "slug": "Kuroko Chapter1_1.md",
+        "title": "แม่น้ำโออิที่ไร้สะพาน (The Bridgeless Oi River)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_1.md"
+      },
+      {
+        "slug": "Kuroko Chapter1_2.md",
+        "title": "เงาผู้แบกเปลสนาม (The Shadow Carrying the Stretcher)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_2.md"
+      },
+      {
+        "slug": "Kuroko Chapter1_3.md",
+        "title": "คืนหนาวเหน็บที่กิเลสครอบงำ (The Cold Night of Defeat)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_3.md"
+      },
+      {
+        "slug": "Kuroko Chapter1_4.md",
+        "title": "ทางแยกของเพื่อนร่วมสาบาน (The Crossroad of Sworn Brothers)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_4.md"
+      },
+      {
+        "slug": "Kuroko Chapter2_1.md",
+        "title": "ตัวประกันทั้งสี่ (The Four Hostages)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_1.md"
+      },
+      {
+        "slug": "Kuroko Chapter2_2.md",
+        "title": "สัญญาสีเลือดและกฎเกณฑ์แห่งเวที (The Blood Pact and the Rules of the Arena)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_2.md"
+      },
+      {
+        "slug": "Kuroko Chapter2_3.md",
+        "title": "ผู้ตัดสินผู้เย็นยะเยือก (The Cold Referee)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_3.md"
+      },
+      {
+        "slug": "Kuroko Chapter2_4.md",
+        "title": "การลอบมองชิ้นส่วนภายใน (Peering at the Inner Organs)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_4.md"
+      },
+      {
+        "slug": "Kuroko Chapter3_1.md",
+        "title": "ลานประลองแห่งเมืองพักแรม",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_1.md"
+      },
+      {
+        "slug": "Kuroko Chapter3_2.md",
+        "title": "คัดลอกธาตุทองคำ (ค็อปปิ้ง เดอะ โกลด์ เอเลเมนต์)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_2.md"
+      },
+      {
+        "slug": "Kuroko Chapter3_3.md",
+        "title": "การโค่นล้มผู้พ้องสี (ดิ โอเวอร์โธรว์ ออฟ เดอะ พาเลตต์ สวอป)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_3.md"
+      },
+      {
+        "slug": "Kuroko Chapter3_4.md",
+        "title": "ผิวหนังที่ถูกชำแหละและการวินิจฉัยตลกร้าย (ดิสเซกเต็ด สกิน แอนด์ ดาร์ก คอมเมดี้ ไดแอกโนซิส)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_4.md"
+      },
+      {
+        "slug": "Kuroko Chapter4_1.md",
+        "title": "เส้นทางสู่วัดโคริวจิ",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_1.md"
+      },
+      {
+        "slug": "Kuroko Chapter4_2.md",
+        "title": "เสียงระฆังเตือนสัจธรรม (เดอะ เบลล์ ออฟ ทรานเซียนส์)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_2.md"
+      },
+      {
+        "slug": "Kuroko Chapter4_3.md",
+        "title": "ตัวตนที่ทิ้งหน้ากาก \"โอเร่\"",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_3.md"
+      },
+      {
+        "slug": "Kuroko Chapter4_4.md",
+        "title": "แผนการชิงตัวพี่น้อง (เดอะ แพลน ทู เรสคิว เดอะ บราเธอร์ส)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_4.md"
+      },
+      {
+        "slug": "Kuroko Chapter5_1.md",
+        "title": "บทที่ ๕.๑: แฝงตัวเข้าสู่ปราสาทลัทธิมาร",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_1.md"
+      },
+      {
+        "slug": "Kuroko Chapter5_2.md",
+        "title": "การปะทะเวทเบญจธาตุ (แคลช ออฟ เดอะ ไฟว์ เอเลเมนท์ส)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_2.md"
+      },
+      {
+        "slug": "Kuroko Chapter5_3.md",
+        "title": "ปลดปล่อยแฝดสี่ (รีลีสซิง เดอะ ควินทูเพล็ตส์)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_3.md"
+      },
+      {
+        "slug": "Kuroko Chapter5_4.md",
+        "title": "วิชาชุบชีวิตผู้ล่วงลับ (รีซัสซิเตชัน ออฟ เดอะ เฟดดิง ไลฟ์ส)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_4.md"
+      },
+      {
+        "slug": "Kuroko Chapter6_1.md",
+        "title": "ควันหลงของอามะคุสะและการลี้ภัย",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_1.md"
+      },
+      {
+        "slug": "Kuroko Chapter6_2.md",
+        "title": "บ้านพักชานเมืองเอโดะ (เดอะ ซับเบอร์แบน เอโดะ เฮาส์)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_2.md"
+      },
+      {
+        "slug": "Kuroko Chapter6_3.md",
+        "title": "มื้ออาหารอู้อี้อันอบอุ่น",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_3.md"
+      },
+      {
+        "slug": "Kuroko Chapter6_4.md",
+        "title": "ทางเดินต่อของดวงวิญญาณใต้หน้ากาก (เดอะ ฟิวเจอร์ พาธ อันเดอร์ เดอะ แมสก์)",
+        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_4.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 1 Novel",
     "title": "Breath Of Fire 1 Novel",
     "author": "Unknown Author",
@@ -2217,324 +2535,6 @@
         "slug": "Goemon3Chapter9_6.md",
         "title": "ตอนที่ 9.6: บทส่งท้าย: ดังโงะแห่งมิตรภาพ และ Laugh Track ที่ดังไม่หยุด",
         "path": "novels/Goemon 3 Novel/Goemon3Chapter9_6.md"
-      }
-    ]
-  },
-  {
-    "slug": "Kuroko Samurai Shodown",
-    "title": "Kuroko Samurai Shodown",
-    "author": "Unknown Author",
-    "description": "No description available.",
-    "cover": "novels/Kuroko Samurai Shodown/cover.png",
-    "chapters": [
-      {
-        "slug": "Kuroko Chapter1_1.md",
-        "title": "แม่น้ำโออิที่ไร้สะพาน (The Bridgeless Oi River)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_1.md"
-      },
-      {
-        "slug": "Kuroko Chapter1_2.md",
-        "title": "เงาผู้แบกเปลสนาม (The Shadow Carrying the Stretcher)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_2.md"
-      },
-      {
-        "slug": "Kuroko Chapter1_3.md",
-        "title": "คืนหนาวเหน็บที่กิเลสครอบงำ (The Cold Night of Defeat)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_3.md"
-      },
-      {
-        "slug": "Kuroko Chapter1_4.md",
-        "title": "ทางแยกของเพื่อนร่วมสาบาน (The Crossroad of Sworn Brothers)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter1_4.md"
-      },
-      {
-        "slug": "Kuroko Chapter2_1.md",
-        "title": "ตัวประกันทั้งสี่ (The Four Hostages)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_1.md"
-      },
-      {
-        "slug": "Kuroko Chapter2_2.md",
-        "title": "สัญญาสีเลือดและกฎเกณฑ์แห่งเวที (The Blood Pact and the Rules of the Arena)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_2.md"
-      },
-      {
-        "slug": "Kuroko Chapter2_3.md",
-        "title": "ผู้ตัดสินผู้เย็นยะเยือก (The Cold Referee)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_3.md"
-      },
-      {
-        "slug": "Kuroko Chapter2_4.md",
-        "title": "การลอบมองชิ้นส่วนภายใน (Peering at the Inner Organs)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter2_4.md"
-      },
-      {
-        "slug": "Kuroko Chapter3_1.md",
-        "title": "ลานประลองแห่งเมืองพักแรม",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_1.md"
-      },
-      {
-        "slug": "Kuroko Chapter3_2.md",
-        "title": "คัดลอกธาตุทองคำ (ค็อปปิ้ง เดอะ โกลด์ เอเลเมนต์)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_2.md"
-      },
-      {
-        "slug": "Kuroko Chapter3_3.md",
-        "title": "การโค่นล้มผู้พ้องสี (ดิ โอเวอร์โธรว์ ออฟ เดอะ พาเลตต์ สวอป)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_3.md"
-      },
-      {
-        "slug": "Kuroko Chapter3_4.md",
-        "title": "ผิวหนังที่ถูกชำแหละและการวินิจฉัยตลกร้าย (ดิสเซกเต็ด สกิน แอนด์ ดาร์ก คอมเมดี้ ไดแอกโนซิส)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter3_4.md"
-      },
-      {
-        "slug": "Kuroko Chapter4_1.md",
-        "title": "เส้นทางสู่วัดโคริวจิ",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_1.md"
-      },
-      {
-        "slug": "Kuroko Chapter4_2.md",
-        "title": "เสียงระฆังเตือนสัจธรรม (เดอะ เบลล์ ออฟ ทรานเซียนส์)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_2.md"
-      },
-      {
-        "slug": "Kuroko Chapter4_3.md",
-        "title": "ตัวตนที่ทิ้งหน้ากาก \"โอเร่\"",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_3.md"
-      },
-      {
-        "slug": "Kuroko Chapter4_4.md",
-        "title": "แผนการชิงตัวพี่น้อง (เดอะ แพลน ทู เรสคิว เดอะ บราเธอร์ส)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter4_4.md"
-      },
-      {
-        "slug": "Kuroko Chapter5_1.md",
-        "title": "บทที่ ๕.๑: แฝงตัวเข้าสู่ปราสาทลัทธิมาร",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_1.md"
-      },
-      {
-        "slug": "Kuroko Chapter5_2.md",
-        "title": "การปะทะเวทเบญจธาตุ (แคลช ออฟ เดอะ ไฟว์ เอเลเมนท์ส)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_2.md"
-      },
-      {
-        "slug": "Kuroko Chapter5_3.md",
-        "title": "ปลดปล่อยแฝดสี่ (รีลีสซิง เดอะ ควินทูเพล็ตส์)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_3.md"
-      },
-      {
-        "slug": "Kuroko Chapter5_4.md",
-        "title": "วิชาชุบชีวิตผู้ล่วงลับ (รีซัสซิเตชัน ออฟ เดอะ เฟดดิง ไลฟ์ส)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter5_4.md"
-      },
-      {
-        "slug": "Kuroko Chapter6_1.md",
-        "title": "ควันหลงของอามะคุสะและการลี้ภัย",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_1.md"
-      },
-      {
-        "slug": "Kuroko Chapter6_2.md",
-        "title": "บ้านพักชานเมืองเอโดะ (เดอะ ซับเบอร์แบน เอโดะ เฮาส์)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_2.md"
-      },
-      {
-        "slug": "Kuroko Chapter6_3.md",
-        "title": "มื้ออาหารอู้อี้อันอบอุ่น",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_3.md"
-      },
-      {
-        "slug": "Kuroko Chapter6_4.md",
-        "title": "ทางเดินต่อของดวงวิญญาณใต้หน้ากาก (เดอะ ฟิวเจอร์ พาธ อันเดอร์ เดอะ แมสก์)",
-        "path": "novels/Kuroko Samurai Shodown/Kuroko Chapter6_4.md"
-      }
-    ]
-  },
-  {
-    "slug": "Shinsetsu Samurai Spirits Bushidou Retsuden",
-    "title": "Shinsetsu Samurai Spirits Bushidou Retsuden",
-    "author": "Unknown Author",
-    "description": "No description available.",
-    "cover": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/cover.png",
-    "chapters": [
-      {
-        "slug": "SSRpgChapter1.md",
-        "title": "บทที่ 1: ดาวตกแห่งเกียวโต",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter1.md"
-      },
-      {
-        "slug": "SSRpgChapter2.md",
-        "title": "บทที่ 2: ต้นโอ๊กร่ำไห้แห่งฮอกไกโด",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter2.md"
-      },
-      {
-        "slug": "SSRpgChapter3.md",
-        "title": "บทที่ 3: ท่าเรือแห่งความยุติธรรม",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter3.md"
-      },
-      {
-        "slug": "SSRpgChapter4.md",
-        "title": "บทที่ 4: ปราการกลับหัว",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter4.md"
-      },
-      {
-        "slug": "SSRpgChapter5.md",
-        "title": "บทที่ 5: ร่างแยกแห่งฮาโกเน่",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter5.md"
-      },
-      {
-        "slug": "SSRpgChapter6.md",
-        "title": "บทที่ 6: ลัทธิอัมโบรซามะ",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter6.md"
-      },
-      {
-        "slug": "SSRpgChapter7.md",
-        "title": "บทที่ 7: เงาอัคนี",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter7.md"
-      },
-      {
-        "slug": "SSRpgChapter8.md",
-        "title": "บทที่ 8: ละลายในบุปผา",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter8.md"
-      },
-      {
-        "slug": "SSRpgChapter9.md",
-        "title": "บทที่ 9: ห้วงลึกแห่งพิษ",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter9.md"
-      },
-      {
-        "slug": "SSRpgChapter10.md",
-        "title": "บทที่ 10: สังหารรากอสูร (Slaying the Roots)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter10.md"
-      },
-      {
-        "slug": "SSRpgChapter11.md",
-        "title": "บทที่ 11: ศิลาแยกเขี้ยวแห่งอิเสะ (Shattered Rocks of Ise)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter11.md"
-      },
-      {
-        "slug": "SSRpgChapter12.md",
-        "title": "บทที่ 12: เสียงคำรามของเทพอสุราปฐพี (The Earth Lord's Roar)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter12.md"
-      },
-      {
-        "slug": "SSRpgChapter13.md",
-        "title": "บทที่ 13: คำสาบานอันเงียบงันของผู้เป็นพ่อ (A Father's Silent Vow)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter13.md"
-      },
-      {
-        "slug": "SSRpgChapter14.md",
-        "title": "บท บทที่ 14: ปราสาทเทนคูโจลอยฟ้า (Ascent of the Sky Castle)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter14.md"
-      },
-      {
-        "slug": "SSRpgChapter15.md",
-        "title": "บทที่ 15: ความเมตตาแห่งคู่หมั้นคู่หมาย (Grace of the Betrothed)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter15.md"
-      },
-      {
-        "slug": "SSRpgChapter16.md",
-        "title": "บทที่ 16: เงาผู้ไร้กาลเวลา (The Ageless Shadow)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter16.md"
-      },
-      {
-        "slug": "SSRpgChapter17.md",
-        "title": "บท บทที่ 17: เสียงระฆังแห่งภูเขาไฟ (Volcanic Chime)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter17.md"
-      },
-      {
-        "slug": "SSRpgChapter18.md",
-        "title": "บทที่ 18: กู้คืนชีพน้ำพุร้อน (Restoring the Springs)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter18.md"
-      },
-      {
-        "slug": "SSRpgChapter19.md",
-        "title": "บทที่ 19: จักรพรรดิผู้แปดเปื้อน (The Corrupted Emperor)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter19.md"
-      },
-      {
-        "slug": "SSRpgChapter20.md",
-        "title": "บทที่ 20: สุสานใต้ภพ (The Underworld Ossuary)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter20.md"
-      },
-      {
-        "slug": "SSRpgChapter21.md",
-        "title": "บทที่ 21: เพลิงพิโรธแห่งป่านรก (Green Hell's Fury)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter21.md"
-      },
-      {
-        "slug": "SSRpgChapter22.md",
-        "title": "บทที่ 22: ถ้ำทะเลแห่งศิลาแร่ (Sea Caves of Stone)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter22.md"
-      },
-      {
-        "slug": "SSRpgChapter23.md",
-        "title": "บทที่ 23: พายุหมุนแห่งกาลเวลา (The Temporal Storm)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter23.md"
-      },
-      {
-        "slug": "SSRpgChapter24.md",
-        "title": "บทที่ 24: รอยแยกเหนืออ่าวอิเสะ (Rift over Ise)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter24.md"
-      },
-      {
-        "slug": "SSRpgChapter25.md",
-        "title": "บทที่ 25: ตกลงสู่กาลเวลา (Falling through the Ages)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter25.md"
-      },
-      {
-        "slug": "SSRpgChapter26.md",
-        "title": "บทที่ 26: สาวน้อยบริสุทธิ์แห่งเซนโกกุ (The Pure Maiden of Sengoku)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter26.md"
-      },
-      {
-        "slug": "SSRpgChapter27.md",
-        "title": "บทที่ 27: มรดกแห่งวาตาริ (Legacy of Watarai)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter27.md"
-      },
-      {
-        "slug": "SSRpgChapter28.md",
-        "title": "บทที่ 28: เดินทัพสู่ประตูยมโลก (March to the Gate)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter28.md"
-      },
-      {
-        "slug": "SSRpgChapter29.md",
-        "title": "บทที่ 29: ปากอเวจีอันเหนือกาลเวลา (The Ageless Maw)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter29.md"
-      },
-      {
-        "slug": "SSRpgChapter30.md",
-        "title": "SSRpgChapter30",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter30.md"
-      },
-      {
-        "slug": "SSRpgChapter31.md",
-        "title": "บทที่ 31: การกลับคืนสู่เถ้าถ่าน (Return to the Ashes)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter31.md"
-      },
-      {
-        "slug": "SSRpgChapter32.md",
-        "title": "บทที่ 32: ฝั่งน้ำซันสึ (The Bank of the Sanzu)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter32.md"
-      },
-      {
-        "slug": "SSRpgChapter33.md",
-        "title": "บทที่ 33: ประตูยมโลก (Underworld Gate)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter33.md"
-      },
-      {
-        "slug": "SSRpgChapter34.md",
-        "title": "บทที่ 34: ปราบอสูรมายา (Slaying the Beast)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter34.md"
-      },
-      {
-        "slug": "SSRpgChapter35.md",
-        "title": "บทที่ 35: ม่านปิดฉาก (The Curtain Falls)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter35.md"
-      },
-      {
-        "slug": "SSRpgChapter36.md",
-        "title": "บทที่ 36: ดอกซากุระร่วงโรย (Sake and Cherry Blossoms)",
-        "path": "novels/Shinsetsu Samurai Spirits Bushidou Retsuden/SSRpgChapter36.md"
       }
     ]
   }

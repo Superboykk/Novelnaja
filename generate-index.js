@@ -128,6 +128,21 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
+    // Sort books: Shinsetsu Samurai Spirits Bushidou Retsuden first, Kuroko Samurai Shodown second.
+    // The rest are sorted alphabetically by title.
+    books.sort((a, b) => {
+      const pinA = a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 1 : (a.slug === "Kuroko Samurai Shodown" ? 2 : 0);
+      const pinB = b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 1 : (b.slug === "Kuroko Samurai Shodown" ? 2 : 0);
+      
+      if (pinA !== 0 && pinB !== 0) {
+        return pinA - pinB;
+      }
+      if (pinA !== 0) return -1;
+      if (pinB !== 0) return 1;
+      
+      return a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: 'base' });
+    });
+
     // Write novels.json
     await fs.promises.writeFile(OUTPUT_FILE, JSON.stringify(books, null, 2), 'utf8');
     console.log(`Successfully generated index at: ${OUTPUT_FILE}`);
