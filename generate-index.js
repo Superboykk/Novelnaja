@@ -128,11 +128,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Shinsetsu Samurai Spirits Bushidou Retsuden first, Kuroko Samurai Shodown second.
+    // Sort books: Megaman first, Shinsetsu Samurai Spirits Bushidou Retsuden second, Kuroko Samurai Shodown third.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 1 : (a.slug === "Kuroko Samurai Shodown" ? 2 : 0);
-      const pinB = b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 1 : (b.slug === "Kuroko Samurai Shodown" ? 2 : 0);
+      const pinA = a.slug === "Megaman" ? 1 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 2 : (a.slug === "Kuroko Samurai Shodown" ? 3 : 0));
+      const pinB = b.slug === "Megaman" ? 1 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 2 : (b.slug === "Kuroko Samurai Shodown" ? 3 : 0));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;

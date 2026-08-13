@@ -1,5 +1,84 @@
 [
   {
+    "slug": "Megaman",
+    "title": "Megaman",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Megaman/cover.png",
+    "chapters": [
+      {
+        "slug": "chapter_01.md",
+        "title": "บทที่ 1: อุดมคติในร่มเงา (The Domestic Ideal)",
+        "path": "novels/Megaman/chapter_01.md"
+      },
+      {
+        "slug": "chapter_02.md",
+        "title": "บทที่ 2: การปะทุแห่งมหันตภัย (The Outbreak)",
+        "path": "novels/Megaman/chapter_02.md"
+      },
+      {
+        "slug": "chapter_03.md",
+        "title": "บทที่ 3: การตัดสินใจผ่าตัด (The Surgical Decision)",
+        "path": "novels/Megaman/chapter_03.md"
+      },
+      {
+        "slug": "chapter_04.md",
+        "title": "บทที่ 4: เขตป่าไม้อุตสาหกรรม และการเผชิญหน้ากับคัทแมน (The Timber Hub & Cut Man)",
+        "path": "novels/Megaman/chapter_04.md"
+      },
+      {
+        "slug": "chapter_05.md",
+        "title": "บทที่ 5: เขตเหมืองแร่และขุดเจาะหิน และการเผชิญหน้ากับกัทส์แมน (The Bedrock Quarry & Guts Man)",
+        "path": "novels/Megaman/chapter_05.md"
+      },
+      {
+        "slug": "chapter_06.md",
+        "title": "บทที่ 6: สถานีวิจัยขั้วโลกและคลังก๊าซหล่อเย็น และการเผชิญหน้ากับไอซ์แมน (The Polar Cryo Port & Ice Man)",
+        "path": "novels/Megaman/chapter_06.md"
+      },
+      {
+        "slug": "chapter_07.md",
+        "title": "บทที่ 7: เขตชลประทานและระเบิดหิน และการเผชิญหน้ากับบอมบ์แมน (The Demolition Skyline & Bomb Man)",
+        "path": "novels/Megaman/chapter_07.md"
+      },
+      {
+        "slug": "chapter_08.md",
+        "title": "บทที่ 8: โรงหลอมและบำบัดขยะความร้อนสูง และการเผชิญหน้ากับไฟร์แมน (Geothermal Waste Foundry & Fire Man)",
+        "path": "novels/Megaman/chapter_08.md"
+      },
+      {
+        "slug": "chapter_09.md",
+        "title": "บทที่ 9: สถานีพลังงานนิวเคลียร์ และการเผชิญหน้ากับเอเล็คแมน (Nuclear Energy Spire & Elec Man)",
+        "path": "novels/Megaman/chapter_09.md"
+      },
+      {
+        "slug": "chapter_10.md",
+        "title": "บทที่ 10: ป้อมปราการไวลี่ — การบุกฝ่าแนวป้องกันมหาสมุทรแปซิฟิก (Wily Citadel: The Pacific Infiltration)",
+        "path": "novels/Megaman/chapter_10.md"
+      },
+      {
+        "slug": "chapter_11.md",
+        "title": "บทที่ 11: ป้อมปราการไวลี่ — อสูรกายใต้ดินและเงาในกระจก (Subterranean Monster & The Mirror)",
+        "path": "novels/Megaman/chapter_11.md"
+      },
+      {
+        "slug": "chapter_12.md",
+        "title": "บทที่ 12: ป้อมปราการไวลี่ — ท่อระบายน้ำใต้น้ำและค่ายกลป้อมปืนกล (The Submerged Conduit & CW-755)",
+        "path": "novels/Megaman/chapter_12.md"
+      },
+      {
+        "slug": "chapter_13.md",
+        "title": "บทที่ 13: ป้อมปราการไวลี่ — ห้องโถงบัลลังก์และการประลองซ้ำของหุ่นยนต์อุตสาหกรรม (The Throne Room & Robot Master Rematch)",
+        "path": "novels/Megaman/chapter_13.md"
+      },
+      {
+        "slug": "chapter_14.md",
+        "title": "บทที่ 14: จุดจบแห่งฝันร้ายและการจุดประกายวันใหม่ (The End of Nightmare & A New Dawn)",
+        "path": "novels/Megaman/chapter_14.md"
+      }
+    ]
+  },
+  {
     "slug": "Shinsetsu Samurai Spirits Bushidou Retsuden",
     "title": "Shinsetsu Samurai Spirits Bushidou Retsuden",
     "author": "Unknown Author",
