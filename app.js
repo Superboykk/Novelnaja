@@ -76,6 +76,22 @@ const currentSizeLabel = document.getElementById('current-size-label');
 const widthButtons = document.querySelectorAll('.width-opt');
 const lhButtons = document.querySelectorAll('.lh-opt');
 
+// TTS DOM Elements
+const btnTTS = document.getElementById('btn-tts');
+const btnFloatTTS = document.getElementById('btn-float-tts');
+const ttsPlayerBar = document.getElementById('tts-player-bar');
+const btnTTSPlayPause = document.getElementById('btn-tts-play-pause');
+const btnTTSStop = document.getElementById('btn-tts-stop');
+const btnTTSPrev = document.getElementById('btn-tts-prev');
+const btnTTSNext = document.getElementById('btn-tts-next');
+const btnTTSClose = document.getElementById('btn-tts-close');
+const ttsSpeedSelect = document.getElementById('tts-speed-select');
+const ttsVoiceSelect = document.getElementById('tts-voice-select');
+const ttsVoiceNotice = document.getElementById('tts-voice-notice');
+const ttsProgressText = document.getElementById('tts-progress-text');
+const ttsIconPlay = document.getElementById('tts-icon-play');
+const ttsIconPause = document.getElementById('tts-icon-pause');
+
 // ==========================================================================
 // SERVICE WORKER REGISTRATION
 // ==========================================================================
@@ -196,6 +212,7 @@ async function handleRoute() {
 // LIBRARY VIEW (BOOKSHELF RENDER & ACTIONS)
 // ==========================================================================
 function showLibraryView() {
+  stopTTS();
   viewReader.classList.remove('active');
   viewReader.classList.add('hidden');
   viewLibrary.classList.add('active');
@@ -313,6 +330,7 @@ function openBook(bookSlug) {
 // READER VIEW (LOAD DATA, PROGRESS, TEXT RENDERING)
 // ==========================================================================
 async function showReaderView(bookSlug, chapterSlug) {
+  stopTTS();
   viewLibrary.classList.remove('active');
   viewReader.classList.remove('hidden');
   viewReader.classList.add('active');
@@ -363,6 +381,9 @@ async function showReaderView(bookSlug, chapterSlug) {
     
     // Inject chapter HTML
     readerContent.innerHTML = renderedHtml;
+
+    // Attach click listeners for TTS paragraph selection
+    setupParagraphClickListeners();
 
     // Set up Prev/Next buttons
     setupChapterNavigation();
@@ -517,6 +538,299 @@ readerViewport.addEventListener('scroll', () => {
     saveBookProgress(currentBook.slug, chapter.slug, scrollPercent);
   }, 150);
 });
+
+// ==========================================================================
+// TEXT-TO-SPEECH (TTS) ENGINE & CONTROLLER
+// ==========================================================================
+const ttsSynth = 'speechSynthesis' in window ? window.speechSynthesis : null;
+let ttsVoice = null;
+let ttsParagraphs = [];
+let ttsCurrentIndex = 0;
+let isTTSPlaying = false;
+let isTTSPaused = false;
+let ttsRate = 1.0;
+
+let thaiTTSVoices = [];
+let currentAudioFallback = null;
+let currentUtterance = null; // Global reference prevents Chrome Garbage Collection from stopping speech mid-paragraph!
+let ttsSpeechId = 0; // Token to invalidate previous callbacks on new user click/change
+let ttsHeartbeatTimer = null; // Chrome 15s freeze prevention timer
+
+function clearTTSHeartbeat() {
+  if (ttsHeartbeatTimer) {
+    clearInterval(ttsHeartbeatTimer);
+    ttsHeartbeatTimer = null;
+  }
+}
+
+function startTTSHeartbeat() {
+  clearTTSHeartbeat();
+  // Chrome bug workaround: calling pause & resume every 10 seconds prevents Chrome from freezing/cancelling long speech
+  ttsHeartbeatTimer = setInterval(() => {
+    if (ttsSynth && ttsSynth.speaking && !ttsSynth.paused) {
+      ttsSynth.pause();
+      ttsSynth.resume();
+    }
+  }, 10000);
+}
+
+function populateVoiceList() {
+  if (!ttsSynth) return;
+  const rawVoices = ttsSynth.getVoices();
+
+  // STRICT FILTER: Keep ONLY Thai voices
+  if (rawVoices && rawVoices.length > 0) {
+    thaiTTSVoices = rawVoices.filter(v => {
+      const lang = (v.lang || '').toLowerCase();
+      const name = (v.name || '').toLowerCase();
+      return lang.startsWith('th') || lang.includes('th-th') || lang.includes('th_th') || /thai|ไทย|kanya|narisa|pattara|premwuti|niwat/i.test(name);
+    });
+  }
+
+  if (thaiTTSVoices.length > 0) {
+    if (!ttsVoice || !thaiTTSVoices.some(v => v.name === ttsVoice.name)) {
+      ttsVoice = thaiTTSVoices[0]; // Auto select native Thai voice
+    }
+    if (ttsVoiceNotice) ttsVoiceNotice.classList.add('hidden');
+
+    if (ttsVoiceSelect) {
+      ttsVoiceSelect.innerHTML = thaiTTSVoices.map((v, i) => {
+        const isSelected = ttsVoice && ttsVoice.name === v.name;
+        return `<option value="${i}" ${isSelected ? 'selected' : ''}>🇹🇭 ${v.name}</option>`;
+      }).join('');
+    }
+  } else {
+    ttsVoice = null;
+    if (ttsVoiceSelect) {
+      ttsVoiceSelect.innerHTML = `<option value="-1">🇹🇭 เสียงภาษาไทย (ออนไลน์)</option>`;
+    }
+    if (ttsVoiceNotice) {
+      ttsVoiceNotice.classList.remove('hidden');
+      ttsVoiceNotice.innerHTML = `📌 <strong>คุณได้ติดตั้ง Thai Voice ใน Windows แล้ว!</strong> กรุณา <strong>"ปิดและเปิดเบราว์เซอร์ (Chrome/Edge) ใหม่อีก 1 ครั้ง"</strong> ตามที่ Windows แจ้งเตือนสีแดง เพื่อให้เบราว์เซอร์รับเสียงภาษาไทยจาก Windows ครับ`;
+    }
+  }
+}
+
+function initTTSVoices() {
+  if (!ttsSynth) return;
+  populateVoiceList();
+  if (ttsSynth.onvoiceschanged !== undefined) {
+    ttsSynth.onvoiceschanged = populateVoiceList;
+  }
+}
+
+function getReadableParagraphs() {
+  if (!readerContent) return [];
+  const nodes = Array.from(readerContent.querySelectorAll('h1, h2, h3, p, blockquote, li'));
+  return nodes.filter(el => {
+    const text = el.textContent.trim();
+    return text.length > 0 && !el.querySelector('img');
+  });
+}
+
+function updateTTSPlayPauseUI() {
+  if (isTTSPlaying && !isTTSPaused) {
+    if (ttsIconPlay) ttsIconPlay.classList.add('hidden');
+    if (ttsIconPause) ttsIconPause.classList.remove('hidden');
+  } else {
+    if (ttsIconPlay) ttsIconPlay.classList.remove('hidden');
+    if (ttsIconPause) ttsIconPause.classList.add('hidden');
+  }
+}
+
+function clearTTSHighlights() {
+  if (!readerContent) return;
+  readerContent.querySelectorAll('.tts-reading-highlight').forEach(el => {
+    el.classList.remove('tts-reading-highlight');
+  });
+}
+
+function speakThaiAudioFallback(text, onEndCallback) {
+  stopAudioFallback();
+
+  // Encode text for Google Thai Speech Audio stream
+  const cleanText = text.substring(0, 200).trim();
+  if (!cleanText) {
+    if (onEndCallback) onEndCallback();
+    return;
+  }
+
+  const encodedText = encodeURIComponent(cleanText);
+  const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=th&client=tw-ob`;
+
+  const audio = new Audio(audioUrl);
+  audio.playbackRate = ttsRate;
+  currentAudioFallback = audio;
+
+  audio.onended = () => {
+    currentAudioFallback = null;
+    if (onEndCallback) onEndCallback();
+  };
+
+  audio.onerror = (err) => {
+    console.warn('[TTS] Audio stream error:', err);
+    currentAudioFallback = null;
+    if (onEndCallback) onEndCallback();
+  };
+
+  audio.play().catch(e => {
+    console.warn('[TTS] Audio play blocked:', e);
+    currentAudioFallback = null;
+    if (onEndCallback) onEndCallback();
+  });
+}
+
+function stopAudioFallback() {
+  if (currentAudioFallback) {
+    currentAudioFallback.pause();
+    currentAudioFallback = null;
+  }
+}
+
+function speakParagraph(index) {
+  ttsParagraphs = getReadableParagraphs();
+  if (ttsParagraphs.length === 0) {
+    if (ttsProgressText) ttsProgressText.textContent = 'ไม่พบเนื้อหาให้อ่าน';
+    return;
+  }
+
+  if (index < 0) index = 0;
+  if (index >= ttsParagraphs.length) {
+    stopTTS();
+    if (ttsProgressText) ttsProgressText.textContent = 'อ่านจบตอนแล้ว';
+    return;
+  }
+
+  // Increment speech ID token to invalidate any previous async callbacks
+  ttsSpeechId++;
+  const thisSpeechId = ttsSpeechId;
+
+  ttsCurrentIndex = index;
+  clearTTSHighlights();
+
+  const targetNode = ttsParagraphs[index];
+  targetNode.classList.add('tts-reading-highlight');
+  targetNode.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  if (ttsProgressText) {
+    ttsProgressText.textContent = `ย่อหน้า ${index + 1}/${ttsParagraphs.length}`;
+  }
+
+  const textToSpeak = targetNode.textContent.trim();
+  isTTSPlaying = true;
+  isTTSPaused = false;
+  updateTTSPlayPauseUI();
+
+  // Re-query voices in case user just restarted or updated voices
+  populateVoiceList();
+
+  // Mode 1: Native Speech Synthesis with installed Thai Voice
+  if (ttsSynth && ttsVoice) {
+    ttsSynth.cancel();
+    stopAudioFallback();
+
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    utterance.voice = ttsVoice;
+    utterance.lang = ttsVoice.lang || 'th-TH';
+    utterance.rate = ttsRate;
+
+    // STORE IN GLOBAL VARIABLE to prevent Chrome Garbage Collection mid-paragraph!
+    currentUtterance = utterance;
+
+    utterance.onend = () => {
+      clearTTSHeartbeat();
+      currentUtterance = null;
+      if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
+        speakParagraph(ttsCurrentIndex + 1);
+      }
+    };
+
+    utterance.onerror = (e) => {
+      clearTTSHeartbeat();
+      currentUtterance = null;
+      if (thisSpeechId !== ttsSpeechId) return;
+      console.warn('[TTS] Utterance error, switching to audio stream fallback:', e);
+      speakThaiAudioFallback(textToSpeak, () => {
+        if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
+          speakParagraph(ttsCurrentIndex + 1);
+        }
+      });
+    };
+
+    startTTSHeartbeat();
+    ttsSynth.speak(utterance);
+    return;
+  }
+
+  // Mode 2: Online Audio Stream Fallback (When OS doesn't have a Thai Voice package installed)
+  if (ttsSynth) ttsSynth.cancel();
+  speakThaiAudioFallback(textToSpeak, () => {
+    if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
+      speakParagraph(ttsCurrentIndex + 1);
+    }
+  });
+}
+
+function openTTSPlayer(startIndex = 0) {
+  if (ttsPlayerBar) {
+    ttsPlayerBar.classList.remove('hidden');
+  }
+
+  speakParagraph(startIndex);
+}
+
+function togglePlayPauseTTS() {
+  if (!isTTSPlaying && !isTTSPaused) {
+    openTTSPlayer(ttsCurrentIndex);
+  } else if (isTTSPlaying && !isTTSPaused) {
+    if (ttsSynth && ttsVoice) {
+      ttsSynth.pause();
+    } else if (currentAudioFallback) {
+      currentAudioFallback.pause();
+    }
+    isTTSPaused = true;
+    updateTTSPlayPauseUI();
+  } else if (isTTSPaused) {
+    if (ttsSynth && ttsVoice) {
+      ttsSynth.resume();
+    } else if (currentAudioFallback) {
+      currentAudioFallback.play();
+    }
+    isTTSPaused = false;
+    isTTSPlaying = true;
+    updateTTSPlayPauseUI();
+  }
+}
+
+function stopTTS() {
+  ttsSpeechId++; // Invalidate any ongoing callbacks
+  clearTTSHeartbeat();
+  if (ttsSynth) {
+    ttsSynth.cancel();
+  }
+  stopAudioFallback();
+  currentUtterance = null;
+  isTTSPlaying = false;
+  isTTSPaused = false;
+  clearTTSHighlights();
+  updateTTSPlayPauseUI();
+  if (ttsPlayerBar) {
+    ttsPlayerBar.classList.add('hidden');
+  }
+}
+
+function setupParagraphClickListeners() {
+  const paragraphs = getReadableParagraphs();
+  paragraphs.forEach((pNode, index) => {
+    pNode.style.cursor = 'pointer';
+    pNode.title = 'แตะเพื่อเริ่มฟังเสียงอ่านจากย่อหน้านี้';
+    pNode.onclick = (e) => {
+      const selection = window.getSelection();
+      if (selection && selection.toString().length > 0) return;
+      openTTSPlayer(index);
+    };
+  });
+}
 
 // ==========================================================================
 // KINDLE CUSTOMIZATION SETTINGS
@@ -735,6 +1049,85 @@ searchInput.addEventListener('input', () => {
   renderBookshelf();
 });
 
+// TTS UI Event Bindings
+if (btnTTS) {
+  btnTTS.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (ttsPlayerBar && !ttsPlayerBar.classList.contains('hidden')) {
+      togglePlayPauseTTS();
+    } else {
+      openTTSPlayer(0);
+    }
+  });
+}
+
+if (btnFloatTTS) {
+  btnFloatTTS.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (ttsPlayerBar && !ttsPlayerBar.classList.contains('hidden')) {
+      togglePlayPauseTTS();
+    } else {
+      openTTSPlayer(0);
+    }
+  });
+}
+
+if (btnTTSPlayPause) {
+  btnTTSPlayPause.addEventListener('click', (e) => {
+    e.stopPropagation();
+    togglePlayPauseTTS();
+  });
+}
+
+if (btnTTSStop) {
+  btnTTSStop.addEventListener('click', (e) => {
+    e.stopPropagation();
+    stopTTS();
+  });
+}
+
+if (btnTTSPrev) {
+  btnTTSPrev.addEventListener('click', (e) => {
+    e.stopPropagation();
+    speakParagraph(ttsCurrentIndex - 1);
+  });
+}
+
+if (btnTTSNext) {
+  btnTTSNext.addEventListener('click', (e) => {
+    e.stopPropagation();
+    speakParagraph(ttsCurrentIndex + 1);
+  });
+}
+
+if (btnTTSClose) {
+  btnTTSClose.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (ttsPlayerBar) ttsPlayerBar.classList.add('hidden');
+  });
+}
+
+if (ttsSpeedSelect) {
+  ttsSpeedSelect.addEventListener('change', (e) => {
+    ttsRate = parseFloat(e.target.value);
+    if (isTTSPlaying && !isTTSPaused) {
+      speakParagraph(ttsCurrentIndex);
+    }
+  });
+}
+
+if (ttsVoiceSelect) {
+  ttsVoiceSelect.addEventListener('change', (e) => {
+    const idx = parseInt(e.target.value, 10);
+    if (allTTSVoices[idx]) {
+      ttsVoice = allTTSVoices[idx];
+      if (isTTSPlaying && !isTTSPaused) {
+        speakParagraph(ttsCurrentIndex);
+      }
+    }
+  });
+}
+
 // Keyboard Navigation (Arrow keys Left/Right to change chapters)
 document.addEventListener('keydown', (e) => {
   if (viewReader.classList.contains('hidden') || !currentBook) return;
@@ -754,6 +1147,7 @@ document.addEventListener('keydown', (e) => {
 async function initApp() {
   loadUserSettings();
   applyUserSettings();
+  initTTSVoices();
 
   try {
     // Fetch novels.json index

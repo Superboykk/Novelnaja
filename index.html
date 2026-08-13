@@ -71,6 +71,10 @@
       <div class="header-right">
         <!-- Reader Controls (Hidden in library) -->
         <div id="reader-controls" class="reader-controls-group hidden">
+          <button id="btn-tts" class="btn-icon" title="ฟังเสียงอ่าน (TTS)">
+            <!-- Inline SVG for Volume / TTS -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          </button>
           <button id="btn-toc" class="btn-icon" title="สารบัญ">
             <!-- Inline SVG for Menu -->
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -217,6 +221,9 @@
 
       <!-- Quick Floating Buttons -->
       <div class="floating-actions">
+        <button id="btn-float-tts" class="btn-float" title="ฟังเสียงอ่าน (TTS)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+        </button>
         <button id="btn-float-toc" class="btn-float" title="เปิดสารบัญ">
           <!-- Inline SVG for Table of Contents -->
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
@@ -225,6 +232,64 @@
           <!-- Inline SVG for Chevron Up -->
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
         </button>
+      </div>
+
+      <!-- TTS Floating Player Control Bar -->
+      <div id="tts-player-bar" class="tts-player-bar hidden">
+        <div id="tts-voice-notice" class="tts-voice-notice hidden"></div>
+        <div class="tts-player-content">
+          <div class="tts-player-info">
+            <span class="tts-icon-pulse">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </span>
+            <span id="tts-progress-text" class="tts-progress-text">กำลังเตรียมอ่าน...</span>
+          </div>
+          
+          <div class="tts-player-controls">
+            <button id="btn-tts-prev" class="tts-btn-control" title="ย่อหน้าก่อนหน้า">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="19 20 9 12 19 4 19 20"/><line x1="5" y1="19" x2="5" y2="5"/></svg>
+            </button>
+            
+            <button id="btn-tts-play-pause" class="tts-btn-main" title="เล่น / หยุดชั่วคราว">
+              <!-- Play Icon -->
+              <svg id="tts-icon-play" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <!-- Pause Icon -->
+              <svg id="tts-icon-pause" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+            </button>
+            
+            <button id="btn-tts-next" class="tts-btn-control" title="ย่อหน้าถัดไป">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
+            </button>
+            
+            <button id="btn-tts-stop" class="tts-btn-control" title="ปิดระบบอ่านออกเสียง">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+            </button>
+          </div>
+
+          <div class="tts-option-group">
+            <div class="tts-voice-wrapper">
+              <label for="tts-voice-select" class="tts-label">เสียง</label>
+              <select id="tts-voice-select" class="tts-select" title="เลือกเสียงพากย์"></select>
+            </div>
+
+            <div class="tts-speed-wrapper">
+              <label for="tts-speed-select" class="tts-label">ความเร็ว</label>
+              <select id="tts-speed-select" class="tts-select">
+                <option value="0.5">0.5x</option>
+                <option value="0.75">0.75x</option>
+                <option value="1.0" selected>1.0x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="1.75">1.75x</option>
+                <option value="2.0">2.0x</option>
+              </select>
+            </div>
+          </div>
+          
+          <button id="btn-tts-close" class="btn-icon-close" title="ซ่อนเครื่องเล่น">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
       </div>
 
       <!-- Settings Panel Popover -->
