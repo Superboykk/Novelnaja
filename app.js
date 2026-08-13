@@ -772,6 +772,7 @@ function speakParagraph(index) {
 }
 
 function openTTSPlayer(startIndex = 0) {
+  body.classList.add('tts-active');
   if (ttsPlayerBar) {
     ttsPlayerBar.classList.remove('hidden');
   }
@@ -803,6 +804,7 @@ function togglePlayPauseTTS() {
 }
 
 function stopTTS() {
+  body.classList.remove('tts-active');
   ttsSpeechId++; // Invalidate any ongoing callbacks
   clearTTSHeartbeat();
   if (ttsSynth) {
@@ -1103,6 +1105,7 @@ if (btnTTSNext) {
 if (btnTTSClose) {
   btnTTSClose.addEventListener('click', (e) => {
     e.stopPropagation();
+    body.classList.remove('tts-active');
     if (ttsPlayerBar) ttsPlayerBar.classList.add('hidden');
   });
 }
