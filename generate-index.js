@@ -42,7 +42,7 @@ async function run() {
       const files = await fs.promises.readdir(bookPath);
       
       // Filter md files and image files
-      const mdFiles = files.filter(f => f.endsWith('.md')).sort(naturalSort);
+      const mdFiles = files.filter(f => f.endsWith('.md') && f.toLowerCase() !== 'master_manuscript.md').sort(naturalSort);
       const imgFiles = files.filter(f => {
         const ext = path.extname(f).toLowerCase();
         return ['.png', '.jpg', '.jpeg', '.webp', '.gif'].includes(ext);
@@ -128,11 +128,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Megaman first, Shinsetsu Samurai Spirits Bushidou Retsuden second, Kuroko Samurai Shodown third.
+    // Sort books: Breath of Fire 3 Minoru first, Megaman second, Shinsetsu Samurai Spirits Bushidou Retsuden third, Kuroko Samurai Shodown fourth.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Megaman" ? 1 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 2 : (a.slug === "Kuroko Samurai Shodown" ? 3 : 0));
-      const pinB = b.slug === "Megaman" ? 1 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 2 : (b.slug === "Kuroko Samurai Shodown" ? 3 : 0));
+      const pinA = a.slug === "Breath of Fire 3 Minoru" ? 1 : (a.slug === "Megaman" ? 2 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 3 : (a.slug === "Kuroko Samurai Shodown" ? 4 : 0)));
+      const pinB = b.slug === "Breath of Fire 3 Minoru" ? 1 : (b.slug === "Megaman" ? 2 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 3 : (b.slug === "Kuroko Samurai Shodown" ? 4 : 0)));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;

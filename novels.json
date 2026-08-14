@@ -1,5 +1,364 @@
 [
   {
+    "slug": "Breath of Fire 3 Minoru",
+    "title": "Breath Of Fire 3 Minoru",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Breath of Fire 3 Minoru/cover.png",
+    "chapters": [
+      {
+        "slug": "Chapter_001_The_Spark_in_the_Deep.md",
+        "title": "บทที่ 001: The Spark in the Deep",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_001_The_Spark_in_the_Deep.md"
+      },
+      {
+        "slug": "Chapter_002_The_Derailment.md",
+        "title": "บทที่ 002: The Derailment",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_002_The_Derailment.md"
+      },
+      {
+        "slug": "Chapter_003_The_Treehouse_on_the_Ridge.md",
+        "title": "บทที่ 003: The Treehouse on the Ridge",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_003_The_Treehouse_on_the_Ridge.md"
+      },
+      {
+        "slug": "Chapter_004_The_Art_of_Petty_Banditry.md",
+        "title": "บทที่ 004: The Art of Petty Banditry",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_004_The_Art_of_Petty_Banditry.md"
+      },
+      {
+        "slug": "Chapter_005_Bunyan_s_Axe.md",
+        "title": "บทที่ 005: Bunyan’s Axe",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_005_Bunyan_s_Axe.md"
+      },
+      {
+        "slug": "Chapter_006_The_Trail_of_Blood.md",
+        "title": "บทที่ 006: The Trail of Blood",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_006_The_Trail_of_Blood.md"
+      },
+      {
+        "slug": "Chapter_007_The_Dead_Nest.md",
+        "title": "บทที่ 007: The Dead Nest",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_007_The_Dead_Nest.md"
+      },
+      {
+        "slug": "Chapter_008_Winter_in_McNeil.md",
+        "title": "บทที่ 008: Winter in McNeil",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_008_Winter_in_McNeil.md"
+      },
+      {
+        "slug": "Chapter_009_The_Heist_of_the_Manor.md",
+        "title": "บทที่ 009: The Heist of the Manor",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_009_The_Heist_of_the_Manor.md"
+      },
+      {
+        "slug": "Chapter_010_The_Robin_Hood_Delusion.md",
+        "title": "บทที่ 010: The Robin Hood Delusion",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_010_The_Robin_Hood_Delusion.md"
+      },
+      {
+        "slug": "Chapter_011_The_Long_Shadow_from_South_Chem.md",
+        "title": "บทที่ 011: The Long Shadow from South Chem",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_011_The_Long_Shadow_from_South_Chem.md"
+      },
+      {
+        "slug": "Chapter_012_The_Night_of_Ash_and_Blood.md",
+        "title": "บทที่ 012: The Night of Ash and Blood",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_012_The_Night_of_Ash_and_Blood.md"
+      },
+      {
+        "slug": "Chapter_013_Left_in_the_Mud.md",
+        "title": "บทที่ 013: Left in the Mud",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_013_Left_in_the_Mud.md"
+      },
+      {
+        "slug": "Chapter_014_The_Girl_in_the_Royal_Dungeon.md",
+        "title": "บทที่ 014: The Girl in the Royal Dungeon",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_014_The_Girl_in_the_Royal_Dungeon.md"
+      },
+      {
+        "slug": "Chapter_015_Through_the_Catacombs.md",
+        "title": "บทที่ 015: Through the Catacombs",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_015_Through_the_Catacombs.md"
+      },
+      {
+        "slug": "Chapter_016_Fugitives_on_the_High_Road.md",
+        "title": "บทที่ 016: Fugitives on the High Road",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_016_Fugitives_on_the_High_Road.md"
+      },
+      {
+        "slug": "Chapter_017_The_Hermit_of_the_Spire.md",
+        "title": "บทที่ 017: The Hermit of the Spire",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_017_The_Hermit_of_the_Spire.md"
+      },
+      {
+        "slug": "Chapter_018_The_Rocket_on_the_Roof.md",
+        "title": "บทที่ 018: The Rocket on the Roof",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_018_The_Rocket_on_the_Roof.md"
+      },
+      {
+        "slug": "Chapter_019_The_Green_Rot_of_the_Plant.md",
+        "title": "บทที่ 019: The Green Rot of the Plant",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_019_The_Green_Rot_of_the_Plant.md"
+      },
+      {
+        "slug": "Chapter_020_The_Seed_in_the_Sludge.md",
+        "title": "บทที่ 020: The Seed in the Sludge",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_020_The_Seed_in_the_Sludge.md"
+      },
+      {
+        "slug": "Chapter_021_The_Trap_at_Mt_Boumore.md",
+        "title": "บทที่ 021: The Trap at Mt. Boumore",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_021_The_Trap_at_Mt_Boumore.md"
+      },
+      {
+        "slug": "Chapter_022_The_Colosseum_of_Genmel.md",
+        "title": "บทที่ 022: The Colosseum of Genmel",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_022_The_Colosseum_of_Genmel.md"
+      },
+      {
+        "slug": "Chapter_023_The_Slaying_of_Stallion.md",
+        "title": "บทที่ 023: The Slaying of Stallion",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_023_The_Slaying_of_Stallion.md"
+      },
+      {
+        "slug": "Chapter_024_The_Holy_Man_s_Shadow.md",
+        "title": "บทที่ 024: The Holy Man’s Shadow",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_024_The_Holy_Man_s_Shadow.md"
+      },
+      {
+        "slug": "Chapter_025_The_Magma_of_Mt_Zublo.md",
+        "title": "บทที่ 025: The Magma of Mt. Zublo",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_025_The_Magma_of_Mt_Zublo.md"
+      },
+      {
+        "slug": "Chapter_026_The_Pilgrimage_of_Bones.md",
+        "title": "บทที่ 026: The Pilgrimage of Bones",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_026_The_Pilgrimage_of_Bones.md"
+      },
+      {
+        "slug": "Chapter_027_The_Rupture_at_Angel_Tower.md",
+        "title": "บทที่ 027: The Rupture at Angel Tower",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_027_The_Rupture_at_Angel_Tower.md"
+      },
+      {
+        "slug": "Chapter_028_The_Stasis_Years_Nina_s_Cage.md",
+        "title": "บทที่ 028: The Stasis Years: Nina's Cage",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_028_The_Stasis_Years_Nina_s_Cage.md"
+      },
+      {
+        "slug": "Chapter_029_The_Stasis_Years_The_Weretiger_s_Hunt.md",
+        "title": "บทที่ 029: The Stasis Years: The Weretiger's Hunt",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_029_The_Stasis_Years_The_Weretiger_s_Hunt.md"
+      },
+      {
+        "slug": "Chapter_030_The_Stasis_Years_The_Penitent_at_Dauna.md",
+        "title": "บทที่ 030: The Stasis Years: The Penitent at Dauna",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_030_The_Stasis_Years_The_Penitent_at_Dauna.md"
+      },
+      {
+        "slug": "Chapter_031_The_Breaking_of_the_Chrysalis.md",
+        "title": "บทที่ 031: The Breaking of the Chrysalis",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_031_The_Breaking_of_the_Chrysalis.md"
+      },
+      {
+        "slug": "Chapter_032_The_Penitent_s_Surrender.md",
+        "title": "บทที่ 032: The Penitent's Surrender",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_032_The_Penitent_s_Surrender.md"
+      },
+      {
+        "slug": "Chapter_033_The_Road_Back_to_Wyndia.md",
+        "title": "บทที่ 033: The Road Back to Wyndia",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_033_The_Road_Back_to_Wyndia.md"
+      },
+      {
+        "slug": "Chapter_034_The_Necro_Botany_of_Dr_Palet.md",
+        "title": "บทที่ 034: The Necro-Botany of Dr. Palet",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_034_The_Necro_Botany_of_Dr_Palet.md"
+      },
+      {
+        "slug": "Chapter_035_Momo_s_Crucible.md",
+        "title": "บทที่ 035: Momo's Crucible",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_035_Momo_s_Crucible.md"
+      },
+      {
+        "slug": "Chapter_036_The_Den_of_Beasts_Syn_City.md",
+        "title": "บทที่ 036: The Den of Beasts: Syn City",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_036_The_Den_of_Beasts_Syn_City.md"
+      },
+      {
+        "slug": "Chapter_037_The_Ghost_of_Cedar_Woods.md",
+        "title": "บทที่ 037: The Ghost of Cedar Woods",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_037_The_Ghost_of_Cedar_Woods.md"
+      },
+      {
+        "slug": "Chapter_038_The_Beast_Unleashed.md",
+        "title": "บทที่ 038: The Beast Unleashed",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_038_The_Beast_Unleashed.md"
+      },
+      {
+        "slug": "Chapter_039_The_Slaying_of_Don_Mikba.md",
+        "title": "บทที่ 039: The Slaying of Don Mikba",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_039_The_Slaying_of_Don_Mikba.md"
+      },
+      {
+        "slug": "Chapter_040_The_Hearth_Rekindled.md",
+        "title": "บทที่ 040: The Hearth Rekindled",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_040_The_Hearth_Rekindled.md"
+      },
+      {
+        "slug": "Chapter_041_The_Serpentine_Shrine.md",
+        "title": "บทที่ 041: The Serpentine Shrine",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_041_The_Serpentine_Shrine.md"
+      },
+      {
+        "slug": "Chapter_042_The_Command_of_the_Ancient.md",
+        "title": "บทที่ 042: The Command of the Ancient",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_042_The_Command_of_the_Ancient.md"
+      },
+      {
+        "slug": "Chapter_043_The_Hermit_on_the_Precipice.md",
+        "title": "บทที่ 043: The Hermit on the Precipice",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_043_The_Hermit_on_the_Precipice.md"
+      },
+      {
+        "slug": "Chapter_044_Gaist_s_Self_Immolation.md",
+        "title": "บทที่ 044: Gaist's Self-Immolation",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_044_Gaist_s_Self_Immolation.md"
+      },
+      {
+        "slug": "Chapter_045_The_Guilds_of_Rhapala.md",
+        "title": "บทที่ 045: The Guilds of Rhapala",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_045_The_Guilds_of_Rhapala.md"
+      },
+      {
+        "slug": "Chapter_046_The_Graveyard_of_Steel_Beach.md",
+        "title": "บทที่ 046: The Graveyard of Steel Beach",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_046_The_Graveyard_of_Steel_Beach.md"
+      },
+      {
+        "slug": "Chapter_047_The_Ghost_Leviathan.md",
+        "title": "บทที่ 047: The Ghost Leviathan",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_047_The_Ghost_Leviathan.md"
+      },
+      {
+        "slug": "Chapter_048_The_Automated_Crew.md",
+        "title": "บทที่ 048: The Automated Crew",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_048_The_Automated_Crew.md"
+      },
+      {
+        "slug": "Chapter_049_The_Great_Voyage.md",
+        "title": "บทที่ 049: The Great Voyage",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_049_The_Great_Voyage.md"
+      },
+      {
+        "slug": "Chapter_050_The_Machine_Core_Crisis.md",
+        "title": "บทที่ 050: The Machine Core Crisis",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_050_The_Machine_Core_Crisis.md"
+      },
+      {
+        "slug": "Chapter_051_Landfall_at_Kombinat.md",
+        "title": "บทที่ 051: Landfall at Kombinat",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_051_Landfall_at_Kombinat.md"
+      },
+      {
+        "slug": "Chapter_052_The_Shadow_of_the_North.md",
+        "title": "บทที่ 052: The Shadow of the North",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_052_The_Shadow_of_the_North.md"
+      },
+      {
+        "slug": "Chapter_053_The_Brood_s_Sanctuary_Dragnier.md",
+        "title": "บทที่ 053: The Brood’s Sanctuary: Dragnier",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_053_The_Brood_s_Sanctuary_Dragnier.md"
+      },
+      {
+        "slug": "Chapter_054_The_Memory_of_Genocide.md",
+        "title": "บทที่ 054: The Memory of Genocide",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_054_The_Memory_of_Genocide.md"
+      },
+      {
+        "slug": "Chapter_055_The_Trial_of_the_Infinity_Gene.md",
+        "title": "บทที่ 055: The Trial of the Infinity Gene",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_055_The_Trial_of_the_Infinity_Gene.md"
+      },
+      {
+        "slug": "Chapter_056_The_Absolution_of_Garr.md",
+        "title": "บทที่ 056: The Absolution of Garr",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_056_The_Absolution_of_Garr.md"
+      },
+      {
+        "slug": "Chapter_057_Preparation_for_the_Waste.md",
+        "title": "บทที่ 057: Preparation for the Waste",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_057_Preparation_for_the_Waste.md"
+      },
+      {
+        "slug": "Chapter_058_The_Desert_of_Death_Night_One.md",
+        "title": "บทที่ 058: The Desert of Death: Night One",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_058_The_Desert_of_Death_Night_One.md"
+      },
+      {
+        "slug": "Chapter_059_The_Desert_of_Death_Day_Scorch.md",
+        "title": "บทที่ 059: The Desert of Death: Day Scorch",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_059_The_Desert_of_Death_Day_Scorch.md"
+      },
+      {
+        "slug": "Chapter_060_The_Water_Crisis.md",
+        "title": "บทที่ 060: The Water Crisis",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_060_The_Water_Crisis.md"
+      },
+      {
+        "slug": "Chapter_061_The_Mirage_Oasis.md",
+        "title": "บทที่ 061: The Mirage Oasis",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_061_The_Mirage_Oasis.md"
+      },
+      {
+        "slug": "Chapter_062_The_Ghost_Metropolis_Caer_Xhan.md",
+        "title": "บทที่ 062: The Ghost Metropolis: Caer Xhan",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_062_The_Ghost_Metropolis_Caer_Xhan.md"
+      },
+      {
+        "slug": "Chapter_063_The_Orbital_Elevator.md",
+        "title": "บทที่ 063: The Orbital Elevator",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_063_The_Orbital_Elevator.md"
+      },
+      {
+        "slug": "Chapter_064_The_White_Meadows_of_Eden.md",
+        "title": "บทที่ 064: The White Meadows of Eden",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_064_The_White_Meadows_of_Eden.md"
+      },
+      {
+        "slug": "Chapter_065_The_Lost_Brother_Found.md",
+        "title": "บทที่ 065: The Lost Brother Found",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_065_The_Lost_Brother_Found.md"
+      },
+      {
+        "slug": "Chapter_066_The_Fratricide_of_the_Dragon_Lord.md",
+        "title": "บทที่ 066: The Fratricide of the Dragon Lord",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_066_The_Fratricide_of_the_Dragon_Lord.md"
+      },
+      {
+        "slug": "Chapter_067_The_Throne_of_Station_Myria.md",
+        "title": "บทที่ 067: The Throne of Station Myria",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_067_The_Throne_of_Station_Myria.md"
+      },
+      {
+        "slug": "Chapter_068_The_Great_Deicide.md",
+        "title": "บทที่ 068: The Great Deicide",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_068_The_Great_Deicide.md"
+      },
+      {
+        "slug": "Chapter_069_The_Petrification_of_Garland.md",
+        "title": "บทที่ 069: The Petrification of Garland",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_069_The_Petrification_of_Garland.md"
+      },
+      {
+        "slug": "Chapter_070_The_Sprout_in_the_Alkali.md",
+        "title": "บทที่ 070: The Sprout in the Alkali",
+        "path": "novels/Breath of Fire 3 Minoru/Chapter_070_The_Sprout_in_the_Alkali.md"
+      }
+    ]
+  },
+  {
     "slug": "Megaman",
     "title": "Megaman",
     "author": "Unknown Author",
