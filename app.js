@@ -720,6 +720,9 @@ function speakParagraph(index) {
   isTTSPlaying = true;
   isTTSPaused = false;
   updateTTSPlayPauseUI();
+  enableBackgroundAudioKeepAlive();
+  requestWakeLock();
+  updateMediaSession();
 
   // Re-query voices in case user just restarted or updated voices
   populateVoiceList();
@@ -771,6 +774,84 @@ function speakParagraph(index) {
   });
 }
 
+// Silent 1-second WAV audio loop encoded in base64 to acquire Background Audio Lock from iOS Safari & Android Chrome
+const SILENT_AUDIO_URI = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+let bgAudioKeepAlive = null;
+let wakeLock = null;
+
+function enableBackgroundAudioKeepAlive() {
+  if (!bgAudioKeepAlive) {
+    bgAudioKeepAlive = new Audio(SILENT_AUDIO_URI);
+    bgAudioKeepAlive.loop = true;
+    bgAudioKeepAlive.volume = 0.01;
+  }
+  bgAudioKeepAlive.play().catch(err => {
+    console.warn('[TTS] Background audio keep-alive play warning:', err);
+  });
+}
+
+function disableBackgroundAudioKeepAlive() {
+  if (bgAudioKeepAlive) {
+    bgAudioKeepAlive.pause();
+  }
+}
+
+async function requestWakeLock() {
+  if ('wakeLock' in navigator) {
+    try {
+      if (!wakeLock) {
+        wakeLock = await navigator.wakeLock.request('screen');
+      }
+    } catch (err) {
+      console.warn('[TTS] Screen wake lock error:', err);
+    }
+  }
+}
+
+function releaseWakeLock() {
+  if (wakeLock) {
+    wakeLock.release().then(() => { wakeLock = null; }).catch(() => { wakeLock = null; });
+  }
+}
+
+function updateMediaSession() {
+  if (!('mediaSession' in navigator)) return;
+
+  const bookTitle = currentBook ? currentBook.title : 'Novelnaja Reader';
+  const authorName = currentBook ? currentBook.author : 'นิยายส่วนตัว';
+  const chapterName = (currentBook && currentBook.chapters && currentBook.chapters[currentChapterIndex]) 
+    ? currentBook.chapters[currentChapterIndex].title 
+    : '';
+
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: `${chapterName || bookTitle}`,
+      artist: `${authorName} • ย่อหน้า ${ttsCurrentIndex + 1}/${ttsParagraphs.length}`,
+      album: bookTitle,
+      artwork: currentBook && currentBook.cover ? [
+        { src: currentBook.cover, sizes: '512x512', type: 'image/png' }
+      ] : []
+    });
+
+    navigator.mediaSession.playbackState = (isTTSPlaying && !isTTSPaused) ? 'playing' : 'paused';
+  } catch (e) {
+    console.warn('[TTS] Update MediaSession error:', e);
+  }
+}
+
+function initMediaSessionHandlers() {
+  if (!('mediaSession' in navigator)) return;
+
+  try {
+    navigator.mediaSession.setActionHandler('play', () => { togglePlayPauseTTS(); });
+    navigator.mediaSession.setActionHandler('pause', () => { togglePlayPauseTTS(); });
+    navigator.mediaSession.setActionHandler('previoustrack', () => { speakParagraph(ttsCurrentIndex - 1); });
+    navigator.mediaSession.setActionHandler('nexttrack', () => { speakParagraph(ttsCurrentIndex + 1); });
+  } catch (e) {
+    console.warn('[TTS] MediaSession action handler error:', e);
+  }
+}
+
 function openTTSPlayer(startIndex = 0) {
   body.classList.add('tts-active');
   if (ttsPlayerBar) {
@@ -789,17 +870,21 @@ function togglePlayPauseTTS() {
     } else if (currentAudioFallback) {
       currentAudioFallback.pause();
     }
+    disableBackgroundAudioKeepAlive();
     isTTSPaused = true;
     updateTTSPlayPauseUI();
+    updateMediaSession();
   } else if (isTTSPaused) {
     if (ttsSynth && ttsVoice) {
       ttsSynth.resume();
     } else if (currentAudioFallback) {
       currentAudioFallback.play();
     }
+    enableBackgroundAudioKeepAlive();
     isTTSPaused = false;
     isTTSPlaying = true;
     updateTTSPlayPauseUI();
+    updateMediaSession();
   }
 }
 
@@ -811,6 +896,11 @@ function stopTTS() {
     ttsSynth.cancel();
   }
   stopAudioFallback();
+  disableBackgroundAudioKeepAlive();
+  releaseWakeLock();
+  if ('mediaSession' in navigator) {
+    try { navigator.mediaSession.playbackState = 'none'; } catch (e) {}
+  }
   currentUtterance = null;
   isTTSPlaying = false;
   isTTSPaused = false;
@@ -1144,6 +1234,20 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
+// Background audio visibility listener (keeps audio playing when tab/screen is backgrounded)
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    if (isTTSPlaying && !isTTSPaused) {
+      enableBackgroundAudioKeepAlive();
+    }
+  } else {
+    // When returning to foreground, align scroll position
+    if (isTTSPlaying && ttsParagraphs[ttsCurrentIndex]) {
+      ttsParagraphs[ttsCurrentIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+});
+
 // ==========================================================================
 // APPLICATION INITIALIZATION
 // ==========================================================================
@@ -1151,6 +1255,7 @@ async function initApp() {
   loadUserSettings();
   applyUserSettings();
   initTTSVoices();
+  initMediaSessionHandlers();
 
   try {
     // Fetch novels.json index
