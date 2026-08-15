@@ -37,6 +37,7 @@
 
 | หน้าปก (Cover) | ชื่อนิยาย (Title) | รายละเอียดเบื้องต้น (Description) | จำนวนตอน (Chapters) |
 | :---: | :--- | :--- | :---: |
+| <img src="novels/Breath%20of%20Fire%204%20Minoru/cover.png" width="120" alt="Breath of Fire 4 Minoru"> | **Breath of Fire 4 Minoru** | นิยาย Breath of Fire 4 ฉบับของ Minoru มหากาพย์การเดินทางและโชคชะตา | 32 ตอน |
 | <img src="novels/Breath%20of%20Fire%203%20Minoru/cover.png" width="120" alt="Breath of Fire 3 Minoru"> | **Breath of Fire 3 Minoru** | นิยาย Breath of Fire 3 ฉบับของ Minoru การเดินทางผจญภัยอันเข้มข้น | 70 ตอน |
 | <img src="novels/Megaman/cover.png" width="120" alt="Megaman"> | **Megaman** | นิยายเมก้าแมน ตำนานผู้ช่วยโลกจักรกลและจิตวิญญาณแห่งหุ่นยนต์ | 14 ตอน |
 | <img src="novels/Shinsetsu%20Samurai%20Spirits%20Bushidou%20Retsuden/cover.png" width="120" alt="Shinsetsu Samurai Spirits Bushidou Retsuden"> | **Shinsetsu Samurai Spirits Bushidou Retsuden** | นิยาย RPG ซามูไรสปิริตส์บทตำนานอัศวินผู้พิทักษ์ | 36 ตอน |

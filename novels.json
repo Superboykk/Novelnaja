@@ -1,5 +1,174 @@
 [
   {
+    "slug": "Breath of Fire 4 Minoru",
+    "title": "Breath Of Fire 4 Minoru",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Breath of Fire 4 Minoru/cover.png",
+    "chapters": [
+      {
+        "slug": "CHAPTER_01.md",
+        "title": "บทที่ 1: หลุมแก้วผลึก",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_01.md"
+      },
+      {
+        "slug": "CHAPTER_02.md",
+        "title": "บทที่ 2: สุสานปฐมจักรพรรดิ",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_02.md"
+      },
+      {
+        "slug": "CHAPTER_03.md",
+        "title": "บทที่ 3: ฝุ่นดำแห่งซาไร",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_03.md"
+      },
+      {
+        "slug": "CHAPTER_04.md",
+        "title": "บทที่ 4: เมืองวิญญาณแห่งชัมบา",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_04.md"
+      },
+      {
+        "slug": "CHAPTER_05.md",
+        "title": "บทที่ 5: ช่องผาคูร็อก",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_05.md"
+      },
+      {
+        "slug": "CHAPTER_06.md",
+        "title": "บทที่ 6: ประตูระบายน้ำแห่งซิเนสทรา",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_06.md"
+      },
+      {
+        "slug": "CHAPTER_07.md",
+        "title": "บทที่ 7: ผืนป่าแห่งคีเรียและค่ายกลกับดัก",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_07.md"
+      },
+      {
+        "slug": "CHAPTER_08.md",
+        "title": "บทที่ 8: ท้องพระโรงแห่งผู้สำเร็จราชการ",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_08.md"
+      },
+      {
+        "slug": "CHAPTER_09.md",
+        "title": "บทที่ 9: ตราประทับที่แตกหักแห่งลูเดีย",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_09.md"
+      },
+      {
+        "slug": "CHAPTER_10.md",
+        "title": "บทที่ 10: ทุ่งราบแห่งเผ่าโวเรน",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_10.md"
+      },
+      {
+        "slug": "CHAPTER_11.md",
+        "title": "บทที่ 11: เปลือกเหล็กกล้า",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_11.md"
+      },
+      {
+        "slug": "CHAPTER_12.md",
+        "title": "บทที่ 12: หมู่บ้านแห่งเหล่าคนทรง",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_12.md"
+      },
+      {
+        "slug": "CHAPTER_13.md",
+        "title": "บทที่ 13: มหาสมุทรในห้วงจิตสำนึก",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_13.md"
+      },
+      {
+        "slug": "CHAPTER_14.md",
+        "title": "บทที่ 14: เสียงกระซิบแห่งผืนพสุธา",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_14.md"
+      },
+      {
+        "slug": "CHAPTER_15.md",
+        "title": "บทที่ 15: ศิลาและพฤกษา",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_15.md"
+      },
+      {
+        "slug": "CHAPTER_16.md",
+        "title": "บทที่ 16: ไอเกลือและเหรียญตรา",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_16.md"
+      },
+      {
+        "slug": "CHAPTER_17.md",
+        "title": "บทที่ 17: วิหารแห่งเทพวารี",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_17.md"
+      },
+      {
+        "slug": "CHAPTER_18.md",
+        "title": "บทที่ 18: ข้ามผ่านทะเลใน",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_18.md"
+      },
+      {
+        "slug": "CHAPTER_19.md",
+        "title": "บทที่ 19: กระท่อมในแนวพงไพร",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_19.md"
+      },
+      {
+        "slug": "CHAPTER_20.md",
+        "title": "บทที่ 20: พิรุณสีเลือดแห่งภูเขาโยกี้",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_20.md"
+      },
+      {
+        "slug": "CHAPTER_21.md",
+        "title": "บทที่ 21: เส้นทางสายเถ้าถ่านแห่งประจิมทิศ",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_21.md"
+      },
+      {
+        "slug": "CHAPTER_22.md",
+        "title": "บทที่ 22: การก่อกบฏที่ปากปล่องภูเขาไฟ",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_22.md"
+      },
+      {
+        "slug": "CHAPTER_23.md",
+        "title": "บทที่ 23: กำแพงยักษ์แห่งชุนด์",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_23.md"
+      },
+      {
+        "slug": "CHAPTER_24.md",
+        "title": "บทที่ 24: จิตวิญญาณแห่งเออร์ชิน",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_24.md"
+      },
+      {
+        "slug": "CHAPTER_25.md",
+        "title": "บทที่ 25: เนื้อเยื่อใต้พิภพแห่งอัสตานา",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_25.md"
+      },
+      {
+        "slug": "CHAPTER_26.md",
+        "title": "บทที่ 26: ดาบแห่งราชัน",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_26.md"
+      },
+      {
+        "slug": "CHAPTER_27.md",
+        "title": "บทที่ 27: อวสานแห่งนครหลวงเชโด",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_27.md"
+      },
+      {
+        "slug": "CHAPTER_28.md",
+        "title": "บทที่ 28: นครแห่งความตายเชโด",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_28.md"
+      },
+      {
+        "slug": "CHAPTER_29.md",
+        "title": "บทที่ 29: ยอดปราสาทหลวง",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_29.md"
+      },
+      {
+        "slug": "CHAPTER_30.md",
+        "title": "บทที่ 30: การพิพากษาแห่งพระผู้ไม่ผันแปร",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_30.md"
+      },
+      {
+        "slug": "CHAPTER_31.md",
+        "title": "บทที่ 31: ศึกสองมังกรผลาญพิภพ",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_31.md"
+      },
+      {
+        "slug": "CHAPTER_32.md",
+        "title": "บทที่ 32: สิ่งที่ผ่านเลยไป",
+        "path": "novels/Breath of Fire 4 Minoru/CHAPTER_32.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 3 Minoru",
     "title": "Breath Of Fire 3 Minoru",
     "author": "Unknown Author",

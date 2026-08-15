@@ -128,11 +128,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Breath of Fire 3 Minoru first, Megaman second, Shinsetsu Samurai Spirits Bushidou Retsuden third, Kuroko Samurai Shodown fourth.
+    // Sort books: Breath of Fire 4 Minoru first, Breath of Fire 3 Minoru second, Megaman third, Shinsetsu Samurai Spirits Bushidou Retsuden fourth, Kuroko Samurai Shodown fifth.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Breath of Fire 3 Minoru" ? 1 : (a.slug === "Megaman" ? 2 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 3 : (a.slug === "Kuroko Samurai Shodown" ? 4 : 0)));
-      const pinB = b.slug === "Breath of Fire 3 Minoru" ? 1 : (b.slug === "Megaman" ? 2 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 3 : (b.slug === "Kuroko Samurai Shodown" ? 4 : 0)));
+      const pinA = a.slug === "Breath of Fire 4 Minoru" ? 1 : (a.slug === "Breath of Fire 3 Minoru" ? 2 : (a.slug === "Megaman" ? 3 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 4 : (a.slug === "Kuroko Samurai Shodown" ? 5 : 0))));
+      const pinB = b.slug === "Breath of Fire 4 Minoru" ? 1 : (b.slug === "Breath of Fire 3 Minoru" ? 2 : (b.slug === "Megaman" ? 3 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 4 : (b.slug === "Kuroko Samurai Shodown" ? 5 : 0))));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;
