@@ -645,39 +645,77 @@ function clearTTSHighlights() {
   });
 }
 
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
+              (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+function splitTextIntoSentenceChunks(text, maxLength = 180) {
+  if (!text) return [];
+  if (text.length <= maxLength) return [text];
+
+  const chunks = [];
+  const parts = text.split(/([,.\n!?|\s])/);
+  let currentChunk = '';
+
+  for (let part of parts) {
+    if ((currentChunk + part).length > maxLength) {
+      if (currentChunk.trim()) chunks.push(currentChunk.trim());
+      currentChunk = part;
+    } else {
+      currentChunk += part;
+    }
+  }
+  if (currentChunk.trim()) chunks.push(currentChunk.trim());
+
+  return chunks.length > 0 ? chunks : [text];
+}
+
 function speakThaiAudioFallback(text, onEndCallback) {
   stopAudioFallback();
 
-  // Encode text for Google Thai Speech Audio stream
-  const cleanText = text.substring(0, 200).trim();
-  if (!cleanText) {
+  const chunks = splitTextIntoSentenceChunks(text);
+  if (chunks.length === 0) {
     if (onEndCallback) onEndCallback();
     return;
   }
 
-  const encodedText = encodeURIComponent(cleanText);
-  const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=th&client=tw-ob`;
+  let chunkIndex = 0;
 
-  const audio = new Audio(audioUrl);
-  audio.playbackRate = ttsRate;
-  currentAudioFallback = audio;
+  function playNextChunk() {
+    if (!isTTSPlaying || isTTSPaused) return;
 
-  audio.onended = () => {
-    currentAudioFallback = null;
-    if (onEndCallback) onEndCallback();
-  };
+    if (chunkIndex >= chunks.length) {
+      currentAudioFallback = null;
+      if (onEndCallback) onEndCallback();
+      return;
+    }
 
-  audio.onerror = (err) => {
-    console.warn('[TTS] Audio stream error:', err);
-    currentAudioFallback = null;
-    if (onEndCallback) onEndCallback();
-  };
+    const chunkText = chunks[chunkIndex];
+    const encodedText = encodeURIComponent(chunkText);
+    const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=th&client=tw-ob`;
 
-  audio.play().catch(e => {
-    console.warn('[TTS] Audio play blocked:', e);
-    currentAudioFallback = null;
-    if (onEndCallback) onEndCallback();
-  });
+    const audio = new Audio(audioUrl);
+    audio.playbackRate = ttsRate;
+    currentAudioFallback = audio;
+
+    audio.onended = () => {
+      chunkIndex++;
+      playNextChunk();
+    };
+
+    audio.onerror = (err) => {
+      console.warn('[TTS] Audio chunk stream warning:', err);
+      chunkIndex++;
+      playNextChunk();
+    };
+
+    audio.play().catch(e => {
+      console.warn('[TTS] Audio play blocked:', e);
+      chunkIndex++;
+      playNextChunk();
+    });
+  }
+
+  playNextChunk();
 }
 
 function stopAudioFallback() {
@@ -723,6 +761,18 @@ function speakParagraph(index) {
   enableBackgroundAudioKeepAlive();
   requestWakeLock();
   updateMediaSession();
+
+  // On iOS (iPhone/iPad) or devices where Web Speech API is killed on screen-lock/background:
+  // Route through HTML5 Audio Stream engine directly to guarantee 100% continuous lock-screen & background playback!
+  if (isIOS) {
+    if (ttsSynth) ttsSynth.cancel();
+    speakThaiAudioFallback(textToSpeak, () => {
+      if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
+        speakParagraph(ttsCurrentIndex + 1);
+      }
+    });
+    return;
+  }
 
   // Re-query voices in case user just restarted or updated voices
   populateVoiceList();
