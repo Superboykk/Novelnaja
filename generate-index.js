@@ -128,11 +128,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Breath of Fire 4 Minoru first, Breath of Fire 3 Minoru second, Megaman third, Shinsetsu Samurai Spirits Bushidou Retsuden fourth, Kuroko Samurai Shodown fifth.
+    // Sort books: Final Fantasy Tactics first, Breath of Fire 4 Minoru second, Breath of Fire 3 Minoru third, Megaman fourth, Shinsetsu Samurai Spirits Bushidou Retsuden fifth, Kuroko Samurai Shodown sixth.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Breath of Fire 4 Minoru" ? 1 : (a.slug === "Breath of Fire 3 Minoru" ? 2 : (a.slug === "Megaman" ? 3 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 4 : (a.slug === "Kuroko Samurai Shodown" ? 5 : 0))));
-      const pinB = b.slug === "Breath of Fire 4 Minoru" ? 1 : (b.slug === "Breath of Fire 3 Minoru" ? 2 : (b.slug === "Megaman" ? 3 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 4 : (b.slug === "Kuroko Samurai Shodown" ? 5 : 0))));
+      const pinA = a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 1 : (a.slug === "Breath of Fire 4 Minoru" ? 2 : (a.slug === "Breath of Fire 3 Minoru" ? 3 : (a.slug === "Megaman" ? 4 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 5 : (a.slug === "Kuroko Samurai Shodown" ? 6 : 0)))));
+      const pinB = b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 1 : (b.slug === "Breath of Fire 4 Minoru" ? 2 : (b.slug === "Breath of Fire 3 Minoru" ? 3 : (b.slug === "Megaman" ? 4 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 5 : (b.slug === "Kuroko Samurai Shodown" ? 6 : 0)))));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;

@@ -1,5 +1,319 @@
 [
   {
+    "slug": "Final Fantasy Tactics The Boy Who Learned To Speak",
+    "title": "Final Fantasy Tactics The Boy Who Learned To Speak",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/Cover.png",
+    "chapters": [
+      {
+        "slug": "CHAPTER_001.md",
+        "title": "บทที่ 1: ไม้ดาบขี้เลื่อย",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_001.md"
+      },
+      {
+        "slug": "CHAPTER_002.md",
+        "title": "บทที่ 2: ชายในรอยเกือกม้า",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_002.md"
+      },
+      {
+        "slug": "CHAPTER_003.md",
+        "title": "บทที่ 3: ราคาของเศษหนัง",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_003.md"
+      },
+      {
+        "slug": "CHAPTER_004.md",
+        "title": "บทที่ 4: หน้าต่างร้านขนมปัง",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_004.md"
+      },
+      {
+        "slug": "CHAPTER_005.md",
+        "title": "บทที่ 5: ประตูเหล็กลงกลอน",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_005.md"
+      },
+      {
+        "slug": "CHAPTER_006.md",
+        "title": "บทที่ 6: เด็กชายผู้ไร้เงา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_006.md"
+      },
+      {
+        "slug": "CHAPTER_007.md",
+        "title": "บทที่ 7: ตราประทับสีชาด",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_007.md"
+      },
+      {
+        "slug": "CHAPTER_008.md",
+        "title": "บทที่ 8: ลานฝึกเถ้าถ่าน",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_008.md"
+      },
+      {
+        "slug": "CHAPTER_009.md",
+        "title": "บทที่ 9: เสียงหักของกระดูกแอช",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_009.md"
+      },
+      {
+        "slug": "CHAPTER_010.md",
+        "title": "บทที่ 10: ขบวนเกวียนสัมภาระ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_010.md"
+      },
+      {
+        "slug": "CHAPTER_011.md",
+        "title": "บทที่ 11: ห้องใต้ดินของคนปรุงยา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_011.md"
+      },
+      {
+        "slug": "CHAPTER_012.md",
+        "title": "บทที่ 12: สูตรผสมของเลือด",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_012.md"
+      },
+      {
+        "slug": "CHAPTER_013.md",
+        "title": "บทที่ 13: สมรภูมิต่างระดับ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_013.md"
+      },
+      {
+        "slug": "CHAPTER_014.md",
+        "title": "บทที่ 14: ราคาของขนนก",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_014.md"
+      },
+      {
+        "slug": "CHAPTER_015.md",
+        "title": "บทที่ 15: โรงเตี๊ยมของผู้ถูกเนรเทศ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_015.md"
+      },
+      {
+        "slug": "CHAPTER_016.md",
+        "title": "บทที่ 16: ห้องคนป่วยของท่านบารอน",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_016.md"
+      },
+      {
+        "slug": "CHAPTER_017.md",
+        "title": "บทที่ 17: สัญญาที่ถูกฉีก",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_017.md"
+      },
+      {
+        "slug": "CHAPTER_018.md",
+        "title": "บทที่ 18: เสื้อคลุมสีขาว",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_018.md"
+      },
+      {
+        "slug": "CHAPTER_019.md",
+        "title": "บทที่ 19: สวนศาสตร์แห่งการอภัยบาป",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_019.md"
+      },
+      {
+        "slug": "CHAPTER_020.md",
+        "title": "บทที่ 20: ผู้เยียวยาผู้ไม่กะพริบตา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_020.md"
+      },
+      {
+        "slug": "CHAPTER_021.md",
+        "title": "บทที่ 21: ความลุ่มหลงในคำสรรเสริญ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_021.md"
+      },
+      {
+        "slug": "CHAPTER_022.md",
+        "title": "บทที่ 22: เงาของตุลาการศาสนา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_022.md"
+      },
+      {
+        "slug": "CHAPTER_023.md",
+        "title": "บทที่ 23: เสียงกังวานแห่งความหวาดกลัว",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_023.md"
+      },
+      {
+        "slug": "CHAPTER_024.md",
+        "title": "บทที่ 24: ขนมปังและธรรมาสน์",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_024.md"
+      },
+      {
+        "slug": "CHAPTER_025.md",
+        "title": "บทที่ 25: นอกรีตแห่งวจนะ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_025.md"
+      },
+      {
+        "slug": "CHAPTER_026.md",
+        "title": "บทที่ 26: การลาจากข้างบ่อน้ำ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_026.md"
+      },
+      {
+        "slug": "CHAPTER_027.md",
+        "title": "บทที่ 27: เส้นทางสู่ซาลันด์",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_027.md"
+      },
+      {
+        "slug": "CHAPTER_028.md",
+        "title": "บทที่ 28: ลิ้นทองคำ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_028.md"
+      },
+      {
+        "slug": "CHAPTER_029.md",
+        "title": "บทที่ 29: สะพานทองคำ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_029.md"
+      },
+      {
+        "slug": "CHAPTER_030.md",
+        "title": "บทที่ 30: สัตว์ร้ายในกายมนุษย์",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_030.md"
+      },
+      {
+        "slug": "CHAPTER_031.md",
+        "title": "บทที่ 31: ควันปืนแห่งกู๊ก",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_031.md"
+      },
+      {
+        "slug": "CHAPTER_032.md",
+        "title": "บทที่ 32: ตัวอักษรของคู่ปรับ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_032.md"
+      },
+      {
+        "slug": "CHAPTER_033.md",
+        "title": "บทที่ 33: โรงละครแห่งความโกรธเกรี้ยว",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_033.md"
+      },
+      {
+        "slug": "CHAPTER_034.md",
+        "title": "บทที่ 34: บทสวดแห่งความเบื่อหน่าย",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_034.md"
+      },
+      {
+        "slug": "CHAPTER_035.md",
+        "title": "บทที่ 35: เหรียญห้าพันกิลเปื้อนยาพิษ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_035.md"
+      },
+      {
+        "slug": "CHAPTER_036.md",
+        "title": "บทที่ 36: รอยร้าวในกระจกเงา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_036.md"
+      },
+      {
+        "slug": "CHAPTER_037.md",
+        "title": "บทที่ 37: ทางเดินสู่โรงสีเก่า",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_037.md"
+      },
+      {
+        "slug": "CHAPTER_038.md",
+        "title": "บทที่ 38: การทรยศในห้องใต้ดิน",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_038.md"
+      },
+      {
+        "slug": "CHAPTER_039.md",
+        "title": "บทที่ 39: การแยกส่วนแห่งความภักดี",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_039.md"
+      },
+      {
+        "slug": "CHAPTER_040.md",
+        "title": "บทที่ 40: กุญแจและอากาศราตรี",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_040.md"
+      },
+      {
+        "slug": "CHAPTER_041.md",
+        "title": "บทที่ 41: ร่องรอยบนโคลนและเหรียญเงิน",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_041.md"
+      },
+      {
+        "slug": "CHAPTER_042.md",
+        "title": "บทที่ 42: ขี้เถ้าในกองฟาง",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_042.md"
+      },
+      {
+        "slug": "CHAPTER_043.md",
+        "title": "บทที่ 43: ตราประทับและไม้เท้าเชอร์รี",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_043.md"
+      },
+      {
+        "slug": "CHAPTER_044.md",
+        "title": "บทที่ 44: รุ่งอรุณแห่งอิสรภาพ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_044.md"
+      },
+      {
+        "slug": "CHAPTER_045.md",
+        "title": "บทที่ 45: เสื้อคลุมกำมะหยี่",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_045.md"
+      },
+      {
+        "slug": "CHAPTER_046.md",
+        "title": "บทที่ 46: โล่แห่งแดนประหาร",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_046.md"
+      },
+      {
+        "slug": "CHAPTER_047.md",
+        "title": "บทที่ 47: ยุทธศาสตร์แห่งความอดอยาก",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_047.md"
+      },
+      {
+        "slug": "CHAPTER_048.md",
+        "title": "บทที่ 48: กระจกเงาในกระโจมพยาบาล",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_048.md"
+      },
+      {
+        "slug": "CHAPTER_049.md",
+        "title": "บทที่ 49: การล้อมด้วยความน่าเบื่อหน่าย",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_049.md"
+      },
+      {
+        "slug": "CHAPTER_050.md",
+        "title": "บทที่ 50: จอกสุราอาบยาพิษ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_050.md"
+      },
+      {
+        "slug": "CHAPTER_051.md",
+        "title": "บทที่ 51: การประเมินค่าของเหล่าลอร์ด",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_051.md"
+      },
+      {
+        "slug": "CHAPTER_052.md",
+        "title": "บทที่ 52: สัญชาตญาณแห่งสัตว์ร้าย",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_052.md"
+      },
+      {
+        "slug": "CHAPTER_053.md",
+        "title": "บทที่ 53: กายวิภาคแห่งมรณกรรม",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_053.md"
+      },
+      {
+        "slug": "CHAPTER_054.md",
+        "title": "บทที่ 54: วังวนแห่งความว่างเปล่าและเงาแห่งภราดรภาพ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_054.md"
+      },
+      {
+        "slug": "CHAPTER_055.md",
+        "title": "บทที่ 55: เงาแห่งเบธลา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_055.md"
+      },
+      {
+        "slug": "CHAPTER_056.md",
+        "title": "บทที่ 56: หุบผาสามราชสีห์",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_056.md"
+      },
+      {
+        "slug": "CHAPTER_057.md",
+        "title": "บทที่ 57: ความเหนื่อยล้าของคมดาบ",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_057.md"
+      },
+      {
+        "slug": "CHAPTER_058.md",
+        "title": "บทที่ 58: แท่นบูชาแห่งศักดิ์ศรีและตราบาปของนักบวช",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_058.md"
+      },
+      {
+        "slug": "CHAPTER_059.md",
+        "title": "บทที่ 59: บัญชีแห่งชีวิตและบุรุษผู้ไม่อาจเจรจา",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_059.md"
+      },
+      {
+        "slug": "CHAPTER_060.md",
+        "title": "บทที่ 60: ราชาแห่งคำลวงและข้อตกลงไร้โลหิต",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_060.md"
+      },
+      {
+        "slug": "CHAPTER_061.md",
+        "title": "บทที่ 61: บทส่งท้าย: เด็กชายผู้ปรารถนาจะช่วยเหลือผู้คน",
+        "path": "novels/Final Fantasy Tactics The Boy Who Learned To Speak/CHAPTER_061.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 4 Minoru",
     "title": "Breath Of Fire 4 Minoru",
     "author": "Unknown Author",
