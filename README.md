@@ -37,7 +37,7 @@
 
 | หน้าปก (Cover) | ชื่อนิยาย (Title) | รายละเอียดเบื้องต้น (Description) | จำนวนตอน (Chapters) |
 | :---: | :--- | :--- | :---: |
-| <img src="novels/Breath%20of%20Fire%202%20Niro/cover.png" width="120" alt="Breath of Fire 2 Niro"> | **Breath of Fire 2 Niro** | นิยาย Breath of Fire 2 ฉบับของ Niro การก่อกำเนิดของเมืองและการผจญภัย | 16 ตอน |
+| <img src="novels/Breath%20of%20Fire%202%20Niro/cover.png" width="120" alt="Breath of Fire 2 Niro"> | **NIRO - BEFORE THE TOWN WAS BORN FROM BREATH OF FIRE II** | นิยาย Breath of Fire 2 ฉบับของ Niro การก่อกำเนิดของเมืองและการผจญภัย | 16 ตอน |
 | <img src="novels/Final%20Fantasy%20Tactics%20The%20Boy%20Who%20Learned%20To%20Speak/Cover.png" width="120" alt="Final Fantasy Tactics The Boy Who Learned To Speak"> | **Final Fantasy Tactics The Boy Who Learned To Speak** | นิยาย Final Fantasy Tactics บทผู้พูดเพื่อความเข้าใจ | 61 ตอน |
 | <img src="novels/Breath%20of%20Fire%204%20Minoru/cover.png" width="120" alt="Breath of Fire 4 Minoru"> | **Breath of Fire 4 Minoru** | นิยาย Breath of Fire 4 ฉบับของ Minoru มหากาพย์การเดินทางและโชคชะตา | 32 ตอน |
 | <img src="novels/Breath%20of%20Fire%203%20Minoru/cover.png" width="120" alt="Breath of Fire 3 Minoru"> | **Breath of Fire 3 Minoru** | นิยาย Breath of Fire 3 ฉบับของ Minoru การเดินทางผจญภัยอันเข้มข้น | 70 ตอน |
