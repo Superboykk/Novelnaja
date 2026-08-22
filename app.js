@@ -551,7 +551,6 @@ let isTTSPaused = false;
 let ttsRate = 1.0;
 
 let thaiTTSVoices = [];
-let currentAudioFallback = null;
 let currentUtterance = null; // Global reference prevents Chrome Garbage Collection from stopping speech mid-paragraph!
 let ttsSpeechId = 0; // Token to invalidate previous callbacks on new user click/change
 let ttsHeartbeatTimer = null; // Chrome 15s freeze prevention timer
@@ -645,86 +644,6 @@ function clearTTSHighlights() {
   });
 }
 
-const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || 
-              (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-
-function splitTextIntoSentenceChunks(text, maxLength = 180) {
-  if (!text) return [];
-  if (text.length <= maxLength) return [text];
-
-  const chunks = [];
-  const parts = text.split(/([,.\n!?|\s])/);
-  let currentChunk = '';
-
-  for (let part of parts) {
-    if ((currentChunk + part).length > maxLength) {
-      if (currentChunk.trim()) chunks.push(currentChunk.trim());
-      currentChunk = part;
-    } else {
-      currentChunk += part;
-    }
-  }
-  if (currentChunk.trim()) chunks.push(currentChunk.trim());
-
-  return chunks.length > 0 ? chunks : [text];
-}
-
-function speakThaiAudioFallback(text, onEndCallback) {
-  stopAudioFallback();
-
-  const chunks = splitTextIntoSentenceChunks(text);
-  if (chunks.length === 0) {
-    if (onEndCallback) onEndCallback();
-    return;
-  }
-
-  let chunkIndex = 0;
-
-  function playNextChunk() {
-    if (!isTTSPlaying || isTTSPaused) return;
-
-    if (chunkIndex >= chunks.length) {
-      currentAudioFallback = null;
-      if (onEndCallback) onEndCallback();
-      return;
-    }
-
-    const chunkText = chunks[chunkIndex];
-    const encodedText = encodeURIComponent(chunkText);
-    const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodedText}&tl=th&client=tw-ob`;
-
-    const audio = new Audio(audioUrl);
-    audio.playbackRate = ttsRate;
-    currentAudioFallback = audio;
-
-    audio.onended = () => {
-      chunkIndex++;
-      playNextChunk();
-    };
-
-    audio.onerror = (err) => {
-      console.warn('[TTS] Audio chunk stream warning:', err);
-      chunkIndex++;
-      playNextChunk();
-    };
-
-    audio.play().catch(e => {
-      console.warn('[TTS] Audio play blocked:', e);
-      chunkIndex++;
-      playNextChunk();
-    });
-  }
-
-  playNextChunk();
-}
-
-function stopAudioFallback() {
-  if (currentAudioFallback) {
-    currentAudioFallback.pause();
-    currentAudioFallback = null;
-  }
-}
-
 function speakParagraph(index) {
   ttsParagraphs = getReadableParagraphs();
   if (ttsParagraphs.length === 0) {
@@ -762,66 +681,50 @@ function speakParagraph(index) {
   requestWakeLock();
   updateMediaSession();
 
-  // On iOS (iPhone/iPad) or devices where Web Speech API is killed on screen-lock/background:
-  // Route through HTML5 Audio Stream engine directly to guarantee 100% continuous lock-screen & background playback!
-  if (isIOS) {
-    if (ttsSynth) ttsSynth.cancel();
-    speakThaiAudioFallback(textToSpeak, () => {
-      if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
-        speakParagraph(ttsCurrentIndex + 1);
-      }
-    });
+  if (!ttsSynth) {
+    if (ttsProgressText) ttsProgressText.textContent = 'เบราว์เซอร์ไม่รองรับการอ่านเสียง';
     return;
   }
 
   // Re-query voices in case user just restarted or updated voices
   populateVoiceList();
 
-  // Mode 1: Native Speech Synthesis with installed Thai Voice
-  if (ttsSynth && ttsVoice) {
-    ttsSynth.cancel();
-    stopAudioFallback();
+  ttsSynth.cancel();
 
-    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+  const utterance = new SpeechSynthesisUtterance(textToSpeak);
+  utterance.lang = 'th-TH';
+  if (ttsVoice) {
     utterance.voice = ttsVoice;
     utterance.lang = ttsVoice.lang || 'th-TH';
-    utterance.rate = ttsRate;
+  }
+  utterance.rate = ttsRate;
 
-    // STORE IN GLOBAL VARIABLE to prevent Chrome Garbage Collection mid-paragraph!
-    currentUtterance = utterance;
+  // STORE IN GLOBAL VARIABLE to prevent Chrome/Safari Garbage Collection mid-paragraph!
+  currentUtterance = utterance;
 
-    utterance.onend = () => {
-      clearTTSHeartbeat();
-      currentUtterance = null;
-      if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
-        speakParagraph(ttsCurrentIndex + 1);
-      }
-    };
-
-    utterance.onerror = (e) => {
-      clearTTSHeartbeat();
-      currentUtterance = null;
-      if (thisSpeechId !== ttsSpeechId) return;
-      console.warn('[TTS] Utterance error, switching to audio stream fallback:', e);
-      speakThaiAudioFallback(textToSpeak, () => {
+  utterance.onend = () => {
+    clearTTSHeartbeat();
+    currentUtterance = null;
+    if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
+      setTimeout(() => {
         if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
           speakParagraph(ttsCurrentIndex + 1);
         }
-      });
-    };
-
-    startTTSHeartbeat();
-    ttsSynth.speak(utterance);
-    return;
-  }
-
-  // Mode 2: Online Audio Stream Fallback (When OS doesn't have a Thai Voice package installed)
-  if (ttsSynth) ttsSynth.cancel();
-  speakThaiAudioFallback(textToSpeak, () => {
-    if (thisSpeechId === ttsSpeechId && isTTSPlaying && !isTTSPaused) {
-      speakParagraph(ttsCurrentIndex + 1);
+      }, 80);
     }
-  });
+  };
+
+  utterance.onerror = (e) => {
+    clearTTSHeartbeat();
+    currentUtterance = null;
+    if (thisSpeechId !== ttsSpeechId) return;
+    console.warn('[TTS] Utterance error:', e);
+    // Stop cleanly instead of rapidly skipping through all paragraphs
+    if (ttsProgressText) ttsProgressText.textContent = 'ขัดข้องในการอ่านย่อหน้านี้';
+  };
+
+  startTTSHeartbeat();
+  ttsSynth.speak(utterance);
 }
 
 // Silent 1-second WAV audio loop encoded in base64 to acquire Background Audio Lock from iOS Safari & Android Chrome
@@ -915,20 +818,16 @@ function togglePlayPauseTTS() {
   if (!isTTSPlaying && !isTTSPaused) {
     openTTSPlayer(ttsCurrentIndex);
   } else if (isTTSPlaying && !isTTSPaused) {
-    if (ttsSynth && ttsVoice) {
+    if (ttsSynth) {
       ttsSynth.pause();
-    } else if (currentAudioFallback) {
-      currentAudioFallback.pause();
     }
     disableBackgroundAudioKeepAlive();
     isTTSPaused = true;
     updateTTSPlayPauseUI();
     updateMediaSession();
   } else if (isTTSPaused) {
-    if (ttsSynth && ttsVoice) {
+    if (ttsSynth) {
       ttsSynth.resume();
-    } else if (currentAudioFallback) {
-      currentAudioFallback.play();
     }
     enableBackgroundAudioKeepAlive();
     isTTSPaused = false;
@@ -945,7 +844,6 @@ function stopTTS() {
   if (ttsSynth) {
     ttsSynth.cancel();
   }
-  stopAudioFallback();
   disableBackgroundAudioKeepAlive();
   releaseWakeLock();
   if ('mediaSession' in navigator) {
