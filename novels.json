@@ -1,5 +1,94 @@
 [
   {
+    "slug": "Breath of Fire 2 Niro",
+    "title": "Breath Of Fire 2 Niro",
+    "author": "Unknown Author",
+    "description": "No description available.",
+    "cover": "novels/Breath of Fire 2 Niro/cover.png",
+    "chapters": [
+      {
+        "slug": "CHAPTER_01.md",
+        "title": "บทที่ 1: เสียงสิ่วกระทบหิน",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_01.md"
+      },
+      {
+        "slug": "CHAPTER_02.md",
+        "title": "บทที่ 2: เงาแห่งฟูตะบิ",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_02.md"
+      },
+      {
+        "slug": "CHAPTER_03.md",
+        "title": "บทที่ 3: ฉากไม้ของนายช่าง",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_03.md"
+      },
+      {
+        "slug": "CHAPTER_04.md",
+        "title": "บทที่ 4: เสาไม้และกลิ่นไทม์",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_04.md"
+      },
+      {
+        "slug": "CHAPTER_05.md",
+        "title": "บทที่ 5: วันคืนแห่งแดดและฝน",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_05.md"
+      },
+      {
+        "slug": "CHAPTER_06.md",
+        "title": "บทที่ 6: กางเขนต้นใหม่",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_06.md"
+      },
+      {
+        "slug": "CHAPTER_07.md",
+        "title": "บทที่ 7: เก้าอี้ที่ว่างเปล่า",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_07.md"
+      },
+      {
+        "slug": "CHAPTER_08.md",
+        "title": "บทที่ 8: หิมะละลายในเหมันต์",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_08.md"
+      },
+      {
+        "slug": "CHAPTER_09.md",
+        "title": "บทที่ 9: มุ่งสู่ทิศใต้",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_09.md"
+      },
+      {
+        "slug": "CHAPTER_10.md",
+        "title": "บทที่ 10: ธรณีประตูที่พังทลาย",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_10.md"
+      },
+      {
+        "slug": "CHAPTER_11.md",
+        "title": "บทที่ 11: กลิ่นของหินแปลกหน้า",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_11.md"
+      },
+      {
+        "slug": "CHAPTER_12.md",
+        "title": "บทที่ 12: กองหินบนยอดผา",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_12.md"
+      },
+      {
+        "slug": "CHAPTER_13.md",
+        "title": "บทที่ 13: เสียงเคาะที่ประตูกระท่อม",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_13.md"
+      },
+      {
+        "slug": "CHAPTER_14.md",
+        "title": "บทที่ 14: ช่างไม้คนแรก",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_14.md"
+      },
+      {
+        "slug": "CHAPTER_15.md",
+        "title": "บทที่ 15: ผืนดินที่ลอยขึ้น",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_15.md"
+      },
+      {
+        "slug": "CHAPTER_16.md",
+        "title": "บทที่ 16: รอยสิ่วบนศิลาหลัก",
+        "path": "novels/Breath of Fire 2 Niro/CHAPTER_16.md"
+      }
+    ]
+  },
+  {
     "slug": "Final Fantasy Tactics The Boy Who Learned To Speak",
     "title": "Final Fantasy Tactics The Boy Who Learned To Speak",
     "author": "Unknown Author",

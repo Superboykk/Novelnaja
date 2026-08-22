@@ -128,11 +128,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Final Fantasy Tactics first, Breath of Fire 4 Minoru second, Breath of Fire 3 Minoru third, Megaman fourth, Shinsetsu Samurai Spirits Bushidou Retsuden fifth, Kuroko Samurai Shodown sixth.
+    // Sort books: Breath of Fire 2 Niro first, Final Fantasy Tactics second, Breath of Fire 4 Minoru third, Breath of Fire 3 Minoru fourth, Megaman fifth, Shinsetsu Samurai Spirits Bushidou Retsuden sixth, Kuroko Samurai Shodown seventh.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 1 : (a.slug === "Breath of Fire 4 Minoru" ? 2 : (a.slug === "Breath of Fire 3 Minoru" ? 3 : (a.slug === "Megaman" ? 4 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 5 : (a.slug === "Kuroko Samurai Shodown" ? 6 : 0)))));
-      const pinB = b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 1 : (b.slug === "Breath of Fire 4 Minoru" ? 2 : (b.slug === "Breath of Fire 3 Minoru" ? 3 : (b.slug === "Megaman" ? 4 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 5 : (b.slug === "Kuroko Samurai Shodown" ? 6 : 0)))));
+      const pinA = a.slug === "Breath of Fire 2 Niro" ? 1 : (a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 2 : (a.slug === "Breath of Fire 4 Minoru" ? 3 : (a.slug === "Breath of Fire 3 Minoru" ? 4 : (a.slug === "Megaman" ? 5 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 6 : (a.slug === "Kuroko Samurai Shodown" ? 7 : 0))))));
+      const pinB = b.slug === "Breath of Fire 2 Niro" ? 1 : (b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 2 : (b.slug === "Breath of Fire 4 Minoru" ? 3 : (b.slug === "Breath of Fire 3 Minoru" ? 4 : (b.slug === "Megaman" ? 5 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 6 : (b.slug === "Kuroko Samurai Shodown" ? 7 : 0))))));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;
