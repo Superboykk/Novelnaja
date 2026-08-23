@@ -128,11 +128,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Breath of Fire 2 Niro first, Final Fantasy Tactics second, Breath of Fire 4 Minoru third, Breath of Fire 3 Minoru fourth, Megaman fifth, Shinsetsu Samurai Spirits Bushidou Retsuden sixth, Kuroko Samurai Shodown seventh.
+    // Sort books: Breath of Fire 2 The Dragons Tear first, Breath of Fire 2 Niro second, Final Fantasy Tactics third, Breath of Fire 4 Minoru fourth, Breath of Fire 3 Minoru fifth, Megaman sixth, Shinsetsu Samurai Spirits Bushidou Retsuden seventh, Kuroko Samurai Shodown eighth.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Breath of Fire 2 Niro" ? 1 : (a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 2 : (a.slug === "Breath of Fire 4 Minoru" ? 3 : (a.slug === "Breath of Fire 3 Minoru" ? 4 : (a.slug === "Megaman" ? 5 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 6 : (a.slug === "Kuroko Samurai Shodown" ? 7 : 0))))));
-      const pinB = b.slug === "Breath of Fire 2 Niro" ? 1 : (b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 2 : (b.slug === "Breath of Fire 4 Minoru" ? 3 : (b.slug === "Breath of Fire 3 Minoru" ? 4 : (b.slug === "Megaman" ? 5 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 6 : (b.slug === "Kuroko Samurai Shodown" ? 7 : 0))))));
+      const pinA = a.slug === "Breath of Fire 2 The Dragons Tear" ? 1 : (a.slug === "Breath of Fire 2 Niro" ? 2 : (a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 3 : (a.slug === "Breath of Fire 4 Minoru" ? 4 : (a.slug === "Breath of Fire 3 Minoru" ? 5 : (a.slug === "Megaman" ? 6 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 7 : (a.slug === "Kuroko Samurai Shodown" ? 8 : 0)))))));
+      const pinB = b.slug === "Breath of Fire 2 The Dragons Tear" ? 1 : (b.slug === "Breath of Fire 2 Niro" ? 2 : (b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 3 : (b.slug === "Breath of Fire 4 Minoru" ? 4 : (b.slug === "Breath of Fire 3 Minoru" ? 5 : (b.slug === "Megaman" ? 6 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 7 : (b.slug === "Kuroko Samurai Shodown" ? 8 : 0)))))));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;

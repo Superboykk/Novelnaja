@@ -1,5 +1,194 @@
 [
   {
+    "slug": "Breath of Fire 2 The Dragons Tear",
+    "title": "Breath of Fire II The Dragon's Tear",
+    "author": "Unknown Author",
+    "description": "นิยาย Breath of Fire II ในชื่อตอน The Dragon's Tear การผจญภัยและโชคชะตาแห่งโฮมทาวน์",
+    "cover": "novels/Breath of Fire 2 The Dragons Tear/cover.png",
+    "chapters": [
+      {
+        "slug": "chapter_001.md",
+        "title": "Chapter 01 — เนินผามังกรลมหายใจ (The Hill of the Breathing Dragon)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_001.md"
+      },
+      {
+        "slug": "chapter_002.md",
+        "title": "Chapter 02 — สายตาในห้วงอเวจี (The Gaze in the Abyss)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_002.md"
+      },
+      {
+        "slug": "chapter_003.md",
+        "title": "Chapter 03 — หมู่บ้านแห่งคนแปลกหน้า (The Village of Strangers)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_003.md"
+      },
+      {
+        "slug": "chapter_004.md",
+        "title": "Chapter 04 — ที่พักพิงกลางพายุ (The Storm Sanctuary)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_004.md"
+      },
+      {
+        "slug": "chapter_005.md",
+        "title": "Chapter 05 — เหรียญสิบปีแห่งโฮมทาวน์ (The Ten-Year Shilling)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_005.md"
+      },
+      {
+        "slug": "chapter_006.md",
+        "title": "Chapter 06 — กับดักกำมะหยี่ (The Velvet Trap)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_006.md"
+      },
+      {
+        "slug": "chapter_007.md",
+        "title": "Chapter 07 — ฝ่าโคลนตมและซากศิลา (Through the Slime & Stones)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_007.md"
+      },
+      {
+        "slug": "chapter_008.md",
+        "title": "Chapter 08 — เม็ดทรายแห่งคอร์แซร์ (The Sand of Coursair)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_008.md"
+      },
+      {
+        "slug": "chapter_009.md",
+        "title": "Chapter 09 — คมเขี้ยวใต้เกราะกำบัง (The Shielded Fang)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_009.md"
+      },
+      {
+        "slug": "chapter_010.md",
+        "title": "Chapter 10 — ความมืดในก้นบ่อ (The Darkness in the Well)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_010.md"
+      },
+      {
+        "slug": "chapter_011.md",
+        "title": "Chapter 11 — กองไฟของคนนอกคอก (The Hearth of the Outcasts)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_011.md"
+      },
+      {
+        "slug": "chapter_012.md",
+        "title": "Chapter 12 — เจ้าชายเสียงกบ (The Croaking Prince)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_012.md"
+      },
+      {
+        "slug": "chapter_013.md",
+        "title": "Chapter 13 — รสชาติแห่งราชสำนัก (The Taste of the Royal Court)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_013.md"
+      },
+      {
+        "slug": "chapter_014.md",
+        "title": "Chapter 14 — ปีกสีขาวแห่งปราสาทเวหา (The Wings of the Sky Castle)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_014.md"
+      },
+      {
+        "slug": "chapter_015.md",
+        "title": "Chapter 15 — กริชของตัวตลก (The Jester's Dagger)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_015.md"
+      },
+      {
+        "slug": "chapter_016.md",
+        "title": "Chapter 16 — ปราการเหล็กกล้าไฮฟอร์ท (The Iron Citadel of High Fort)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_016.md"
+      },
+      {
+        "slug": "chapter_017.md",
+        "title": "Chapter 17 — นครแห่งบทเพลง (The City of Melodies)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_017.md"
+      },
+      {
+        "slug": "chapter_018.md",
+        "title": "Chapter 18 — เขาวงกตแห่งวิญญาณนิทรา (The Labyrinth of the Sleeping Soul)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_018.md"
+      },
+      {
+        "slug": "chapter_019.md",
+        "title": "Chapter 19 — บทเพลงแห่งสมุทรลึก (The Song of the Deep Sea)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_019.md"
+      },
+      {
+        "slug": "chapter_020.md",
+        "title": "Chapter 20 — ดอกไม้ในกรงขังแห่งพงไพร (The Caged Flower of the Forest)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_020.md"
+      },
+      {
+        "slug": "chapter_021.md",
+        "title": "Chapter 21 — ความทรงจำห้าร้อยปี (The Memory of Five Hundred Years)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_021.md"
+      },
+      {
+        "slug": "chapter_022.md",
+        "title": "Chapter 22 — แม่มดอมตะแห่งผืนทราย (The Immortal Sorceress of the Sands)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_022.md"
+      },
+      {
+        "slug": "chapter_023.md",
+        "title": "Chapter 23 — กลิ่นอายของจอมโจรปีกเงิน (The Scent of the Winged Thief)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_023.md"
+      },
+      {
+        "slug": "chapter_024.md",
+        "title": "Chapter 24 — ระฆังเหล็กแห่งบันโด (The Iron Bells of Bando)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_024.md"
+      },
+      {
+        "slug": "chapter_025.md",
+        "title": "Chapter 25 — เงาทมิฬในห้องสารภาพบาป (The Shadow in the Confessional)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_025.md"
+      },
+      {
+        "slug": "chapter_026.md",
+        "title": "Chapter 26 — รวงทองแห่งฟาร์มทาวน์ (The Golden Grain of FarmTown)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_026.md"
+      },
+      {
+        "slug": "chapter_027.md",
+        "title": "Chapter 27 — ปีกแห่งวิหคเทวะ (The Wings of the Great Bird)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_027.md"
+      },
+      {
+        "slug": "chapter_028.md",
+        "title": "Chapter 28 — ศาสดาจอมปลอมบนเวหา (The False Prophet in the Sky)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_028.md"
+      },
+      {
+        "slug": "chapter_029.md",
+        "title": "Chapter 29 — การล่มสลายแห่งมหาวิหารอีเวนเซน (The Fall of Grand Church Evensen)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_029.md"
+      },
+      {
+        "slug": "chapter_030.md",
+        "title": "Chapter 30 — การตื่นขึ้นของมังกรขาว (The Awakening of the White Dragon)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_030.md"
+      },
+      {
+        "slug": "chapter_031.md",
+        "title": "Chapter 31 — บทเพลงอาลัยแห่งมารดาวาเลอรี (The Requiem of Mother Valerie)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_031.md"
+      },
+      {
+        "slug": "chapter_032.md",
+        "title": "Chapter 32 — อู่กำเนิดเรืองแสงใต้พิภพ (The Bioluminescent Cradle)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_032.md"
+      },
+      {
+        "slug": "chapter_033.md",
+        "title": "Chapter 33 — น้ำหนักแห่งอนันต์ (The Weight of Infinity)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_033.md"
+      },
+      {
+        "slug": "chapter_034.md",
+        "title": "Chapter 34 — ประตูดำแห่งอเวจี (The Obsidian Gate)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_034.md"
+      },
+      {
+        "slug": "chapter_035.md",
+        "title": "Chapter 35 — หทัยแห่งความมืดมิด (The Heart of Darkness)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_035.md"
+      },
+      {
+        "slug": "chapter_036.md",
+        "title": "Chapter 36 — แสงอรุณรุ่งสีทอง (The Golden Dawn)",
+        "path": "novels/Breath of Fire 2 The Dragons Tear/chapter_036.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 2 Niro",
     "title": "NIRO - BEFORE THE TOWN WAS BORN FROM BREATH OF FIRE II",
     "author": "Unknown Author",
