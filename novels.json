@@ -1,5 +1,154 @@
 [
   {
+    "slug": "Breath of Fire 2 First Love Baba",
+    "title": "Breath of Fire II First Love (Baba)",
+    "author": "Unknown Author",
+    "description": "นิยาย Breath of Fire II ในบท First Love แปลโดย Baba",
+    "cover": "novels/Breath of Fire 2 First Love Baba/cover.png",
+    "chapters": [
+      {
+        "slug": "Chapter 01.md",
+        "title": "Chapter 01",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 01.md"
+      },
+      {
+        "slug": "Chapter 02.md",
+        "title": "Chapter 02",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 02.md"
+      },
+      {
+        "slug": "Chapter 03.md",
+        "title": "Chapter 03",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 03.md"
+      },
+      {
+        "slug": "Chapter 04.md",
+        "title": "Chapter 04",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 04.md"
+      },
+      {
+        "slug": "Chapter 05.md",
+        "title": "Chapter 05",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 05.md"
+      },
+      {
+        "slug": "Chapter 06.md",
+        "title": "Chapter 06",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 06.md"
+      },
+      {
+        "slug": "Chapter 07.md",
+        "title": "Chapter 07",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 07.md"
+      },
+      {
+        "slug": "Chapter 08.md",
+        "title": "Chapter 08",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 08.md"
+      },
+      {
+        "slug": "Chapter 09.md",
+        "title": "Chapter 09",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 09.md"
+      },
+      {
+        "slug": "Chapter 10.md",
+        "title": "Chapter 10",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 10.md"
+      },
+      {
+        "slug": "Chapter 11.md",
+        "title": "Chapter 11",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 11.md"
+      },
+      {
+        "slug": "Chapter 12.md",
+        "title": "Chapter 12",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 12.md"
+      },
+      {
+        "slug": "Chapter 13.md",
+        "title": "Chapter 13",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 13.md"
+      },
+      {
+        "slug": "Chapter 14.md",
+        "title": "Chapter 14",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 14.md"
+      },
+      {
+        "slug": "Chapter 15.md",
+        "title": "Chapter 15",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 15.md"
+      },
+      {
+        "slug": "Chapter 16.md",
+        "title": "Chapter 16",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 16.md"
+      },
+      {
+        "slug": "Chapter 17.md",
+        "title": "Chapter 17",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 17.md"
+      },
+      {
+        "slug": "Chapter 18.md",
+        "title": "Chapter 18",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 18.md"
+      },
+      {
+        "slug": "Chapter 19.md",
+        "title": "Chapter 19",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 19.md"
+      },
+      {
+        "slug": "Chapter 20.md",
+        "title": "Chapter 20",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 20.md"
+      },
+      {
+        "slug": "Chapter 21.md",
+        "title": "Chapter 21",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 21.md"
+      },
+      {
+        "slug": "Chapter 22.md",
+        "title": "Chapter 22",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 22.md"
+      },
+      {
+        "slug": "Chapter 23.md",
+        "title": "Chapter 23",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 23.md"
+      },
+      {
+        "slug": "Chapter 24.md",
+        "title": "Chapter 24",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 24.md"
+      },
+      {
+        "slug": "Chapter 25.md",
+        "title": "Chapter 25",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 25.md"
+      },
+      {
+        "slug": "Chapter 26.md",
+        "title": "Chapter 26",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 26.md"
+      },
+      {
+        "slug": "Chapter 27.md",
+        "title": "Chapter 27",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 27.md"
+      },
+      {
+        "slug": "Chapter 28.md",
+        "title": "Chapter 28",
+        "path": "novels/Breath of Fire 2 First Love Baba/Chapter 28.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 2 The Dragons Tear",
     "title": "Breath of Fire II The Dragon's Tear",
     "author": "Unknown Author",

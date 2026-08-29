@@ -42,7 +42,13 @@ async function run() {
       const files = await fs.promises.readdir(bookPath);
       
       // Filter md files and image files
-      const mdFiles = files.filter(f => f.endsWith('.md') && f.toLowerCase() !== 'master_manuscript.md').sort(naturalSort);
+      const mdFiles = files.filter(f => {
+        const lower = f.toLowerCase();
+        return f.endsWith('.md') && 
+               lower !== 'master_manuscript.md' && 
+               lower !== 'readme.md' && 
+               lower !== 'integrity_check.md';
+      }).sort(naturalSort);
       const imgFiles = files.filter(f => {
         const ext = path.extname(f).toLowerCase();
         return ['.png', '.jpg', '.jpeg', '.webp', '.gif'].includes(ext);
@@ -128,11 +134,11 @@ async function run() {
       console.log(`Indexed book: ${bookTitle} (${chapters.length} chapters)`);
     }
 
-    // Sort books: Breath of Fire 2 The Dragons Tear first, Breath of Fire 2 Niro second, Final Fantasy Tactics third, Breath of Fire 4 Minoru fourth, Breath of Fire 3 Minoru fifth, Megaman sixth, Shinsetsu Samurai Spirits Bushidou Retsuden seventh, Kuroko Samurai Shodown eighth.
+    // Sort books: Breath of Fire 2 First Love Baba first, Breath of Fire 2 The Dragons Tear second, Breath of Fire 2 Niro third, Final Fantasy Tactics fourth, Breath of Fire 4 Minoru fifth, Breath of Fire 3 Minoru sixth, Megaman seventh, Shinsetsu Samurai Spirits Bushidou Retsuden eighth, Kuroko Samurai Shodown ninth.
     // The rest are sorted alphabetically by title.
     books.sort((a, b) => {
-      const pinA = a.slug === "Breath of Fire 2 The Dragons Tear" ? 1 : (a.slug === "Breath of Fire 2 Niro" ? 2 : (a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 3 : (a.slug === "Breath of Fire 4 Minoru" ? 4 : (a.slug === "Breath of Fire 3 Minoru" ? 5 : (a.slug === "Megaman" ? 6 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 7 : (a.slug === "Kuroko Samurai Shodown" ? 8 : 0)))))));
-      const pinB = b.slug === "Breath of Fire 2 The Dragons Tear" ? 1 : (b.slug === "Breath of Fire 2 Niro" ? 2 : (b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 3 : (b.slug === "Breath of Fire 4 Minoru" ? 4 : (b.slug === "Breath of Fire 3 Minoru" ? 5 : (b.slug === "Megaman" ? 6 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 7 : (b.slug === "Kuroko Samurai Shodown" ? 8 : 0)))))));
+      const pinA = a.slug === "Breath of Fire 2 First Love Baba" ? 1 : (a.slug === "Breath of Fire 2 The Dragons Tear" ? 2 : (a.slug === "Breath of Fire 2 Niro" ? 3 : (a.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 4 : (a.slug === "Breath of Fire 4 Minoru" ? 5 : (a.slug === "Breath of Fire 3 Minoru" ? 6 : (a.slug === "Megaman" ? 7 : (a.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 8 : (a.slug === "Kuroko Samurai Shodown" ? 9 : 0))))))));
+      const pinB = b.slug === "Breath of Fire 2 First Love Baba" ? 1 : (b.slug === "Breath of Fire 2 The Dragons Tear" ? 2 : (b.slug === "Breath of Fire 2 Niro" ? 3 : (b.slug === "Final Fantasy Tactics The Boy Who Learned To Speak" ? 4 : (b.slug === "Breath of Fire 4 Minoru" ? 5 : (b.slug === "Breath of Fire 3 Minoru" ? 6 : (b.slug === "Megaman" ? 7 : (b.slug === "Shinsetsu Samurai Spirits Bushidou Retsuden" ? 8 : (b.slug === "Kuroko Samurai Shodown" ? 9 : 0))))))));
       
       if (pinA !== 0 && pinB !== 0) {
         return pinA - pinB;
