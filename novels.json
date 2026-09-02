@@ -1,5 +1,74 @@
 [
   {
+    "slug": "Breath of Fire 2 Trout",
+    "title": "BREATH OF FIRE II TROUT — THE MAN UNDER THE HOUSE",
+    "author": "Unknown Author",
+    "description": "นิยาย Breath of Fire II ในบท Trout — The Man Under the House",
+    "cover": "novels/Breath of Fire 2 Trout/cover.png",
+    "chapters": [
+      {
+        "slug": "CHAPTER_01.md",
+        "title": "บทที่ 1: ห้าร้อยเซนนี (The Five Hundred Zenny)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_01.md"
+      },
+      {
+        "slug": "CHAPTER_02.md",
+        "title": "บทที่ 2: สัญญากลางดึก (The Midnight Contract)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_02.md"
+      },
+      {
+        "slug": "CHAPTER_03.md",
+        "title": "บทที่ 3: ตู้เซฟที่ถูกปล้น (The Violated Vault)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_03.md"
+      },
+      {
+        "slug": "CHAPTER_04.md",
+        "title": "บทที่ 4: รถบรรทุกขยะ (The Waste Cart)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_04.md"
+      },
+      {
+        "slug": "CHAPTER_05.md",
+        "title": "บทที่ 5: รอยเท้าบนแผ่นดิน (The Continental Trail)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_05.md"
+      },
+      {
+        "slug": "CHAPTER_06.md",
+        "title": "บทที่ 6: ห้องใต้ดินอันหมดจด (The Clean Cellar)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_06.md"
+      },
+      {
+        "slug": "CHAPTER_07.md",
+        "title": "บทที่ 7: งานเลี้ยงที่คฤหาสน์คิลกอร์ (Dinner at Kilgore's)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_07.md"
+      },
+      {
+        "slug": "CHAPTER_08.md",
+        "title": "บทที่ 8: ธรณีประตูศิลา (The Threshold of Stone)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_08.md"
+      },
+      {
+        "slug": "CHAPTER_09.md",
+        "title": "บทที่ 9: ทางเดินแห่งกรงขัง (The Corridor of Cages)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_09.md"
+      },
+      {
+        "slug": "CHAPTER_10.md",
+        "title": "บทที่ 10: ราคาของมนุษย์ (The Price of a Man)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_10.md"
+      },
+      {
+        "slug": "CHAPTER_11.md",
+        "title": "บทที่ 11: โซ่สูบเลือดแห่งบุงโดริ (The Siphon of Bundori)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_11.md"
+      },
+      {
+        "slug": "CHAPTER_12.md",
+        "title": "บทที่ 12: บ้านที่ถูกฉาบปูนขาว (The Whitewashed House)",
+        "path": "novels/Breath of Fire 2 Trout/CHAPTER_12.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 2 First Love Baba",
     "title": "Breath of Fire II First Love (Baba)",
     "author": "Unknown Author",
