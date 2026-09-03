@@ -1,5 +1,44 @@
 [
   {
+    "slug": "Breath of Fire 2 The People Who Stayed",
+    "title": "BREATH OF FIRE II — THE PEOPLE WHO STAYED",
+    "author": "Unknown Author",
+    "description": "นิยาย Spin-Off ของ Breath of Fire II เรื่องราวของผู้คนที่ยังคงอยู่",
+    "cover": "novels/Breath of Fire 2 The People Who Stayed/cover.jpg",
+    "chapters": [
+      {
+        "slug": "Chapter01_the_boy_who_sold_healing_herbs.md",
+        "title": "เรื่องที่ 1: เด็กหนุ่มขายสมุนไพร",
+        "path": "novels/Breath of Fire 2 The People Who Stayed/Chapter01_the_boy_who_sold_healing_herbs.md"
+      },
+      {
+        "slug": "Chapter02_the_last_fisherman.md",
+        "title": "เรื่องที่ 2: คนหาปลาคนสุดท้าย",
+        "path": "novels/Breath of Fire 2 The People Who Stayed/Chapter02_the_last_fisherman.md"
+      },
+      {
+        "slug": "Chapter03_the_girl_from_magic_school.md",
+        "title": "เรื่องที่ 3: เด็กสาวจากสถาบันเวทมนตร์",
+        "path": "novels/Breath of Fire 2 The People Who Stayed/Chapter03_the_girl_from_magic_school.md"
+      },
+      {
+        "slug": "Chapter04_the_man_who_built_the_bridge.md",
+        "title": "เรื่องที่ 4: ชายผู้สร้างสะพาน",
+        "path": "novels/Breath of Fire 2 The People Who Stayed/Chapter04_the_man_who_built_the_bridge.md"
+      },
+      {
+        "slug": "Chapter05_the_saint_who_stopped_believing.md",
+        "title": "เรื่องที่ 5: นักบุญผู้สิ้นศรัทธา",
+        "path": "novels/Breath of Fire 2 The People Who Stayed/Chapter05_the_saint_who_stopped_believing.md"
+      },
+      {
+        "slug": "Chapter06_after_the_god_died.md",
+        "title": "เรื่องที่ 6: หลังพระเจ้าสิ้นชีพ",
+        "path": "novels/Breath of Fire 2 The People Who Stayed/Chapter06_after_the_god_died.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 2 Trout",
     "title": "BREATH OF FIRE II TROUT — THE MAN UNDER THE HOUSE",
     "author": "Unknown Author",

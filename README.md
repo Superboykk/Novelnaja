@@ -37,6 +37,7 @@
 
 | หน้าปก (Cover) | ชื่อนิยาย (Title) | รายละเอียดเบื้องต้น (Description) | จำนวนตอน (Chapters) |
 | :---: | :--- | :--- | :---: |
+| <img src="novels/Breath%20of%20Fire%202%20The%20People%20Who%20Stayed/cover.jpg" width="120" alt="BREATH OF FIRE II — THE PEOPLE WHO STAYED"> | **BREATH OF FIRE II — THE PEOPLE WHO STAYED** | นิยาย Spin-Off ของ Breath of Fire II เรื่องราวของผู้คนที่ยังคงอยู่ | 6 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Trout/cover.png" width="120" alt="BREATH OF FIRE II TROUT — THE MAN UNDER THE HOUSE"> | **BREATH OF FIRE II TROUT — THE MAN UNDER THE HOUSE** | นิยาย Breath of Fire II ในบท Trout — The Man Under the House | 12 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20First%20Love%20Baba/cover.png" width="120" alt="Breath of Fire II First Love (Baba)"> | **Breath of Fire II First Love (Baba)** | นิยาย Breath of Fire II ในบท First Love แปลโดย Baba | 28 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20The%20Dragons%20Tear/cover.png" width="120" alt="Breath of Fire II The Dragon's Tear"> | **Breath of Fire II The Dragon's Tear** | นิยาย Breath of Fire II ในชื่อตอน The Dragon's Tear การผจญภัยและโชคชะตาแห่งโฮมทาวน์ | 36 ตอน |
