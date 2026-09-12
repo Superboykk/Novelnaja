@@ -1,5 +1,184 @@
 [
   {
+    "slug": "Street Fighter 2",
+    "title": "Street Fighter 2 Novel",
+    "author": "Unknown Author",
+    "description": "นิยาย Street Fighter 2 ตำนานนักสู้ข้างถนนและการต่อสู้เพื่อศักดิ์ศรี",
+    "cover": "novels/Street Fighter 2/cover.png",
+    "chapters": [
+      {
+        "slug": "CH01.md",
+        "title": "บทที่ 1: ดอกกล้วยไม้เหล็ก (The Iron Orchid)",
+        "path": "novels/Street Fighter 2/CH01.md"
+      },
+      {
+        "slug": "CH02.md",
+        "title": "บทที่ 2: เที่ยวบินปีศาจ 407 (Ghost Flight 407)",
+        "path": "novels/Street Fighter 2/CH02.md"
+      },
+      {
+        "slug": "CH03.md",
+        "title": "บทที่ 3: สายลมและก้อนหิน (Wind and Stone)",
+        "path": "novels/Street Fighter 2/CH03.md"
+      },
+      {
+        "slug": "CH04.md",
+        "title": "บทที่ 4: ผ้าคลุมของราชัน (The King’s Shroud)",
+        "path": "novels/Street Fighter 2/CH04.md"
+      },
+      {
+        "slug": "CH05.md",
+        "title": "บทที่ 5: เวทีทองคำ (The Gilded Ring)",
+        "path": "novels/Street Fighter 2/CH05.md"
+      },
+      {
+        "slug": "CH06.md",
+        "title": "บทที่ 6: ถ้วยดินแห่งความแห้งแล้ง (The Cup of Dust)",
+        "path": "novels/Street Fighter 2/CH06.md"
+      },
+      {
+        "slug": "CH07.md",
+        "title": "บทที่ 7: แสงนีออนและคราบเลือด (Neon and Blood)",
+        "path": "novels/Street Fighter 2/CH07.md"
+      },
+      {
+        "slug": "CH08.md",
+        "title": "บทที่ 8: ทางแยกที่มะนิลา (Crossroads in Manila)",
+        "path": "novels/Street Fighter 2/CH08.md"
+      },
+      {
+        "slug": "CH09.md",
+        "title": "บทที่ 9: เส้นทางคนหลบหนี (Fugitive Vector)",
+        "path": "novels/Street Fighter 2/CH09.md"
+      },
+      {
+        "slug": "CH10.md",
+        "title": "บทที่ 10: ถนนลวงตาแห่งลาสเวกัส (The Mirage Strip)",
+        "path": "novels/Street Fighter 2/CH10.md"
+      },
+      {
+        "slug": "CH11.md",
+        "title": "บทที่ 11: สายน้ำแห่งเถ้าถ่าน (The River of Ash)",
+        "path": "novels/Street Fighter 2/CH11.md"
+      },
+      {
+        "slug": "CH12.md",
+        "title": "บทที่ 12: อาวุธผู้ไร้ความทรงจำ (The Amnesiac Weapon)",
+        "path": "novels/Street Fighter 2/CH12.md"
+      },
+      {
+        "slug": "CH13.md",
+        "title": "บทที่ 13: เสาหินที่แตกร้าว (The Broken Pillar)",
+        "path": "novels/Street Fighter 2/CH13.md"
+      },
+      {
+        "slug": "CH14.md",
+        "title": "บทที่ 14: น้ำหนักแห่งเกียรติยศ (The Weight of Gold)",
+        "path": "novels/Street Fighter 2/CH14.md"
+      },
+      {
+        "slug": "CH15.md",
+        "title": "บทที่ 15: เสียงสะท้อนในม่านหมอก (Echoes in the Fog)",
+        "path": "novels/Street Fighter 2/CH15.md"
+      },
+      {
+        "slug": "CH16.md",
+        "title": "บทที่ 16: ชันสูตรฆาตกรรม (The Anatomy of Murder)",
+        "path": "novels/Street Fighter 2/CH16.md"
+      },
+      {
+        "slug": "CH17.md",
+        "title": "บทที่ 17: คมมีดโกน (The Razor’s Edge)",
+        "path": "novels/Street Fighter 2/CH17.md"
+      },
+      {
+        "slug": "CH18.md",
+        "title": "บทที่ 18: คำสาบานแห่งซูซูกะ (The Vow of Suzuka)",
+        "path": "novels/Street Fighter 2/CH18.md"
+      },
+      {
+        "slug": "CH19.md",
+        "title": "บทที่ 19: เปลวไฟอเมริกัน (The American Fire)",
+        "path": "novels/Street Fighter 2/CH19.md"
+      },
+      {
+        "slug": "CH20.md",
+        "title": "บทที่ 20: ความแตกแยกของราชัน (The Schism of Kings)",
+        "path": "novels/Street Fighter 2/CH20.md"
+      },
+      {
+        "slug": "CH21.md",
+        "title": "บทที่ 21: บัลลังก์ผุกร่อน (The Rotting Throne)",
+        "path": "novels/Street Fighter 2/CH21.md"
+      },
+      {
+        "slug": "CH22.md",
+        "title": "CHAPTER 22: THE COLOSSEUM OF NATIONS",
+        "path": "novels/Street Fighter 2/CH22.md"
+      },
+      {
+        "slug": "CH23.md",
+        "title": "CHAPTER 23: GHOST IN THE MACHINE",
+        "path": "novels/Street Fighter 2/CH23.md"
+      },
+      {
+        "slug": "CH24.md",
+        "title": "บทที่ 24: หน้ากากแห่งความหลงตน (The Mask of Narcissus)",
+        "path": "novels/Street Fighter 2/CH24.md"
+      },
+      {
+        "slug": "CH25.md",
+        "title": "บทที่ 25: หนี้เลือดของนายทหาร (The Soldier’s Debt)",
+        "path": "novels/Street Fighter 2/CH25.md"
+      },
+      {
+        "slug": "CH26.md",
+        "title": "บทที่ 26: ตาพายุ (The Eye of the Storm)",
+        "path": "novels/Street Fighter 2/CH26.md"
+      },
+      {
+        "slug": "CH27.md",
+        "title": "บทที่ 27: พระนอนแห่งอยุธยา (The Reclining Buddha)",
+        "path": "novels/Street Fighter 2/CH27.md"
+      },
+      {
+        "slug": "CH28.md",
+        "title": "บทที่ 28: สายฟ้าและกรงขัง (The Thunder and the Cage)",
+        "path": "novels/Street Fighter 2/CH28.md"
+      },
+      {
+        "slug": "CH29.md",
+        "title": "บทที่ 29: ปิศาจผู้พิโรธ (The Raging Demon)",
+        "path": "novels/Street Fighter 2/CH29.md"
+      },
+      {
+        "slug": "CH30.md",
+        "title": "บทที่ 30: การแยกย้ายของผู้กล้า (The Dispersal of the Brave)",
+        "path": "novels/Street Fighter 2/CH30.md"
+      },
+      {
+        "slug": "CH31.md",
+        "title": "บทที่ 31: ตราตำรวจและกลีบดอกไม้ (The Badge and the Blossom)",
+        "path": "novels/Street Fighter 2/CH31.md"
+      },
+      {
+        "slug": "CH32.md",
+        "title": "บทที่ 32: เส้นทางยาวไกลกลับบ้าน (The Long Way Home)",
+        "path": "novels/Street Fighter 2/CH32.md"
+      },
+      {
+        "slug": "CH33.md",
+        "title": "บทที่ 33: แหวนแต่งงานและหมวกเบเรต์ (The Ring and the Beret)",
+        "path": "novels/Street Fighter 2/CH33.md"
+      },
+      {
+        "slug": "CH34.md",
+        "title": "บทที่ 34: เส้นทางไร้ที่สิ้นสุด (The Endless Road)",
+        "path": "novels/Street Fighter 2/CH34.md"
+      }
+    ]
+  },
+  {
     "slug": "Breath of Fire 2 The People Who Stayed",
     "title": "BREATH OF FIRE II — THE PEOPLE WHO STAYED",
     "author": "Unknown Author",
