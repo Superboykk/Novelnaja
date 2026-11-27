@@ -1,5 +1,84 @@
 [
   {
+    "slug": "PANEM The Unheard Voices",
+    "title": "PANEM: The Unheard Voices",
+    "author": "Unknown Author",
+    "description": "พาเน็ม — สิบสี่ชีวิตที่โลกไม่เคยได้ยิน รวมเรื่องสั้น 14 เรื่องแห่งโลก The Hunger Games",
+    "cover": "novels/PANEM The Unheard Voices/cover.png",
+    "chapters": [
+      {
+        "slug": "01_สมุดบัญชีใต้แสงตะเกียง.md",
+        "title": "สมุดบัญชีใต้แสงตะเกียง",
+        "path": "novels/PANEM The Unheard Voices/01_สมุดบัญชีใต้แสงตะเกียง.md"
+      },
+      {
+        "slug": "02_ริมผ้าสีคราม.md",
+        "title": "ริมผ้าสีคราม",
+        "path": "novels/PANEM The Unheard Voices/02_ริมผ้าสีคราม.md"
+      },
+      {
+        "slug": "03_ลังไม้สุดท้าย.md",
+        "title": "ลังไม้สุดท้าย",
+        "path": "novels/PANEM The Unheard Voices/03_ลังไม้สุดท้าย.md"
+      },
+      {
+        "slug": "04_บัญชีทองเหลือง.md",
+        "title": "บัญชีทองเหลือง",
+        "path": "novels/PANEM The Unheard Voices/04_บัญชีทองเหลือง.md"
+      },
+      {
+        "slug": "05_ยามซุงแตกสายน้ำ.md",
+        "title": "ยามซุงแตกสายน้ำ",
+        "path": "novels/PANEM The Unheard Voices/05_ยามซุงแตกสายน้ำ.md"
+      },
+      {
+        "slug": "06_ก่อนชั่วโมงดับไฟ.md",
+        "title": "ก่อนชั่วโมงดับไฟ",
+        "path": "novels/PANEM The Unheard Voices/06_ก่อนชั่วโมงดับไฟ.md"
+      },
+      {
+        "slug": "07_น้ำหนักของฤดูเก็บเกี่ยว.md",
+        "title": "น้ำหนักของฤดูเก็บเกี่ยว",
+        "path": "novels/PANEM The Unheard Voices/07_น้ำหนักของฤดูเก็บเกี่ยว.md"
+      },
+      {
+        "slug": "08_พ้นแนวลาดตระเวน.md",
+        "title": "พ้นแนวลาดตระเวน",
+        "path": "novels/PANEM The Unheard Voices/08_พ้นแนวลาดตระเวน.md"
+      },
+      {
+        "slug": "09_ไนโตรเจนเย็นกับฝุ่นอุ่น.md",
+        "title": "ไนโตรเจนเย็นกับฝุ่นอุ่น",
+        "path": "novels/PANEM The Unheard Voices/09_ไนโตรเจนเย็นกับฝุ่นอุ่น.md"
+      },
+      {
+        "slug": "10_ตัวอักษรบนเหล็กกล้า.md",
+        "title": "ตัวอักษรบนเหล็กกล้า",
+        "path": "novels/PANEM The Unheard Voices/10_ตัวอักษรบนเหล็กกล้า.md"
+      },
+      {
+        "slug": "11_ตำหนิในเรือนเพชร.md",
+        "title": "ตำหนิในเรือนเพชร",
+        "path": "novels/PANEM The Unheard Voices/11_ตำหนิในเรือนเพชร.md"
+      },
+      {
+        "slug": "12_เศษขนมปังแห่งช่องเขา.md",
+        "title": "เศษขนมปังแห่งช่องเขา",
+        "path": "novels/PANEM The Unheard Voices/12_เศษขนมปังแห่งช่องเขา.md"
+      },
+      {
+        "slug": "13_ใบสะระแหน่ที่ชั้นเจ็ด.md",
+        "title": "ใบสะระแหน่ที่ชั้นเจ็ด",
+        "path": "novels/PANEM The Unheard Voices/13_ใบสะระแหน่ที่ชั้นเจ็ด.md"
+      },
+      {
+        "slug": "14_ท่อลมหมายเลขสี่.md",
+        "title": "ท่อลมหมายเลขสี่",
+        "path": "novels/PANEM The Unheard Voices/14_ท่อลมหมายเลขสี่.md"
+      }
+    ]
+  },
+  {
     "slug": "Street Fighter 2",
     "title": "Street Fighter 2 Novel",
     "author": "Unknown Author",

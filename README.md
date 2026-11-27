@@ -37,6 +37,7 @@
 
 | หน้าปก (Cover) | ชื่อนิยาย (Title) | รายละเอียดเบื้องต้น (Description) | จำนวนตอน (Chapters) |
 | :---: | :--- | :--- | :---: |
+| <img src="novels/PANEM%20The%20Unheard%20Voices/cover.png" width="120" alt="PANEM: The Unheard Voices"> | **PANEM: The Unheard Voices** | พาเน็ม — สิบสี่ชีวิตที่โลกไม่เคยได้ยิน รวมเรื่องสั้น 14 เรื่องแห่งโลก The Hunger Games | 14 ตอน |
 | <img src="novels/Street%20Fighter%202/cover.png" width="120" alt="Street Fighter 2 Novel"> | **Street Fighter 2 Novel** | นิยาย Street Fighter 2 ตำนานนักสู้ข้างถนนและการต่อสู้เพื่อศักดิ์ศรี | 34 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20The%20People%20Who%20Stayed/cover.jpg" width="120" alt="BREATH OF FIRE II — THE PEOPLE WHO STAYED"> | **BREATH OF FIRE II — THE PEOPLE WHO STAYED** | นิยาย Spin-Off ของ Breath of Fire II เรื่องราวของผู้คนที่ยังคงอยู่ | 6 ตอน |
 | <img src="novels/Breath%20of%20Fire%202%20Trout/cover.png" width="120" alt="BREATH OF FIRE II TROUT — THE MAN UNDER THE HOUSE"> | **BREATH OF FIRE II TROUT — THE MAN UNDER THE HOUSE** | นิยาย Breath of Fire II ในบท Trout — The Man Under the House | 12 ตอน |
